@@ -1,0 +1,105 @@
+
+
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    .loader {
+      border: 16px solid #f3f3f3;
+      border-radius: 50%;
+      border-top: 16px solid blue;
+      border-bottom: 16px solid blue;
+      width: 120px;
+      height: 120px;
+      -webkit-animation: spin 2s linear infinite;
+      animation: spin 2s linear infinite;
+      padding: 10px;
+      margin: auto;
+    }
+    
+    @-webkit-keyframes spin {
+      0% { -webkit-transform: rotate(0deg); }
+      100% { -webkit-transform: rotate(360deg); }
+    }
+    
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    </style>
+    </head>
+  <body>
+
+  <div *ngIf = "showLoadingIndicator" class="loader" align = "center">
+  </div>
+  
+
+<!-- [hidden]="!loading" -->
+
+<div class="row">
+  <div class="column">
+    <fusioncharts 
+    dataFormat="jsonurl"
+    dataSource="http://127.0.0.1:5000/days"
+    type="Column2D"
+    width="700"
+    height="400">
+    
+</fusioncharts>
+  </div>
+  <div class="column">
+    <fusioncharts 
+    dataFormat="jsonurl"
+    dataSource="http://127.0.0.1:5000/week"
+    type="Column2D"
+    width="700"
+    height="400">
+    
+</fusioncharts>
+  </div>
+</div>
+
+
+
+
+
+
+
+<div class="container">
+  <table class="table table-hover" cellspacing="20">
+    <thead>
+        <tr>
+          <th>Messages_of_cluster</th>
+          <th>cluster_value</th>
+          <th>Keywords</th>
+          <th>Subject</th>
+          <th>Average_ResponseTime</th>
+          <th>No_Of_Emails</th>
+          
+        </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let datas of data">
+        <td>
+            <button type="button" (click)="onSelect(datas)" class="dropbtn">Select</button>
+          
+        </td>
+        <td align="center">{{ datas.cluster_value }}</td>
+        <td align="center">{{ datas.Keywords }}</td>
+        <td align="center">{{ datas.Subject }}</td>
+        <td align="center">{{ datas.Average_ResponseTime }}</td>
+        <td align="center">{{ datas.No_Of_Emails}}</td>
+        
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+   
+    
+</body>
+</html>
+

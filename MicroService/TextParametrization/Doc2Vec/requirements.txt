@@ -1,0 +1,7 @@
+requests==2.22.0
+Flask_Cors==3.0.8
+Flask==1.1.1
+gensim==3.8.1
+rake_nltk==1.0.4
+pandas==0.25.3
+scikit_learn==0.22

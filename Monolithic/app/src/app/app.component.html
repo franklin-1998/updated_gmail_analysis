@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    .loader {
+      border: 16px solid #f3f3f3;
+      border-radius: 50%;
+      border-top: 16px solid blue;
+      border-bottom: 16px solid blue;
+      width: 120px;
+      height: 120px;
+      -webkit-animation: spin 2s linear infinite;
+      animation: spin 2s linear infinite;
+      padding: 10px;
+      margin: auto;
+    }
+    
+    @-webkit-keyframes spin {
+      0% { -webkit-transform: rotate(0deg); }
+      100% { -webkit-transform: rotate(360deg); }
+    }
+    
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    </style>
+    </head>
+  <body>
+
+  
+  
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+<div class="w3-container w3-blue w3-center w3-allerta">
+  <p class="w3-xlarge">Email Analytics</p>
+  <button (click)="onClick()" class="gmail">
+  </button>
+</div>
+
+
+<div *ngIf = "showLoadingIndicator" class="loader" align = "center">
+  <p align="center">Loading</p>
+</div>
+
+
+</body>
+<router-outlet></router-outlet>

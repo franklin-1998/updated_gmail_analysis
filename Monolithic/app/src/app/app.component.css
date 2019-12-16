@@ -1,0 +1,33 @@
+.w3-allerta {
+    font-family: "Allerta Stencil", Sans-serif;
+  }
+  .gmail{
+    margin:40px auto;
+    background:#E41F1A;
+    width:300px;
+    height:200px;
+    border-radius:20px;
+    position:relative;
+    box-shadow:0 0 10px 3px black;
+  }
+  .gmail:after{
+    content:'';
+    position:absolute;
+    left:40px;
+    top:55px;
+    border-bottom:85px solid #E8E6D6;
+    border-left:110px solid #E8E6D6;
+    border-right:110px solid #9B9C91;
+    border-top:60px solid transparent;
+    width:0;
+  }
+  .gmail:before{
+    content:'';
+    position:absolute;
+    left:35px;
+    top:0px;
+    border-top:65px solid #E8E6D6;
+    border-left:115px solid transparent;
+    border-right:115px solid transparent;
+    width:0;
+  }
