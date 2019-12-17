@@ -16,15 +16,9 @@ export class SelectedComponent implements OnInit {
     this.showLoadingIndicator = true;
     const url ='http://127.0.0.1:5000/clusterlabel'
     this.http.get(url).subscribe((res)=>{
-      
       this.data = res
       this.showLoadingIndicator = false;
-      
-      
-      this.cd.detectChanges();
-      
-      
-      
+      this.cd.detectChanges();   
     });
   }
   ngOnInit() {

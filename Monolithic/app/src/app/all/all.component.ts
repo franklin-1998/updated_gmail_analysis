@@ -13,44 +13,23 @@ export class AllComponent implements OnInit {
   showLoadingIndicator;
   
   private data : any = []
-  
-  constructor(private http: HttpClient ,private router: Router,private cd: ChangeDetectorRef) {}    
 
-  
-  
-  
-
-
+  constructor(private http: HttpClient ,private router: Router,private cd: ChangeDetectorRef) {} 
+     
   headers = new HttpHeaders({'Content-Type': 'application/json','Access-Control-Allow-Origin': '*'});
 
- 
  getData(){
-   const url ='http://127.0.0.1:5000/'
-   
+   const url ='http://127.0.0.1:5000/'  
    this.showLoadingIndicator = true;
-   
-   
    this.http.get(url).subscribe((res)=>{
-    
-    
-   
       this.data=res
-     
       console.log("responsereceived",this.data)
       this.showLoadingIndicator = false;
-      this.cd.detectChanges();
-   
-    
-   
-   
+      this.cd.detectChanges();   
   });
  }
  ngOnInit() {
-  
-  
     this.getData();
- 
-
 }
 
 onSelect(selectedItem: any) {
@@ -63,16 +42,8 @@ onSelect(selectedItem: any) {
       this.router.navigate(['/selected']);
     },
     error  => {
-
       console.log("Error", error);
-      
       }
-      
   );
-  
 }
-
-
-
-
 }
