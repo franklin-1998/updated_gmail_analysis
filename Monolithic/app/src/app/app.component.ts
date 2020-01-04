@@ -16,10 +16,32 @@ export class AppComponent {
   }
   title = 'app';
   headers = new HttpHeaders({'Content-Type': 'application/json','Access-Control-Allow-Origin': '*'});
-  onClick() {
+  onClick1() {
     this.showLoadingIndicator = true;
     
     this.http.get("http://127.0.0.1:5000/gmail").subscribe(
+      res => {
+        
+        this.showLoadingIndicator = false;
+        console.log("callback:"+res)
+        this.router.navigate(['/all']);
+        return res;
+        
+      },
+      error  => {
+  
+        console.log("Error", error);
+        
+        }
+    );
+
+    
+  }
+
+  onClick2() {
+    this.showLoadingIndicator = true;
+    
+    this.http.get("http://127.0.0.1:5000/outlook").subscribe(
       res => {
         
         this.showLoadingIndicator = false;

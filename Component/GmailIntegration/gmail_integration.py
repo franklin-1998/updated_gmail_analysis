@@ -1,23 +1,3 @@
-'''
-Component : gmail_Integration
-
-Purpose : to fetch mails automaticaly from gmail
-
-Condition  : 
-             1, python 3.8
-             2, It only works on windows when the device has default download folder
-
-testcases : 
-             1. check whether credentials is present after compilation of the program(gmail_integ.py)
-             2. check whether token.pickle is present after compilation of the program(gmail_integ.py) 
-
-libraries : requirements.txt
-
-Input : The input is getting from gmail user's API and user's credentials and token file
-
-Output : And output the will be gmail data of the user's and framed as 'TimeDate','From','To','Subject','Body','Thread_Id'
-
-'''
 
 from __future__ import print_function
 from pandas import DataFrame
@@ -119,21 +99,45 @@ def gmailIntegration(mails_Under_given_days):
     # Call the Gmail API to fetch INBOX
     # get initialy upto 500 messages
     results = service.users().messages().list(userId='me',maxResults=500).execute()
+    print("first res       :          ",len(results))
     #extract messages to messages varialbe from result becaue we use "result" varialbe for n times
     messages.extend(results['messages'])
-    page_token = results['nextPageToken']
-    results = service.users().messages().list(userId='me',pageToken=page_token,maxResults=500).execute()
-    messages.extend(results['messages'])
+
+    batch = BatchHttpRequest()
+    message_batch=[]
+
+    def callback(request_id, response, exception):
+        
+        if exception is not None:
+            pass
+        else:
+            message_batch.append(response)
+            
+    for mes in messages:
+        batch.add(service.users().messages().get(userId='me', id=mes['id']),callback = callback)
+    batch.execute()
     #collect all messages based on pagetoken wise
-    # while('nextPageToken' in results):
-    #     page_token = results['nextPageToken']
-    #     results = service.users().messages().list(userId='me',pageToken=page_token,maxResults=500).execute()
-    #     messages.extend(results['messages'])
+    batch_count = 1
+    while('nextPageToken' in results):
+        batch_count =batch_count + 1
+        print(batch_count)
+        messages = []
+        page_token = results['nextPageToken']
+        results = service.users().messages().list(userId='me',pageToken=page_token,maxResults=500).execute()
+        messages.extend(results['messages'])
+        print("messages length : ",len(messages))
+        print("result length : ",len(results))
+        for mes in messages:
+            batch.add(service.users().messages().get(userId='me', id=mes['id']),callback = callback)
+        batch.execute()
+        batch = BatchHttpRequest()
+        print("batch {0} ended".format(batch_count))
+    
 
     
     
     #its the variale used to fetch all detail about threads (for future use)
-    threads = service.users().threads().list(userId='me').execute().get('threads', [])
+    # threads = service.users().threads().list(userId='me').execute().get('threads', [])
 
     # these are all the list to store each colomn data 
     From = []
@@ -142,21 +146,11 @@ def gmailIntegration(mails_Under_given_days):
     Body = []
     Thread_id = []
     Date = []
-    batch = BatchHttpRequest()
-    message_batch=[]
+    
 
     #thes varialbe is used as a flag to integate whether we reach the given number of input days
     terminator = 0
-    def callback(request_id, response, exception):
-        
-        if exception is not None:
-            print("------------Batch Process Had Been Requested--------------------")
-        else:
-            message_batch.append(response)
-            
-    for mes in messages:
-        batch.add(service.users().messages().get(userId='me', id=mes['id']),callback = callback)
-    batch.execute()
+    
     
     for message in message_batch:
         
@@ -203,6 +197,5 @@ def gmailIntegration(mails_Under_given_days):
     data_frame_excel = (data_frame_excel.sort_values(by='TimeDate',ascending=True)).reset_index(drop=True)
 
     return data_frame_excel
+   
 
-# mails_Under_given_days = 30 #3 months
-# main2(mails_Under_given_days)
