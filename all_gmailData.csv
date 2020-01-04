@@ -1,0 +1,3120 @@
+,TimeDate,From,To,Subject,Body,Thread_Id,Count_THREAD_ID,ResponseTime
+0,2019-12-31 05:10:06,mujib@ebms.co.in,anuragy@ict.in,Re: Outstanding report not generating with all details,"Dear Anurag,
+
+Recently a new condition was added in the subject report to exclude the invoices which are knocked off directly from Bill Matching screen in accounts - this created some issue, it has been corrected now, please advise the team to check and",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAMIcaVJsBqxLvJeCru44mxw=,2,13.37
+1,2019-12-31 05:23:28,anuragy@ict.in,mujib@ebms.co.in,Re: Outstanding report not generating with all details,"Noted sir will check and confirm.
+
+On Tue, Dec 31, 2019 at 10:40 AM Mujib Syed <mujib@ebms.co.in> wrote:
+Dear Anurag,
+
+Recently a new condition was added in the subject report to exclude the invoices which are knocked off directly from Bill Matching ",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAMIcaVJsBqxLvJeCru44mxw=,2,13.37
+2,2019-12-31 05:13:07,ranjith@ebms.co.in,mhatre@ebms.co.in,Re: House BL numbering to be changed,"Dear Team,
+
+Please find OLD GFF Logic for House BL.
+
+Old GFF House BL no. SOCSINNSA000050
+
+SOC - Based On Activity Type 1st 3 digit comes.
+SIN  - Point of origin last 3 digit.
+NSA - Final place of Delivery Last 3 digit.
+000050 - 6 digit running n",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAOfDc9FLLEN1hUIa_k9M_t0=,2,25.17
+3,2019-12-31 05:38:17,mhatre@ebms.co.in,ranjith@ebms.co.in,RE: House BL numbering to be changed,"Thanks Ranjith for your prompt response.
+
+
+
+Dear Mr. Subhranshu,
+
+
+
+Please confirm this, accordingly will close it by today itself.
+
+
+
+
+
+Regards
+
+Anil Mhatre
+
+eBMS Solutions Pvt Ltd
+
+Third Floor, New No 42 / Old No-4,
+
+Second Line Be",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAOfDc9FLLEN1hUIa_k9M_t0=,2,25.17
+4,2019-12-31 05:14:02,rajeev@goodrichindia.com,subhranshu@goodrichindia.com,RE: Credit Approval as per revised credit policy effective from 01.01.2020,"Mujib
+Suggest you to advise on the logic for average collection days
+
+
+From: Subhranshu Pati <subhranshu@goodrichindia.com>
+Sent: 30 December 2019 18:11
+To: Ranjith Kumar <ranjith@ebms.co.in>
+Cc: Rajeev R <rajeev@goodrichindia.com>; Santosh Hinduja",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAOchReEt8kbhtADhjpF3fNA=,3,62.98
+5,2019-12-31 05:50:13,mujib@ebms.co.in,rajeev@goodrichindia.com,Re: Credit Approval as per revised credit policy effective from 01.01.2020,"Dear Rajeev,
+
+In the current report, we don't have any column for Average collection days.
+
+Subrahansu is telling us to add this new column with the below logic.
+
+Rgds,
+mujib
+
+________________________________
+From: Rajeev R <rajeev@goodrichindia",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAOchReEt8kbhtADhjpF3fNA=,3,62.98
+6,2019-12-31 06:53:12,rajeev@goodrichindia.com,mujib@ebms.co.in,RE: Credit Approval as per revised credit policy effective from 01.01.2020,"Mujib
+Payment performance report is Voucher wise Txns report , it is fine
+This is new report which is summarized Customer wise statistics
+You can have this new report in the same menu, with the filter already available
+
+
+
+
+From: Mujib Syed <mujib@",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAOchReEt8kbhtADhjpF3fNA=,3,62.98
+7,2019-12-31 05:18:29,kalpesh@vascomaritime.com,ranjith@ebms.co.in,RE: E366 - RE: Error in Vendor Credit Note booking,"Dear Ranjith,
+
+Still we are facing issue in this.
+
+Please check and revert immediately.
+
+
+Thanks & Regards,
+Kalpesh Dalvi| Assistant Manager
+VASCO MARITIME PTE LTD
+
+Tel: 91-22-6646 9100 | Direct: 91-22-6646 9212 | HP: 9167275288
+Email: kalpesh",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQABZf4y6Hsk6TnHbF_WSrQDQ=,3,3106.4
+8,2019-12-31 06:23:43,ranjith@ebms.co.in,kalpesh@vascomaritime.com,Re: E366 - RE: Error in Vendor Credit Note booking,"Dear Mr.Kalpesh,
+
+Please share your any desk id to check and close it.
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+Ph: 91-44-25210667",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQABZf4y6Hsk6TnHbF_WSrQDQ=,3,3106.4
+9,2020-01-02 10:10:07,kalpesh@vascomaritime.com,ranjith@ebms.co.in,RE: E366 - RE: Error in Vendor Credit Note booking,"Dear Ranjith,
+
+For now system allowing to book the CN.
+
+Thanks & Regards,
+Kalpesh Dalvi| Assistant Manager
+VASCO MARITIME PTE LTD
+
+Tel: 91-22-6646 9100 | Direct: 91-22-6646 9212 | HP: 9167275288
+Email: kalpesh@vascomaritime.com
+Suite # 214 – 218",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQABZf4y6Hsk6TnHbF_WSrQDQ=,3,3106.4
+10,2019-12-31 05:20:25,Sharath@goodrichindia.com,subhranshu@goodrichindia.com,RE: E2756 - RE: EXPORT ON BOARD MOVES SHOWS IN VALID // VSL - APL SAVANNAH  VOY - 0EG51W1MA  //,"Dear Ranjith,
+
+Issues recurring again and again, kindly look into below ticket.
+
+Kindly inform us how long user has to wait for data correction? Multiple cases have been sent to you with same ticket id.
+
+Dear Richa / Rahul,
+
+Next time when you are",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAKExMINAq0fSo78WSXs9pG8=,10,214.18
+11,2019-12-31 05:51:34,srahul@goodrichindia.com,Sharath@goodrichindia.com,RE: E2756 - RE: EXPORT ON BOARD MOVES SHOWS IN VALID // VSL - APL SAVANNAH  VOY - 0EG51W1MA  //,"Dear Richa,
+
+Below mail fyi…
+
+Please note our office will closed on 1st January 2020 on occasion of Happy New Year
+
+Thanks & Regards,
+Rahul Sharma | Customer Service Executive | Chemical Logistics Division
+Suite # 214 – 218, 2nd floor Sai commerci",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAKExMINAq0fSo78WSXs9pG8=,10,214.18
+12,2019-12-31 06:09:09,ranjith@ebms.co.in,srahul@goodrichindia.com,Re: E2756 - RE: EXPORT ON BOARD MOVES SHOWS IN VALID // VSL - APL SAVANNAH  VOY - 0EG51W1MA  //,"Dear Sharath, Subhranshu,
+
+Hope more vessels we have issue while making discharge on IAL
+
+Can you please send all vessel voyage and container details which having above issue to check and clear the same by Today itself.
+
+​Thanks & Regards,
+Ranjith ",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAKExMINAq0fSo78WSXs9pG8=,10,214.18
+13,2019-12-31 06:20:49,Sharath@goodrichindia.com,ranjith@ebms.co.in,RE: E2756 - RE: EXPORT ON BOARD MOVES SHOWS IN VALID // VSL - APL SAVANNAH  VOY - 0EG51W1MA  //,"Dear Ranjith,
+
+We have sent you more than 13 mails (vessel Details) with same Ticket id, last time also you requested to send us the consolidated list so I had gathered container details from 10 different mails and sent you a consolidated list in one ma",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAKExMINAq0fSo78WSXs9pG8=,10,214.18
+14,2019-12-31 06:25:13,ranjith@ebms.co.in,Sharath@goodrichindia.com,Re: E2756 - RE: EXPORT ON BOARD MOVES SHOWS IN VALID // VSL - APL SAVANNAH  VOY - 0EG51W1MA  //,"Dear Sharath,
+
+Will check and get back for all issues which reported on subject ticket.
+
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAKExMINAq0fSo78WSXs9pG8=,10,214.18
+15,2019-12-31 06:30:21,richa@goodrichindia.com,srahul@goodrichindia.com,RE: E2756 - RE: EXPORT ON BOARD MOVES SHOWS IN VALID // VSL - APL SAVANNAH  VOY - 0EG51W1MA  //,"Dear Rahul
+
+Noted
+
+
+Thanks & Regards,
+
+Richa Raghuvanshi|  Senior Customer Service Executive
+
+
+HP: +91 7509064373 Tel: 91-731-6456062 |
+Email: richa@goodrichindia.com | Web: www.goodrichindia.com
+510, The Mark, 20-A, Old Palasia, Saket Square,",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAKExMINAq0fSo78WSXs9pG8=,10,214.18
+16,2020-01-02 14:36:10,Sharath@goodrichindia.com,ranjith@ebms.co.in,RE: E2756 - RE: EXPORT ON BOARD MOVES SHOWS IN VALID // VSL - APL SAVANNAH  VOY - 0EG51W1MA  //,"Dear Ranjith / Santosh Ji,
+
+Awaiting for your updates.
+
+Thanks & Regards,
+Sharath Moolya | Executive – ERP Global
+
+
+Suite # 214 – 218, 2nd Floor, Sai Commercial Center, Station Rd. Govandi Mumbai - 400088.
+Tel: 91-22-66469200 | Direct: 91-22-6646",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAKExMINAq0fSo78WSXs9pG8=,10,214.18
+17,2020-01-03 07:26:25,Sharath@goodrichindia.com,subhranshu@goodrichindia.com,RE: E2756 - RE: EXPORT ON BOARD MOVES SHOWS IN VALID // VSL - APL SAVANNAH  VOY - 0EG51W1MA  //,"Dear Santosh Ji,
+
+Kindly comment on pending corrections.
+
+Thanks & Regards,
+Sharath Moolya | Executive – ERP Global
+
+
+Suite # 214 – 218, 2nd Floor, Sai Commercial Center, Station Rd. Govandi Mumbai - 400088.
+Tel: 91-22-66469200 | Direct: 91-22-66",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAKExMINAq0fSo78WSXs9pG8=,10,214.18
+18,2020-01-03 08:49:20,santoshhinduja@ebms.co.in,Sharath@goodrichindia.com,Re: E2756 - RE: EXPORT ON BOARD MOVES SHOWS IN VALID // VSL - APL SAVANNAH  VOY - 0EG51W1MA  //,"Dear Sharath,
+
+Have discussed with Ranjith on this just now.he shall call you by 3:30 for the issue.
+
+Santosh Hinduja​
+Mob:8838176106
+
+​
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+
+
+_______",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAKExMINAq0fSo78WSXs9pG8=,10,214.18
+19,2020-01-03 12:23:31,Sharath@goodrichindia.com,santoshhinduja@ebms.co.in,RE: E2756 - RE: EXPORT ON BOARD MOVES SHOWS IN VALID // VSL - APL SAVANNAH  VOY - 0EG51W1MA  //,"Dear Santosh Ji,
+
+Well noted, we are still awaiting for the call.
+
+
+Thanks & Regards,
+Sharath Moolya | Executive – ERP Global
+
+
+Suite # 214 – 218, 2nd Floor, Sai Commercial Center, Station Rd. Govandi Mumbai - 400088.
+Tel: 91-22-66469200 | Direc",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAKExMINAq0fSo78WSXs9pG8=,10,214.18
+20,2019-12-31 05:47:13,acctsche@goodrichindia.com,sjayasawal@goodrichindia.com,RE: E3091: INVOICE POSTED IN TWICE IN OSR REPORT,"Dear Sandeep Sir,
+
+Ref to the below mail in OSR only it shows twice, but in Ledger report only one invoice showing. Pls find the screen sheet.
+
+
+
+
+
+
+Thanks & Regards,
+KARTHIGA. B | Accounts Executive
+
+Tel: 91-44-4920 2222 | Direct: 91-44-4920 ",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAGZxX4h1vkcgoMpmy2LW5yQ=,6,4552.57
+21,2019-12-31 06:22:39,ranjith@ebms.co.in,acctsche@goodrichindia.com,Re: E3091: INVOICE POSTED IN TWICE IN OSR REPORT,"Dear Sandeep,
+
+Will check and get back on or before 08-JAN-2020.
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+Ph: 91-44-25210667, 91-4",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAGZxX4h1vkcgoMpmy2LW5yQ=,6,4552.57
+22,2019-12-31 06:22:52,ranjith@ebms.co.in,nasir@ebms.co.in,Fw: E3091: INVOICE POSTED IN TWICE IN OSR REPORT,"allotted 03-JAN-2020
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+Ph: 91-44-25210667, 91-44-42060662
+Mail : ranjith@ebms.co.in
+Web: ww",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAGZxX4h1vkcgoMpmy2LW5yQ=,6,4552.57
+23,2019-12-31 06:50:53,sjayasawal@goodrichindia.com,ranjith@ebms.co.in,RE: E3091: INVOICE POSTED IN TWICE IN OSR REPORT,"Dear Ranjith,
+
+This is critical issue as outstanding is showing addition amount “179,542.15” which is big amount.
+
+So this should resolve on priority.
+
+Thanks & Regards,
+Sandeep K. Jayasawal | Sr. Software Executive - ERP Global
+
+Suite # 214 – 21",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAGZxX4h1vkcgoMpmy2LW5yQ=,6,4552.57
+24,2020-01-03 09:51:38,nasir@ebms.co.in,ranjith@ebms.co.in,Re: E3091: INVOICE POSTED IN TWICE IN OSR REPORT,"Dear Ranjith,
+
+For this below issue. user generated 1 BL for 2 Booking.
+
+1 . VASBLR1900308    -   HC40
+2 . VASBLR1900306    -   20GP
+
+
+Regards,
+Nasir.I
+
+
+
+________________________________
+From: Ranjith Kumar <ranjith@ebms.co.in>
+Sent: Tuesd",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAGZxX4h1vkcgoMpmy2LW5yQ=,6,4552.57
+25,2020-01-03 10:15:26,nasir@ebms.co.in,ranjith@ebms.co.in,Re: E3091: INVOICE POSTED IN TWICE IN OSR REPORT,"Dear Ranjith,
+Below issue has been resolved.please check & confirm.
+
+
+Regards,
+Nasir.I
+
+________________________________
+From: Ranjith Kumar <ranjith@ebms.co.in>
+Sent: Tuesday, December 31, 2019 11:52 AM
+To: Nasir I <nasir@ebms.co.in>
+Subject: ",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAGZxX4h1vkcgoMpmy2LW5yQ=,6,4552.57
+26,2019-12-31 05:59:26,anuragy@ict.in,ranjith@ebms.co.in,Re: Ticket E686,"Dear Ranjith,
+                       As discussed with jagdish sir we need to modify only Remarks to Yard for documentation purposes in export release order in any scenario and no condition required.
+
+On Tue, Dec 24, 2019 at 3:00 PM Ranjith Kumar <ranj",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAI1DCUDsVJREnky5PJSDSMA=,3,84.28
+27,2019-12-31 07:23:19,ranjith@ebms.co.in,udhay@ebms.co.in,Fw: Ticket E686,"pls allow as per below
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+Ph: 91-44-25210667, 91-44-42060662
+Mail : ranjith@ebms.co.in
+Web: ",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAI1DCUDsVJREnky5PJSDSMA=,3,84.28
+28,2019-12-31 07:23:43,ranjith@ebms.co.in,anuragy@ict.in,Re: Ticket E686,"Dear Anurag,
+
+Will check the below and get back the possibilities.
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+Ph: 91-44-25210667, 91",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAI1DCUDsVJREnky5PJSDSMA=,3,84.28
+29,2019-12-31 06:11:31,anuragy@ict.in,jagdishc@jmbaxi.com,Re: BATCH NO. E-002506/19-20 TANK UTCU4655676 DEPOT OUT ACTIVITY IS MISSING IN MOVEMENT REGISTER.,"Dear Sir,
+               This is raised to ebms once received resolution then we will communicate to you.For your reference Ticket ID : E831.
+
+On Tue, Dec 24, 2019 at 6:48 PM Mr. Jagdish Chipkar - Stolt . <jagdishc@jmbaxi.com> wrote:
+Dear Sushant and ",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJqWRlrxGUdOiw5lcKffRbA=,4,65.33
+30,2019-12-31 06:15:39,anuragy@ict.in,ranjith@ebms.co.in,Fwd: BATCH NO. E-002506/19-20 TANK UTCU4655676 DEPOT OUT ACTIVITY IS MISSING IN MOVEMENT REGISTER.,"Dear Ranjith,
+                      Why the record difference in container history and movement register history please see the below case which is identified check and confirm.
+Ticket ID : E831
+
+---------- Forwarded message ---------
+From: Mr. Jagdi",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJqWRlrxGUdOiw5lcKffRbA=,4,65.33
+31,2019-12-31 07:20:59,ranjith@ebms.co.in,anuragy@ict.in,Re: BATCH NO. E-002506/19-20 TANK UTCU4655676 DEPOT OUT ACTIVITY IS MISSING IN MOVEMENT REGISTER.,"Dear Anurag,
+
+Noted below case will check and get back.
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+Ph: 91-44-25210667, 91-44-4206066",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJqWRlrxGUdOiw5lcKffRbA=,4,65.33
+32,2019-12-31 07:21:09,ranjith@ebms.co.in,udhay@ebms.co.in,Fw: BATCH NO. E-002506/19-20 TANK UTCU4655676 DEPOT OUT ACTIVITY IS MISSING IN MOVEMENT REGISTER.,"check this allotted today.
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+Ph: 91-44-25210667, 91-44-42060662
+Mail : ranjith@ebms.co.in
+W",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJqWRlrxGUdOiw5lcKffRbA=,4,65.33
+33,2019-12-31 06:19:09,anuragy@ict.in,mujib@ebms.co.in,Re: Report not display the particular Batch No. i-001946/19-20,"Dear Sir,
+                Please find the filter criteria  as required to you for checking purpose.
+
+
+
+
+
+
+
+On Tue, Dec 31, 2019 at 10:15 AM Mujib Syed <mujib@ebms.co.in> wrote:
+Dear Anurag,
+
+Can you pls check with the user and advise us the pa",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAIyz5nIY79FKk0QB59PidVQ=,5,220.72
+34,2020-01-02 06:14:24,ranjith@ebms.co.in,udhay@ebms.co.in,Fw: Report not display the particular Batch No. i-001946/19-20,"check
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+Ph: 91-44-25210667, 91-44-42060662
+Mail : ranjith@ebms.co.in
+Web: www.ebms.co.in",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAIyz5nIY79FKk0QB59PidVQ=,5,220.72
+35,2020-01-02 06:14:38,ranjith@ebms.co.in,anuragy@ict.in,Re: Report not display the particular Batch No. i-001946/19-20,"Dear Anurag,
+
+Noted on below, will check and get back.
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+Ph: 91-44-25210667, 91-44-42060662",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAIyz5nIY79FKk0QB59PidVQ=,5,220.72
+36,2020-01-02 08:33:01,udhay@ebms.co.in,ranjith@ebms.co.in,Re: Report not display the particular Batch No. i-001946/19-20,"Hellllooooo ithu Mujib sir tha ji papru avaruku status ketu mail podunga ji
+________________________________
+From: Ranjith Kumar <ranjith@ebms.co.in>
+Sent: 02 January 2020 11:44
+To: Udhaya kumar� <udhay@ebms.co.in>
+Subject: Fw: Report not display the",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAIyz5nIY79FKk0QB59PidVQ=,5,220.72
+37,2020-01-02 12:13:44,ranjith@ebms.co.in,udhay@ebms.co.in,Re: Report not display the particular Batch No. i-001946/19-20,"ada neenga paarunga
+
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+Ph: 91-44-25210667, 91-44-42060662
+Mail : ranjith@ebms.co.in
+Web: w",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAIyz5nIY79FKk0QB59PidVQ=,5,220.72
+38,2019-12-31 06:19:19,ratanl@unitedliners.com,ranjith@ebms.co.in,Fwd: UNABLE TO POST JAIPUR IMPORT INVOICE - DNABJAI191200013,"Dear Ranjith
+
+Ticket ID E35
+Please ref attached Invoice wherein GST  amount not captured  (invoice posted also without GST )
+
+
+.
+
+
+
+Warm Regards
+
+Ratan Lal
+
+DEPUTY MANGER ACCOUNTS
+
+M: +91 9958157047|D: +91 0120-2553100
+
+A:  N0. 8 , PLOT ",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAKuUjZR6OCtNtEaUgqwHZVE=,4,60.4
+39,2019-12-31 07:16:24,ranjith@ebms.co.in,ratanl@unitedliners.com,Re: UNABLE TO POST JAIPUR IMPORT INVOICE - DNABJAI191200013,"Dear Team,
+
+Invoice itself GST not captured so posting also gone without GST.
+
+Kindly issue credit note for the same and proceed invoice with GST.
+
+if any more details required let us know.
+
+
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution P",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAKuUjZR6OCtNtEaUgqwHZVE=,4,60.4
+40,2019-12-31 07:29:56,ratanl@unitedliners.com,ranjith@ebms.co.in,Re: UNABLE TO POST JAIPUR IMPORT INVOICE - DNABJAI191200013,"Dear Ranjith
+
+Just want to know the reason .  Please...
+
+Warm Regards
+
+Ratan Lal
+
+DEPUTY MANGER ACCOUNTS
+
+M: +91 9958157047|D: +91 0120-2553100
+
+A:  N0. 8 , PLOT A - 8, SECTOR 136, NOIDA – 201305 , UTTAR PRADESH, INDIA.
+
+
+On Tue, Dec 31, 20",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAKuUjZR6OCtNtEaUgqwHZVE=,4,60.4
+41,2019-12-31 08:16:48,ratanl@unitedliners.com,ranjith@ebms.co.in,Re: UNABLE TO POST JAIPUR IMPORT INVOICE - DNABJAI191200013,"Dear Rajan
+
+Credit note done.
+
+
+
+Warm Regards
+
+Ratan Lal
+
+DEPUTY MANGER ACCOUNTS
+
+M: +91 9958157047|D: +91 0120-2553100
+
+A:  N0. 8 , PLOT A - 8, SECTOR 136, NOIDA – 201305 , UTTAR PRADESH, INDIA.
+
+
+On Tue, Dec 31, 2019 at 12:58 PM Ratan L",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAKuUjZR6OCtNtEaUgqwHZVE=,4,60.4
+42,2019-12-31 06:25:12,anuragy@ict.in,ranjith@ebms.co.in,Re: System is allowed to link same container in two batch (Repeated Issue),"Dear Ranjith,
+                      Noted your concern but i need to add one more container then but i did not make more delivery order then how can we handle this case.Please guide.
+
+On Sat, Dec 28, 2019 at 10:38 AM Ranjith Kumar <ranjith@ebms.co.in> ",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAHHzp4H5jEBNoSwSJt52PXQ=,3,105.63
+43,2019-12-31 07:09:42,ranjith@ebms.co.in,anuragy@ict.in,Re: System is allowed to link same container in two batch (Repeated Issue),"Dear Anurag,
+
+System will not allow to link balance container into same DO, for that case please delete the DO and proceed or go with another DO.
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second ",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAHHzp4H5jEBNoSwSJt52PXQ=,3,105.63
+44,2019-12-31 08:55:20,anuragy@ict.in,ranjith@ebms.co.in,Re: System is allowed to link same container in two batch (Repeated Issue),"Dear Ranjith,
+                        If 59 containers are there in one DO and we need to add one more container then what we do delete the DO and again generate 60 containers DO? Please provide the feasible solution.
+
+On Tue, Dec 31, 2019 at 12:39 PM ",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAHHzp4H5jEBNoSwSJt52PXQ=,3,105.63
+45,2019-12-31 06:27:47,ranjith@ebms.co.in,Sharath@goodrichindia.com,Re: E3093 - RE: ATTACHMENT OF IGM/EDI FILE & ADVANCE LIST FOR VESSEL:-  M.V. HYUNDAI COLOMBO - 106,"Dear Sharath,
+
+Well noted and Thanks for the below,
+
+Will check and revert on or before 2nd jan.2020.
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAFcsX5lJqE0Dgb769dzgUbo=,5,316.33
+46,2019-12-31 06:28:12,ranjith@ebms.co.in,nasir@ebms.co.in,Fw: E3093 - RE: ATTACHMENT OF IGM/EDI FILE & ADVANCE LIST FOR VESSEL:-  M.V. HYUNDAI COLOMBO - 106,"check subject issue
+
+skp this tkt C2443
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+Ph: 91-44-25210667, 91-44-42060662
+Mail : ranjit",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAFcsX5lJqE0Dgb769dzgUbo=,5,316.33
+47,2019-12-31 11:47:33,nasir@ebms.co.in,ranjith@ebms.co.in,Re: E3093 - RE: ATTACHMENT OF IGM/EDI FILE & ADVANCE LIST FOR VESSEL:-  M.V. HYUNDAI COLOMBO - 106,"Dear Ranjith,
+
+Done
+
+Regards,
+Nasir.I
+________________________________
+From: Ranjith Kumar <ranjith@ebms.co.in>
+Sent: Tuesday, December 31, 2019 11:58 AM
+To: Nasir I <nasir@ebms.co.in>
+Subject: Fw: E3093 - RE: ATTACHMENT OF IGM/EDI FILE & ADVANC",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAFcsX5lJqE0Dgb769dzgUbo=,5,316.33
+48,2020-01-03 05:43:11,Sharath@goodrichindia.com,ranjith@ebms.co.in,RE: E3093 - RE: ATTACHMENT OF IGM/EDI FILE & ADVANCE LIST FOR VESSEL:-  M.V. HYUNDAI COLOMBO - 106,"Dear Ranjith,
+
+Kindly update on the below ticket.
+
+
+Thanks & Regards,
+Sharath Moolya | Executive – ERP Global
+
+
+Suite # 214 – 218, 2nd Floor, Sai Commercial Center, Station Rd. Govandi Mumbai - 400088.
+Tel: 91-22-66469200 | Direct: 91-22-6646944",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAFcsX5lJqE0Dgb769dzgUbo=,5,316.33
+49,2020-01-03 10:59:31,ranjith@ebms.co.in,Sharath@goodrichindia.com,Re: E3093 - RE: ATTACHMENT OF IGM/EDI FILE & ADVANCE LIST FOR VESSEL:-  M.V. HYUNDAI COLOMBO - 106,"Dear Sharath and Team,
+
+BMCT issue has been solved for empty bookings now its showing correct group code and client code.
+
+Regarding  Mty container we are showing  as per Manifest entered weight plus container master Tare weight. so gross weight showi",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAFcsX5lJqE0Dgb769dzgUbo=,5,316.33
+50,2019-12-31 06:32:52,sjayasawal@goodrichindia.com,ranjith@ebms.co.in,E3094: Unable to update discharge movement,"Dear Ranjith,
+
+Refer to our AnyDesk session, port “ZHANGJIAGANG” is active in Port Master but the same is not reflecting in “To Location” field while updating movement.
+
+Please check and revert.
+
+
+Thanks & Regards,
+Sandeep K. Jayasawal | Sr. Softw",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJMqsSXHz0QJi_6f_1-SJ9o=,15,2963.22
+51,2019-12-31 06:43:03,ranjith@ebms.co.in,sathish@ebms.co.in,Fw: E3094: Unable to update discharge movement,"pls check
+
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+Ph: 91-44-25210667, 91-44-42060662
+Mail : ranjith@ebms.co.in
+Web: www.ebms.co",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJMqsSXHz0QJi_6f_1-SJ9o=,15,2963.22
+52,2019-12-31 06:53:39,ranjith@ebms.co.in,ganesan@ebms.co.in,Fw: E3094: Unable to update discharge movement,"​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+Ph: 91-44-25210667, 91-44-42060662
+Mail : ranjith@ebms.co.in
+Web: www.ebms.co.in
+
+
+__",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJMqsSXHz0QJi_6f_1-SJ9o=,15,2963.22
+53,2019-12-31 09:38:56,ganesan@ebms.co.in,ranjith@ebms.co.in,Re: E3094: Unable to update discharge movement,"Dear Ranjith bro,
+
+CFS_ LOCATION_MASTER is add  to port_id
+
+Thanks&Regards,
+Ganesan S
+
+________________________________
+From: Ranjith Kumar <ranjith@ebms.co.in>
+Sent: Tuesday, December 31, 2019 1:53 AM
+To: Ganesan S <ganesan@ebms.co.in>
+Subject",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJMqsSXHz0QJi_6f_1-SJ9o=,15,2963.22
+54,2019-12-31 10:19:56,dswapnil@goodrichindia.com,ranjith@ebms.co.in,RE: E3094: Unable to update discharge movement,"Dear Ranjith,
+
+Any update on below request.
+
+Thanks & Regards,
+Swapnil Dalvi | Global Tank Inventory
+
+Suite # 214 – 218, 2nd floor Sai commercial Center, Station Rd. Govandi Mumbai-400088
+| Direct: 91-22-6646 9449 | Web: www.goodrich.com
+
+From: ",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJMqsSXHz0QJi_6f_1-SJ9o=,15,2963.22
+55,2019-12-31 10:24:23,ranjith@ebms.co.in,dswapnil@goodrichindia.com,Re: E3094: Unable to update discharge movement,"Dear Team,
+
+Please add trying port into CFS Location Master then it will reflect same is not there.
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nad",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJMqsSXHz0QJi_6f_1-SJ9o=,15,2963.22
+56,2019-12-31 10:51:13,subhranshu@goodrichindia.com,ranjith@ebms.co.in,RE: E3094: Unable to update discharge movement,"Dear Ranjith,
+
+The TO Location for LODF should be based on Port not based on CFS location master.
+What is the current logic is now is totally illogical.
+
+Thanks & Regards…
+Subhranshu | Sr.Deputy Manager - ERP Global
+Suite # 214 – 218, 2nd floor Sai",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJMqsSXHz0QJi_6f_1-SJ9o=,15,2963.22
+57,2019-12-31 11:10:08,ranjith@ebms.co.in,ganesan@ebms.co.in,Fw: E3094: Unable to update discharge movement,"​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+Ph: 91-44-25210667, 91-44-42060662
+Mail : ranjith@ebms.co.in
+Web: www.ebms.co.in
+
+
+__",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJMqsSXHz0QJi_6f_1-SJ9o=,15,2963.22
+58,2020-01-02 05:46:07,ranjith@ebms.co.in,ganesan@ebms.co.in,Fw: E3094: Unable to update discharge movement,"hi check the logic when user update below specific move.
+
+As per user below move To location ajax should come from port master.
+
+Dont change any thing just check and confirm.
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 /",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJMqsSXHz0QJi_6f_1-SJ9o=,15,2963.22
+59,2020-01-02 06:58:38,ranjith@ebms.co.in,charles@ebms.co.in,Re: E3094: Unable to update discharge movement,"Dear Charles Sir, Nithin,
+
+While user making LODF Move on Movement Register system not finding ZHANGJIAGANG this port in To Location field. so we checked and informed ERP To create a same in CFS Location master to reflect but subhranshu saying it should",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJMqsSXHz0QJi_6f_1-SJ9o=,15,2963.22
+60,2020-01-02 07:33:37,dswapnil@goodrichindia.com,subhranshu@goodrichindia.com,RE: E3094: Unable to update discharge movement,"Dear Ranjith,
+
+Any update.
+
+Thanks & Regards,
+Swapnil Dalvi | Global Tank Inventory
+
+Suite # 214 – 218, 2nd floor Sai commercial Center, Station Rd. Govandi Mumbai-400088
+| Direct: 91-22-6646 9449 | Web: www.goodrich.com
+
+From: Subhranshu Pati [",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJMqsSXHz0QJi_6f_1-SJ9o=,15,2963.22
+61,2020-01-02 11:41:07,ranjith@ebms.co.in,nasir@ebms.co.in,Fw: E3094: Unable to update discharge movement,"​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+Ph: 91-44-25210667, 91-44-42060662
+Mail : ranjith@ebms.co.in
+Web: www.ebms.co.in
+
+
+__",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJMqsSXHz0QJi_6f_1-SJ9o=,15,2963.22
+62,2020-01-02 11:43:09,ranjith@ebms.co.in,dswapnil@goodrichindia.com,Re: E3094: Unable to update discharge movement,"Dear Team,
+
+Already we are working on this, will get back before 3.00 PM Tomorrow.
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+Ph: 91",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJMqsSXHz0QJi_6f_1-SJ9o=,15,2963.22
+63,2020-01-03 09:32:11,avinash@goodrichindia.com,ranjith@ebms.co.in,RE: E3094: Unable to update discharge movement,"Dear Ranjith,
+
+Hope issue get sorted ?
+
+Thanks & Regards,
+Avinash Torkadi | Global Tank
+
+Suite # 214 – 218, 2nd floor Sai commercial Center, Station Rd. Govandi Mumbai-400088
+HP: +91 9167494911  | Direct: 91-22-6646 9471 | Web: www.goodrich.co",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJMqsSXHz0QJi_6f_1-SJ9o=,15,2963.22
+64,2020-01-03 12:24:52,sjayasawal@goodrichindia.com,ranjith@ebms.co.in,RE: E3094: Unable to update discharge movement,"Dear Ranjith,
+
+Kindly revert on below.
+
+Thanks & Regards,
+Sandeep K. Jayasawal | Sr. Software Executive - ERP Global
+
+Suite # 214 – 218, 2nd Floor, Sai Commercial Center, Station Rd. Govandi Mumbai - 400088.
+Tel: +91-22-66469200 | Direct: +91-22-6",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJMqsSXHz0QJi_6f_1-SJ9o=,15,2963.22
+65,2019-12-31 06:35:48,vjyoti@goodrichindia.com,ranjith@ebms.co.in,RE: E3088 - RE: Container wise packages alignment is not proper in VASCO B/L || B/L # VASSBILCH000775  ,"Dear Sir,
+
+With ref to below, now on 1st page of B/L alignment seems ok but on 2nd page (attached sheet) still alignment is not proper. Below screen shot for your ref.
+Request you to pls. check & advise.
+
+
+
+With Best Regards.
+Jyoti Verma | Sr. Exe",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAHfPVtiqYEcYkQiQz-COxb0=,6,30.95
+66,2019-12-31 06:38:12,ranjith@ebms.co.in,nasir@ebms.co.in,Fw: E3088 - RE: Container wise packages alignment is not proper in VASCO B/L || B/L # VASSBILCH000775  ,"rider sheet not in order pls check
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+Ph: 91-44-25210667, 91-44-42060662
+Mail : ranjith@ebms.",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAHfPVtiqYEcYkQiQz-COxb0=,6,30.95
+67,2019-12-31 07:09:09,nasir@ebms.co.in,ranjith@ebms.co.in,Re: E3088 - RE: Container wise packages alignment is not proper in VASCO B/L || B/L # VASSBILCH000775  ,"Dear Ranjith,
+
+Below issue has been resolved.please check & confirm.
+
+
+Regards,
+Nasir.I
+
+________________________________
+From: Ranjith Kumar <ranjith@ebms.co.in>
+Sent: Tuesday, December 31, 2019 12:08 PM
+To: Nasir I <nasir@ebms.co.in>
+Subject",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAHfPVtiqYEcYkQiQz-COxb0=,6,30.95
+68,2019-12-31 08:44:54,ranjith@ebms.co.in,vjyoti@goodrichindia.com,Re: E3088 - RE: Container wise packages alignment is not proper in VASCO B/L || B/L # VASSBILCH000775  ,"Dear Team,
+
+Please check rider sheet also showing correctly.
+
+Below screen shot for your ref
+
+
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAHfPVtiqYEcYkQiQz-COxb0=,6,30.95
+69,2019-12-31 09:04:14,amitj@goodrichindia.com,ranjith@ebms.co.in,RE: E3088 - RE: Container wise packages alignment is not proper in VASCO B/L || B/L # VASSBILCH000775  ,"Dear Jyoti,
+
+Kindly confirm the same from your end and revert us the status.
+
+Thanks & Regards,
+Amit Jamghare | Sr. Executive – ERP Global
+
+
+Suite # 214 – 218, 2nd Floor, Sai Commercial Center, Station Rd. Govandi Mumbai - 400088.
+Tel: 91-22-6646",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAHfPVtiqYEcYkQiQz-COxb0=,6,30.95
+70,2019-12-31 09:21:42,amitj@goodrichindia.com,ranjith@ebms.co.in,RE: E3088 - RE: Container wise packages alignment is not proper in VASCO B/L || B/L # VASSBILCH000775  ,"Dear Ranjith,
+
+Please look into the below screenshot there is a gap in both container wise as well as without the tick while printing the BL.
+
+
+
+Thanks & Regards,
+Amit Jamghare | Sr. Executive – ERP Global
+
+
+Suite # 214 – 218, 2nd Floor, Sai Com",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAHfPVtiqYEcYkQiQz-COxb0=,6,30.95
+71,2019-12-31 06:44:23,sjayasawal@goodrichindia.com,ranjith@ebms.co.in,E2872: UNABLE TO MODIFY RCVC MOVES,"Dear Ranjith,
+
+Unable to modify RCVC move for container “GRMU2413721”, while DO is Valid Upto “01-JAN-2020”.
+
+Kindly check resolve.
+
+
+
+Thanks & Regards,
+Sandeep K. Jayasawal | Sr. Software Executive - ERP Global
+
+Suite # 214 – 218, 2nd Floor, S",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAOaSWMRmeUHEnynRI_RywtA=,3,1551.75
+72,2020-01-02 05:10:21,ranjith@ebms.co.in,nasir@ebms.co.in,Fw: E2872: UNABLE TO MODIFY RCVC MOVES,"check today.
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+Ph: 91-44-25210667, 91-44-42060662
+Mail : ranjith@ebms.co.in
+Web: www.ebms.c",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAOaSWMRmeUHEnynRI_RywtA=,3,1551.75
+73,2020-01-03 07:02:06,nasir@ebms.co.in,ranjith@ebms.co.in,Re: E2872: UNABLE TO MODIFY RCVC MOVES,"Dear Ranjith,
+
+Please find the below attachment for wrongly updated voyage id for RAILOUT(F)IMP Move.
+
+Query :-
+
+WITH tbl AS (
+    SELECT DISTINCT
+        container_no,
+        agent_id,
+        actual_move_date,
+        voyage_id
+    FROM
+  ",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAOaSWMRmeUHEnynRI_RywtA=,3,1551.75
+74,2019-12-31 07:05:28,santoshhinduja@ebms.co.in,subhranshu@goodrichindia.com,Re: E128: Option to create Multiple Invoices against single Flexi RO.,"Dear Subhranshu,
+
+Good Day!
+
+Is there a case that you can share for this issue? It will be helpful if you can share it.Thanks
+
+Santosh Hinduja​
+Mob:8838176106
+
+​
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tami",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAMXTtIE6q0JMuiY-NBN04Qc=,4,3.68
+75,2019-12-31 10:09:06,subhranshu@goodrichindia.com,santoshhinduja@ebms.co.in,RE: E128: Option to create Multiple Invoices against single Flexi RO.,"Dear Santosh,
+
+Good day.
+
+We can give you live case but if you can give you the assurance that the case need to check immediately & then do the data correction on time.
+
+RIC Sachin: If ebms giving the assurance then give them one case with one RO wi",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAMXTtIE6q0JMuiY-NBN04Qc=,4,3.68
+76,2019-12-31 10:16:02,santoshhinduja@ebms.co.in,subhranshu@goodrichindia.com,Re: E128: Option to create Multiple Invoices against single Flexi RO.,"Dear Subhranshu,
+
+Ok we will do the needful. Please contact me once you get the live case .Thanks
+
+Santosh Hinduja​
+Mob:8838176106
+
+​
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+
+____________",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAMXTtIE6q0JMuiY-NBN04Qc=,4,3.68
+77,2019-12-31 10:19:43,subhranshu@goodrichindia.com,santoshhinduja@ebms.co.in,RE: E128: Option to create Multiple Invoices against single Flexi RO.,"Dear Santosh,
+
+Yes, we will make this on 2nd Jan 2020 & call you prior making the invoice.
+
+Thanks & Regards…
+Subhranshu | Sr.Deputy Manager - ERP Global
+Suite # 214 – 218, 2nd floor Sai commercial Center, Station Rd. Govandi Mumbai-400088
+HP: +91 ",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAMXTtIE6q0JMuiY-NBN04Qc=,4,3.68
+78,2019-12-31 07:32:23,udhay@ebms.co.in,mhatre@ebms.co.in,Re: E3024 - RE: INTERBRANCH ENTRY MISSING IN BRR,"Dear Mhatre Sir,
+
+As we discussed please find below SS.
+
+
+
+
+
+
+________________________________
+From: Anil Mhatre <mhatre@ebms.co.in>
+Sent: 30 December 2019 22:17
+To: Udhaya kumar� <udhay@ebms.co.in>; Shahul Hameed <shahul@ebms.co.in>; Amitav D",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAP8ZIbVBvEXQg3EovDgyfYI=,6,5.45
+79,2019-12-31 07:50:42,mhatre@ebms.co.in,acctsche@goodrichindia.com,RE: E3024 - RE: INTERBRANCH ENTRY MISSING IN BRR,"Dear Karthiga,
+
+Receipt made on 9th Dec also cleared on same date hence will not reflect Bank Reconciliation Report (BRR).
+
+Please check the same in Bank Reconciliation (BR) as per below screen shot.
+
+@ Thanks Mujib Bhai / Udhay.
+
+
+
+
+Regards
+A",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAP8ZIbVBvEXQg3EovDgyfYI=,6,5.45
+80,2019-12-31 09:39:07,narayanan@goodrichindia.com,mhatre@ebms.co.in,RE: E3024 - RE: INTERBRANCH ENTRY MISSING IN BRR,"Dear Anil,
+
+1. The below receipt dated 09th Dec is not yet resolved.   The issue is,
+2. BRR report is not capturing the new receipts done from new FFD module.
+3. We  are capturing the receipts for Bank reconciliation.
+4. where-as BRR is not capturing",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAP8ZIbVBvEXQg3EovDgyfYI=,6,5.45
+81,2019-12-31 10:13:41,acctsche@goodrichindia.com,narayanan@goodrichindia.com,RE: E3024 - RE: INTERBRANCH ENTRY MISSING IN BRR,"Dear Mr. Mujib,
+
+Ref, our discussion the below receipt now reflecting in BRR screen.
+
+Lots of Thanks….
+
+
+
+
+Thanks & Regards,
+KARTHIGA. B | Accounts Executive
+
+Tel: 91-44-4920 2222 | Direct: 91-44-4920 2242
+Email: acctsche@goodrichindia.com | ",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAP8ZIbVBvEXQg3EovDgyfYI=,6,5.45
+82,2019-12-31 10:14:18,mujib@ebms.co.in,narayanan@goodrichindia.com,Re: E3024 - RE: INTERBRANCH ENTRY MISSING IN BRR,"Dear Narayanan Sir,
+
+Ref. our telecon a few minutes before, below said issue has been resolved and the balance is matching with the bank statement.
+
+Rgds,
+Mujib
+________________________________
+From: R narayanan <narayanan@goodrichindia.com>
+Sent:",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAP8ZIbVBvEXQg3EovDgyfYI=,6,5.45
+83,2019-12-31 10:19:45,narayanan@goodrichindia.com,mujib@ebms.co.in,RE: E3024 - RE: INTERBRANCH ENTRY MISSING IN BRR,"Dear Mujib,
+
+Yes, now it is retrieving in Bank Reconciliation Report and we will be able to report correct BRR.
+Many Thanks for your swift response.
+
+RIC : Karthiga : Kindly run the BRR and confirm the correctness of matching it with Bank statement.",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAP8ZIbVBvEXQg3EovDgyfYI=,6,5.45
+84,2019-12-31 08:53:25,udhay@ebms.co.in,ranjith@ebms.co.in,Re: Vendor Bill Booking-Stolt- New Ticket Id E784,"All Vendor Bl's is there. Below Some SS FYR.
+
+
+
+
+
+
+
+
+
+________________________________
+From: Ranjith Kumar <ranjith@ebms.co.in>
+Sent: 30 December 2019 14:31
+To: Udhaya kumar� <udhay@ebms.co.in>
+Subject: Fw: Vendor Bill Booking-Stolt- New Tic",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJr7KuXtyU-Zhtzwp1YUxww=,6,77.35
+85,2019-12-31 09:05:18,ranjith@ebms.co.in,udhay@ebms.co.in,Re: Vendor Bill Booking-Stolt- New Ticket Id E784,"hlo processed vendor bill and remaining pending payment showing correct?????
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+Ph: 91-44-2521",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJr7KuXtyU-Zhtzwp1YUxww=,6,77.35
+86,2019-12-31 10:50:27,udhay@ebms.co.in,ranjith@ebms.co.in,Re: Vendor Bill Booking-Stolt- New Ticket Id E784,"Athula check pannalanga
+________________________________
+From: Ranjith Kumar <ranjith@ebms.co.in>
+Sent: 31 December 2019 14:35
+To: Udhaya kumar� <udhay@ebms.co.in>
+Subject: Re: Vendor Bill Booking-Stolt- New Ticket Id E784
+
+hlo processed vendor bil",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJr7KuXtyU-Zhtzwp1YUxww=,6,77.35
+87,2020-01-02 04:39:05,ranjith@ebms.co.in,udhay@ebms.co.in,Re: Vendor Bill Booking-Stolt- New Ticket Id E784,"CHECK ADD PAGE I-000612/19-20 / 10259564
+
+S.NO.   VENDOR BILL     CHARGE NAME     WITHOUT GST     WITH GST
+1       SOW/0838/19-20  REPAIR CHARGES  4250    5015
+2       SOW/0582/19-20  REPAIR CHARGES  4987.5  5885.25
+3       SOW/0639/19-20  REPAIR CHA",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJr7KuXtyU-Zhtzwp1YUxww=,6,77.35
+88,2020-01-02 05:56:26,udhay@ebms.co.in,ranjith@ebms.co.in,Re: Vendor Bill Booking-Stolt- New Ticket Id E784,"As we checking, now its showing the same. Below SS FYR.
+
+
+
+________________________________
+From: Ranjith Kumar <ranjith@ebms.co.in>
+Sent: 02 January 2020 10:09
+To: Udhaya kumar� <udhay@ebms.co.in>
+Subject: Re: Vendor Bill Booking-Stolt- New Ticke",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJr7KuXtyU-Zhtzwp1YUxww=,6,77.35
+89,2020-01-02 06:05:45,ranjith@ebms.co.in,anuragy@ict.in,Re: Vendor Bill Booking-Stolt- New Ticket Id E784,"Dear Anurag,
+
+For Repair Charge Below vendor bills done so there is no pending to proceed the bill for same charge.
+
+As per OPS Additional Total amount is 22338 but till now vendor bill done 22637.5.
+
+If any more clarification required let me know.",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJr7KuXtyU-Zhtzwp1YUxww=,6,77.35
+90,2019-12-31 10:16:35,ganeshas@unitedliners.com,ranjith@ebms.co.in,CONSOLE SHIPPING SERVICES,"Dear Sir,
+
+Good day!
+
+Refer below mail kindly remove the following invoices in Blue marlin container lines for following invoices
+
+1)  DNABMAA191200015  dt 24/12/2019 for Rs.9033/- A/c-console shipping exports pvt ltd
+
+Thanks & Regards
+R.GANESH",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAPEiiGW5nthFsn-r_BjWH2c=,3,12.33
+91,2019-12-31 11:12:59,ranjith@ebms.co.in,ganeshas@unitedliners.com,Re: CONSOLE SHIPPING SERVICES,"Dear Sir,
+
+Deleted below invoice from system please check and confirm.
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+Ph: 91-44-25210667",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAPEiiGW5nthFsn-r_BjWH2c=,3,12.33
+92,2019-12-31 11:25:19,ganeshas@unitedliners.com,ranjith@ebms.co.in,Re: CONSOLE SHIPPING SERVICES,"Dear Sir,
+
+Thanks a lot for your valuable support.
+
+Thanks & Regards
+R.GANESH
+
+ACCOUNTS
+
+M: 9840867552
+
+D: +91 44 30252615|T: +91 44 30252626|F: +91 44 2836 3813
+
+A: No: 6, Chennai House/ Essar House,
+
+    3rd Floor,
+
+    Esplanade,
+
+  ",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAPEiiGW5nthFsn-r_BjWH2c=,3,12.33
+93,2019-12-31 10:49:41,udhay@ebms.co.in,anuragy@ict.in,Re: M and R charge Testing,"Dear Anurag,
+
+& symbol issue is fixed. And as per your request now M&R charge EDI also VendorID is show JMBAXI.
+
+Please check and confirm.
+________________________________
+From: Anurag Yadav <anuragy@ict.in>
+Sent: 24 December 2019 16:15
+To: Udhaya",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJ69QLuALVpFqI-LKgcYOwo=,2,38.55
+94,2019-12-31 11:28:14,anuragy@ict.in,udhay@ebms.co.in,Re: M and R charge Testing,"Thanks Udhaya will check and confirm to you.
+
+On Tue, Dec 31, 2019 at 4:19 PM Udhaya kumar� <udhay@ebms.co.in> wrote:
+Dear Anurag,
+
+& symbol issue is fixed. And as per your request now M&R charge EDI also VendorID is show JMBAXI.
+
+Please check and ",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJ69QLuALVpFqI-LKgcYOwo=,2,38.55
+95,2019-12-31 11:26:03,sushantm@unitedliners.com,ranjith@ebms.co.in,Voucher to be deleted - MHOSBK-1920-12-00886,"Dear Ranjith,
+
+Need your help immediately in deleting below Voucher from FAS - MHOSBK-1920-12-00886. Unfortunately user didn't identified at the time of posting.
+Actual amount posted in different Voy and GST in different voy.
+
+
+
+
+
+Thanks & Regard",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAP2CpSt_m8pKsQs04gmtZII=,2,2.2
+96,2019-12-31 11:28:15,ranjith@ebms.co.in,sushantm@unitedliners.com,Re: Voucher to be deleted - MHOSBK-1920-12-00886,"Dear Sushant Sir,
+
+As per your confirmation, Deleted the subject SBK.
+
+
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+Ph: 91-44-25210",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAP2CpSt_m8pKsQs04gmtZII=,2,2.2
+97,2019-12-31 11:53:50,nasir@ebms.co.in,ranjith@ebms.co.in,Re: E2872: RCVC NOT UPDATE  VMLU3602337/VMLU3701920/ 20',"Dear Ranjith,
+
+Below issue has been resolved.please check & confirm.
+
+Regards,
+Nasir.I
+________________________________
+From: Ranjith Kumar <ranjith@ebms.co.in>
+Sent: Monday, December 30, 2019 12:52 PM
+To: Nasir I <nasir@ebms.co.in>
+Subject: Fw:",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQADMHag_swkHNhIDyDt0CGm0=,4,2858.82
+98,2020-01-02 11:32:06,ranjith@ebms.co.in,sjayasawal@goodrichindia.com,Re: E2872: RCVC NOT UPDATE  VMLU3602337/VMLU3701920/ 20',"Dear Sandeep,
+
+Below issue has been resolved.
+
+Proceed the Move update and confirm the status.
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, ",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQADMHag_swkHNhIDyDt0CGm0=,4,2858.82
+99,2020-01-02 11:32:39,ranjith@ebms.co.in,nasir@ebms.co.in,Re: E2872: RCVC NOT UPDATE  VMLU3602337/VMLU3701920/ 20',"as discussed check disch and railin move if voyage diff. pls correct the same as per disch move.
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, In",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQADMHag_swkHNhIDyDt0CGm0=,4,2858.82
+100,2020-01-02 11:43:35,sriram@goodrichindia.com,ranjith@ebms.co.in,RE: E2872: RCVC NOT UPDATE  VMLU3602337/VMLU3701920/ 20',"Done
+
+Thanks & Regards,
+Sriram Singh | Operations
+
+UNIT NO. 310, 3rd FLOOR, ELEGANCE TOWER, PLOT NO. 8
+(JASOLA DISTRICT CENTRE), JASOLA, NEW DELHI-110025
+PH: +91-11-42619800, DIRECT : 42619816
+HP: +919582949373
+Email: sriram@goodrichindia.com | W",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQADMHag_swkHNhIDyDt0CGm0=,4,2858.82
+101,2019-12-31 11:57:02,ranjith@ebms.co.in,nasir@ebms.co.in,Fw: E2977 RE: Collection Charge Head not Reflecting in Import SOA - Location INDORE,"​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+Ph: 91-44-25210667, 91-44-42060662
+Mail : ranjith@ebms.co.in
+Web: www.ebms.co.in
+
+
+__",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAOcY1KmX5Ua1j0EQF3_nTCw=,4,59.22
+102,2019-12-31 12:18:22,nasir@ebms.co.in,ranjith@ebms.co.in,Re: E2977 RE: Collection Charge Head not Reflecting in Import SOA - Location INDORE,"Dear Ranjith,
+
+Below issue has been resolved.please check & confirm.
+
+Regards,
+Nasir.I
+________________________________
+From: Ranjith Kumar <ranjith@ebms.co.in>
+Sent: Tuesday, December 31, 2019 5:27 PM
+To: Nasir I <nasir@ebms.co.in>
+Subject: Fw:",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAOcY1KmX5Ua1j0EQF3_nTCw=,4,59.22
+103,2020-01-02 11:44:08,ranjith@ebms.co.in,nasir@ebms.co.in,Re: E2977 RE: Collection Charge Head not Reflecting in Import SOA - Location INDORE,"pls check export soa
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+Ph: 91-44-25210667, 91-44-42060662
+Mail : ranjith@ebms.co.in
+Web: ww",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAOcY1KmX5Ua1j0EQF3_nTCw=,4,59.22
+104,2020-01-02 12:43:21,nasir@ebms.co.in,ranjith@ebms.co.in,Re: E2977 RE: Collection Charge Head not Reflecting in Import SOA - Location INDORE,"Dear Ranjith,
+
+Only Import SOA he is ask.Please check & confirm.
+
+Regards,
+Nasir.I
+________________________________
+From: Ranjith Kumar <ranjith@ebms.co.in>
+Sent: Thursday, January 2, 2020 5:14 PM
+To: Nasir I <nasir@ebms.co.in>
+Subject: Re: E297",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAOcY1KmX5Ua1j0EQF3_nTCw=,4,59.22
+105,2019-12-31 12:26:02,prakesh@goodrichindia.com,ranjith@ebms.co.in,FW: E362 RE: Difference in GST number on FAS/GST2 & Name of Creditor in FAS,"Dear Mr. Ranjit,
+
+By reviewing XL file sent by you we found that information provided of wrong vendor selection in GSTR-2 is not complete and correct. We found  additional 43 transactions not reported by you in consolidated all India basis report provid",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAApfVftcVEFxveFYMHRbAUU=,5,312.75
+106,2020-01-02 04:57:19,ranjith@ebms.co.in,prakesh@goodrichindia.com,Re: E362 RE: Difference in GST number on FAS/GST2 & Name of Creditor in FAS,"Dear Mr.Rakesh,
+
+Well noted on below.
+
+Will check and revert you if any details required.
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAApfVftcVEFxveFYMHRbAUU=,5,312.75
+107,2020-01-02 07:10:11,ranjith@ebms.co.in,charles@ebms.co.in,Fw: E362 RE: Difference in GST number on FAS/GST2 & Name of Creditor in FAS,"Dear Charles Sir,
+
+Some purchase Booking gone with wrong GSTN so we need analyze and fix this issue asap. also till now passed PBK need to correct.
+
+Kindly assist to close this issue on Top priority basis.
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS ",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAApfVftcVEFxveFYMHRbAUU=,5,312.75
+108,2020-01-02 10:10:04,prakesh@goodrichindia.com,ranjith@ebms.co.in,RE: E362 RE: Difference in GST number on FAS/GST2 & Name of Creditor in FAS,"Adding Mr. Anil Mahtre.
+
+Thanks & Regards,
+Rakesh Patil | (Senior Accounts Executive)
+
+Suite # 214 – 218, 2nd floor Sai commercial Centre, Station Rd. Govandi Mumbai-400088
+Tel: 91-22-6646 9400 | Direct: 91-22-6646 9423 | Web: www.goodrich.co Email:",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAApfVftcVEFxveFYMHRbAUU=,5,312.75
+109,2020-01-02 10:32:19,mhatre@ebms.co.in,prakesh@goodrichindia.com,RE: E362 RE: Difference in GST number on FAS/GST2 & Name of Creditor in FAS,"Dear Ranjith,
+
+As discussed, need to respond this on priority.
+
+
+Regards
+Anil Mhatre
+eBMS Solutions Pvt Ltd
+Third Floor, New No 42 / Old No-4,
+Second Line Beach, Parrys,
+Chennai - 600 001.(India)
+Email: mhatre@ebms.co.in
+
+
+From: Rakesh Patil",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAApfVftcVEFxveFYMHRbAUU=,5,312.75
+110,2019-12-31 12:26:58,ranjith@ebms.co.in,mhatre@ebms.co.in,Re: ATTACHMENT OF IGM/EDI FILE & ADVANCE LIST FOR VESSEL:-  M.V. HYUNDAI COLOMBO - 106 - BMCT ,"Dear Mhatre Sir,
+
+As per our Telecom discussion please note below issue with details.
+
+EDI Advance List as per eBMS out put and M.V Hyndai attachment is client provided after doing manual changes.
+
+
+  *   Group Code and Client Code --- As per GR Te",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQABYkMOqCRke6hqBcUeptves=,12,141.6
+111,2019-12-31 12:29:42,mhatre@ebms.co.in,ranjith@ebms.co.in,Re: ATTACHMENT OF IGM/EDI FILE & ADVANCE LIST FOR VESSEL:-  M.V. HYUNDAI COLOMBO - 106 - BMCT ,"Hi Ranjith,
+
+Well noted but have you checked group code for DPD shipments.
+
+As per user it's also coming wrong.
+
+Regards
+Anil Mhatre
+eBMS Solutions Pvt Ltd
+Third Floor, New No 42 / Old No-4,
+Second Line Beach, Parrys,
+Chennai - 600 001.(India)",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQABYkMOqCRke6hqBcUeptves=,12,141.6
+112,2020-01-01 05:29:27,mhatre@ebms.co.in,ranjith@ebms.co.in,RE: ATTACHMENT OF IGM/EDI FILE & ADVANCE LIST FOR VESSEL:-  M.V. HYUNDAI COLOMBO - 106 - BMCT ,"Hi Ranjith,
+
+I think you are not checking this seriously.
+
+
+1.       Why are we showing INGRM as Group Code and Client Code for loaded (Local + ICD) Containers. Below are the correct data which user changed manually.
+
+2.       In our IAL, Showing c",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQABYkMOqCRke6hqBcUeptves=,12,141.6
+113,2020-01-02 05:42:29,ranjith@ebms.co.in,mhatre@ebms.co.in,Re: ATTACHMENT OF IGM/EDI FILE & ADVANCE LIST FOR VESSEL:-  M.V. HYUNDAI COLOMBO - 106 - BMCT ,"Dear Mhatre Sir,
+
+Will check below points and get back.
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+Ph: 91-44-25210667, 91-44-4206066",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQABYkMOqCRke6hqBcUeptves=,12,141.6
+114,2020-01-02 05:42:49,ranjith@ebms.co.in,nasir@ebms.co.in,Fw: ATTACHMENT OF IGM/EDI FILE & ADVANCE LIST FOR VESSEL:-  M.V. HYUNDAI COLOMBO - 106 - BMCT ,"check below mhatre report issue 1st allotted today.
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+Ph: 91-44-25210667, 91-44-42060662
+Mai",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQABYkMOqCRke6hqBcUeptves=,12,141.6
+115,2020-01-02 07:08:07,ranjith@ebms.co.in,nasir@ebms.co.in,Fw: ATTACHMENT OF IGM/EDI FILE & ADVANCE LIST FOR VESSEL:-  M.V. HYUNDAI COLOMBO - 106 - BMCT ,"1st issue now
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+Ph: 91-44-25210667, 91-44-42060662
+Mail : ranjith@ebms.co.in
+Web: www.ebms.",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQABYkMOqCRke6hqBcUeptves=,12,141.6
+116,2020-01-02 10:15:48,nasir@ebms.co.in,ranjith@ebms.co.in,Re: ATTACHMENT OF IGM/EDI FILE & ADVANCE LIST FOR VESSEL:-  M.V. HYUNDAI COLOMBO - 106 - BMCT ,"Dear Ranjith,
+Below issue has been resolved.please check & confirm.
+
+
+Regards,
+Nasir.I
+________________________________
+From: Ranjith Kumar <ranjith@ebms.co.in>
+Sent: Thursday, January 2, 2020 12:38 PM
+To: Nasir I <nasir@ebms.co.in>
+Subject: Fw:",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQABYkMOqCRke6hqBcUeptves=,12,141.6
+117,2020-01-02 12:44:12,nasir@ebms.co.in,ranjith@ebms.co.in,Re: ATTACHMENT OF IGM/EDI FILE & ADVANCE LIST FOR VESSEL:-  M.V. HYUNDAI COLOMBO - 106 - BMCT ,"Dear Ranjith,
+Below issue has been resolved.Please check & confirm.
+
+Regards,
+Nasir.I
+________________________________
+From: Ranjith Kumar <ranjith@ebms.co.in>
+Sent: Thursday, January 2, 2020 11:12 AM
+To: Nasir I <nasir@ebms.co.in>
+Subject: Fw: A",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQABYkMOqCRke6hqBcUeptves=,12,141.6
+118,2020-01-03 04:23:16,ranjith@ebms.co.in,nasir@ebms.co.in,Re: ATTACHMENT OF IGM/EDI FILE & ADVANCE LIST FOR VESSEL:-  M.V. HYUNDAI COLOMBO - 106 - BMCT ,"DHGU1849420
+
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+Ph: 91-44-25210667, 91-44-42060662
+Mail : ranjith@ebms.co.in
+Web: www.ebms.",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQABYkMOqCRke6hqBcUeptves=,12,141.6
+119,2020-01-03 05:34:39,nasir@ebms.co.in,ranjith@ebms.co.in,Re: ATTACHMENT OF IGM/EDI FILE & ADVANCE LIST FOR VESSEL:-  M.V. HYUNDAI COLOMBO - 106 - BMCT ,"Dear Ranjith,
+
+It's showing correctly,please check & confirm.
+
+Regards,
+Nasir.I
+________________________________
+From: Ranjith Kumar <ranjith@ebms.co.in>
+Sent: Friday, January 3, 2020 9:53 AM
+To: Nasir I <nasir@ebms.co.in>
+Subject: Re: ATTACHMEN",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQABYkMOqCRke6hqBcUeptves=,12,141.6
+120,2020-01-03 05:44:20,ranjith@ebms.co.in,mhatre@ebms.co.in,Re: ATTACHMENT OF IGM/EDI FILE & ADVANCE LIST FOR VESSEL:-  M.V. HYUNDAI COLOMBO - 106 - BMCT ,"Dear Mhatre Sir,
+
+Reported all 5 point issue fixed permanently for BMCT.
+
+Regarding 6th point for Mty container we are showing  as per Manifest entered weight plus container master Tare weight. so gross weight showing 9950 for this container DHGU18494",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQABYkMOqCRke6hqBcUeptves=,12,141.6
+121,2020-01-03 08:05:56,mhatre@ebms.co.in,ranjith@ebms.co.in,RE: ATTACHMENT OF IGM/EDI FILE & ADVANCE LIST FOR VESSEL:-  M.V. HYUNDAI COLOMBO - 106 - BMCT ,"Thanks Ranjith.
+
+Please reply to GR Team to check and confirm.
+
+Regards / Anil Mhatre
+
+
+From: Ranjith Kumar [mailto:ranjith@ebms.co.in]
+Sent: 03 January 2020 11:14
+To: Anil Mhatre; Anees Kazi; Charles Duraisingh S; Santosh Hinduja; Meeran Shahip",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQABYkMOqCRke6hqBcUeptves=,12,141.6
+122,2019-12-31 12:56:34,sushantm@unitedliners.com,ranjith@ebms.co.in,Re: Tax Invoice calculation ----GST amt missing ------B/L # 10319005 & 10319007,"Dear Ranjith,
+
+Please check, I think the issue is not yet resolved.
+
+
+Thanks & Regards,
+
+Sushant More
+
+SR. MANAGER, I T
+
+M: +91 98702 47507|D: +91 22 6151 0118|T: +91 22 6151 0000|F: +91 22 6151 0150
+
+A: 701-A, Godrej Coliseum, Off Somaiya Ho",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAPBVnmSAj1dJrjzADlfBvQ4=,3,2484.0
+123,2020-01-02 06:20:34,ranjith@ebms.co.in,sushantm@unitedliners.com,Re: Tax Invoice calculation ----GST amt missing ------B/L # 10319005 & 10319007,"Dear Sushant Sir,
+
+This one Already fixed, please check with user and confirm.
+
+
+
+
+
+
+
+
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, In",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAPBVnmSAj1dJrjzADlfBvQ4=,3,2484.0
+124,2020-01-03 10:13:28,anuragy@ict.in,ranjith@ebms.co.in,Re: Tax Invoice calculation ----GST amt missing ------B/L # 10319005 & 10319007,"Dear Vipul,
+                   Please check and confirm.
+
+
+On Thu, Jan 2, 2020 at 11:50 AM Ranjith Kumar <ranjith@ebms.co.in> wrote:
+Dear Sushant Sir,
+
+This one Already fixed, please check with user and confirm.
+
+
+
+
+
+
+
+
+
+Thanks & Regards,",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAPBVnmSAj1dJrjzADlfBvQ4=,3,2484.0
+125,2019-12-31 13:11:48,sjayasawal@goodrichindia.com,ranjith@ebms.co.in,E2872: CLHU8075116 D/O EXPIRE ,"Dear Ranjith,
+
+DO is valid up to today i.e. 31-DEC-2019, but application is not allowing to update RCVC against container “CLHU8075116”.
+
+Please check and resolve the same.
+
+
+
+Thanks & Regards,
+Sandeep K. Jayasawal | Sr. Software Executive - ERP ",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAE76B13_pkeToNqA-0NDKXU=,5,31.82
+126,2020-01-02 05:10:08,ranjith@ebms.co.in,nasir@ebms.co.in,Fw: E2872: CLHU8075116 D/O EXPIRE ,"check today
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+Ph: 91-44-25210667, 91-44-42060662
+Mail : ranjith@ebms.co.in
+Web: www.ebms.co",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAE76B13_pkeToNqA-0NDKXU=,5,31.82
+127,2020-01-03 09:41:45,sriram@goodrichindia.com,sjayasawal@goodrichindia.com,RE: E2872: CLHU8075116 D/O EXPIRE ,"Dear All,
+Pls solve below issue urgently, We have release this container to shipper.
+CLHU8075116
+
+Thanks & Regards,
+Sriram Singh | Operations
+
+UNIT NO. 310, 3rd FLOOR, ELEGANCE TOWER, PLOT NO. 8
+(JASOLA DISTRICT CENTRE), JASOLA, NEW DELHI-110025",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAE76B13_pkeToNqA-0NDKXU=,5,31.82
+128,2020-01-03 12:26:03,sjayasawal@goodrichindia.com,ranjith@ebms.co.in,RE: E2872: CLHU8075116 D/O EXPIRE ,"Dear Ranjith,
+
+Reminder !!
+
+Thanks & Regards,
+Sandeep K. Jayasawal | Sr. Software Executive - ERP Global
+
+Suite # 214 – 218, 2nd Floor, Sai Commercial Center, Station Rd. Govandi Mumbai - 400088.
+Tel: +91-22-66469200 | Direct: +91-22-66469486 | Ma",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAE76B13_pkeToNqA-0NDKXU=,5,31.82
+129,2020-01-03 12:57:52,ranjith@ebms.co.in,sjayasawal@goodrichindia.com,Re: E2872: CLHU8075116 D/O EXPIRE ,"Dear Sandeep,
+
+Last Move
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+Ph: 91-44-25210667, 91-44-42060662
+Mail : ranjith@ebms.co.in
+W",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAE76B13_pkeToNqA-0NDKXU=,5,31.82
+130,2020-01-02 02:59:45,mahendran@goodrichsin.com,nithin@ebms.co.in,E3098 :Error in Original Invoice Print** TOP URGENT**,"Dear Nithin/Santosh,
+
+We are getting below error when we print the Original invoice.
+
+
+
+
+
+
+Thanks & Regards,
+M. Mahendran | Sr IT Support (S.E.A)
++65-98385871
+Blk 511 Kampong Bahru Road, #02-06 Keppel Distripark, Singapore 099447.
+Tel : +65 6",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAPzbpfy5HEXCrR_NPdnWCuQ=,2,53.18
+131,2020-01-02 03:52:56,nithin@ebms.co.in,mahendran@goodrichsin.com,RE: E3098 :Error in Original Invoice Print** TOP URGENT**,"Dear Mahendran,
+
+The issue has been rectified. Check and confirm.
+Attached screenshot for ref.
+
+
+From: M.Mahendran <mahendran@goodrichsin.com>
+Sent: 02 January 2020 08:30
+To: Nithin Prabhu <nithin@ebms.co.in>; Santosh Hinduja <santoshhinduja@ebms.",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAPzbpfy5HEXCrR_NPdnWCuQ=,2,53.18
+132,2020-01-02 04:13:14,Sharath@goodrichindia.com,ranjith@ebms.co.in,"RE: E349  - RE: For w/o and important vouchers , attach the approval mail along with voucher","Dear Ranjith,
+
+Any updates?
+
+
+Thanks & Regards,
+Sharath Moolya | Executive – ERP Global
+
+
+Suite # 214 – 218, 2nd Floor, Sai Commercial Center, Station Rd. Govandi Mumbai - 400088.
+Tel: 91-22-66469200 | Direct: 91-22-66469442 |
+Mail: sharath@goo",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJ0zJV_9dEO6qrT6d1QDX8Q=,5,1245.62
+133,2020-01-02 05:15:18,ranjith@ebms.co.in,Sharath@goodrichindia.com,"Re: E349  - RE: For w/o and important vouchers , attach the approval mail along with voucher","Dear Sharath,
+
+Please note our revised schedule date. which sent on previous mail.
+
+\\
+
+
+Dear Sharath,
+
+
+
+Working on it, in Modify page enabling upload option is quite difficult so we need some more time to analyze and provide the same.",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJ0zJV_9dEO6qrT6d1QDX8Q=,5,1245.62
+134,2020-01-02 05:29:02,subhranshu@goodrichindia.com,ranjith@ebms.co.in,"RE: E349  - RE: For w/o and important vouchers , attach the approval mail along with voucher","Dear Ranjith,
+
+What is going on ?
+
+Why multiple time, you are re-scheduling this.
+
+Is that any big impact on this ?
+
+E349 - ticket reported 25th Nov - estimate date given 17th nov - again estimate date given 4th Jan - again estimate date given 31s",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJ0zJV_9dEO6qrT6d1QDX8Q=,5,1245.62
+135,2020-01-02 10:16:51,Sharath@goodrichindia.com,ranjith@ebms.co.in,"RE: E349  - RE: For w/o and important vouchers , attach the approval mail along with voucher","Dear Ranjith,
+
+On 26th December you gave estimated date as 4th Jan, and again on 30th December (attached mail for your reference) you have given the estimate date as 31st Dec.
+
+Kindly confirm.
+
+Thanks & Regards,
+Sharath Moolya | Executive – ERP Glo",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJ0zJV_9dEO6qrT6d1QDX8Q=,5,1245.62
+136,2020-01-03 07:02:28,ranjith@ebms.co.in,Sharath@goodrichindia.com,"Re: E349  - RE: For w/o and important vouchers , attach the approval mail along with voucher","Dear Rajeev Sir,
+
+We have analysed  and noticed that Till JV Approval we have upload option in JV add and modify page but after approval we cant provide because Modify file is common for All  like SBK,PBK,JV so this option is not possible.
+
+​Thanks & ",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJ0zJV_9dEO6qrT6d1QDX8Q=,5,1245.62
+137,2020-01-02 05:02:56,rajeev@goodrichindia.com,ranjith@ebms.co.in,RE: Test server  -Centralized Bank payment testing ,"Ranjith
+Do revert asap on the pending points and report ..we are already behind schedule
+
+
+
+From: Ranjith Kumar <ranjith@ebms.co.in>
+Sent: 24 December 2019 10:01
+To: Rajeev R <rajeev@goodrichindia.com>; Mujib Syed <mujib@ebms.co.in>
+Cc: Rajna Gane",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAFpMZBFAjU_poyiBvxCaNtE=,9,6.58
+138,2020-01-02 07:00:27,ranjith@ebms.co.in,charles@ebms.co.in,Re: Test server  -Centralized Bank payment testing ,"Dear Charles Sir,
+
+Please confirm your availability to analyse and move forward for this report.
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, ",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAFpMZBFAjU_poyiBvxCaNtE=,9,6.58
+139,2020-01-02 07:04:31,ranjith@ebms.co.in,rajeev@goodrichindia.com,Re: Test server  -Centralized Bank payment testing ,"Dear Rajeev Sir,
+
+Regarding 13th point will check and get back shortly.
+
+Remaining 19 and 20th point belongs to Report which we are analyzing will do revert on or before 24th Jan.
+
+I Request you to please confirm the status for remaining points.",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAFpMZBFAjU_poyiBvxCaNtE=,9,6.58
+140,2020-01-02 07:08:08,rajeev@goodrichindia.com,ranjith@ebms.co.in,RE: Test server  -Centralized Bank payment testing ,"Not acceptable Ranjith, need all be resolved and tested by this week end
+
+Anees : intervene to expedite
+
+
+
+From: Ranjith Kumar <ranjith@ebms.co.in>
+Sent: 02 January 2020 12:34
+To: Rajeev R <rajeev@goodrichindia.com>; Mujib Syed <mujib@ebms.co.in>;",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAFpMZBFAjU_poyiBvxCaNtE=,9,6.58
+141,2020-01-02 07:12:35,ranjith@ebms.co.in,mujib@ebms.co.in,Fw: Test server  -Centralized Bank payment testing ,"Dear Mujib Sir,
+
+Report is not a part of Centralized Bank payment when we sent effort hour so we have planned later but now Rajeev Sir asking to close within this week.
+
+Please confirm to move forward.
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solu",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAFpMZBFAjU_poyiBvxCaNtE=,9,6.58
+142,2020-01-02 07:12:36,anees@ebms.co.in,ranjith@ebms.co.in,Re: Test server  -Centralized Bank payment testing ,"Dear Ranjith
+
+This cannot be delayed pls, on basis of our promise Rajeev even lied to Venkat sir its ready and Venkat Sir has paid fully so pls do it within Jan 1`0t at least and give ti to them
+
+Anees
+
+
+On 02-Jan-2020, at 12:37 PM, Rajeev R <rajee",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAFpMZBFAjU_poyiBvxCaNtE=,9,6.58
+143,2020-01-02 07:19:11,ranjith@ebms.co.in,anees@ebms.co.in,Re: Test server  -Centralized Bank payment testing ,"Dear Anees Sir,
+
+Well noted on below, Will Deliver on or before 11th Jan.
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+Ph: 91-44-25210",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAFpMZBFAjU_poyiBvxCaNtE=,9,6.58
+144,2020-01-02 07:20:20,anees@ebms.co.in,rajeev@goodrichindia.com,Re: Test server  -Centralized Bank payment testing ,"Dear Rajeev
+
+We will deliver by 11th Jan
+
+Regards
+Anees
+
+On 02-Jan-2020, at 12:37 PM, Rajeev R <rajeev@goodrichindia.com> wrote:
+
+Not acceptable Ranjith, need all be resolved and tested by this week end
+
+Anees : intervene to expedite
+
+
+<imag",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAFpMZBFAjU_poyiBvxCaNtE=,9,6.58
+145,2020-01-02 08:37:53,santoshhinduja@ebms.co.in,ranjith@ebms.co.in,Re: Test server  -Centralized Bank payment testing ,"Ranjith even though this is not discussed or effort hours please create a separate ticket in enh and mark it as gift.
+
+Santosh Hinduja​
+Mob:8838176106
+
+​
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, Indi",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAFpMZBFAjU_poyiBvxCaNtE=,9,6.58
+146,2020-01-02 05:03:51,ranjith@ebms.co.in,anuragy@ict.in,Re: NOA : Manufacturing Date need to incorporate,"Dear Anurag,
+
+Below required changes done in Test and live.
+
+Please check and confirm.
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQACboPIxLRy9CnDkT35XqJMI=,2,4.2
+147,2020-01-02 05:08:03,anuragy@ict.in,ranjith@ebms.co.in,Re: NOA : Manufacturing Date need to incorporate,"Thanks Ranjith. Will check and confirm.
+
+On Thu, Jan 2, 2020 at 10:33 AM Ranjith Kumar <ranjith@ebms.co.in> wrote:
+Dear Anurag,
+
+Below required changes done in Test and live.
+
+Please check and confirm.
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS S",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQACboPIxLRy9CnDkT35XqJMI=,2,4.2
+148,2020-01-02 05:05:37,vishnupriya@goodrichindia.com,ranjith@ebms.co.in,RE: E3066 - RE: UNABLE TO EDIT THE CUSTOMER DETAILS - CLASQUIN INDIA PVT LTD,"Dear Mr.Ranjith,
+
+As discussed, understood from our accounts team, subject invoice posting is not reflecting in  the system.
+
+Kindly advise.
+
+Thanks & Regards
+S.Vishnupriya
+
+No.3, 1st floor, Srinidhi ENVOY, 4th “C” cross,
+Kasturinagar, Banaswadi",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAPK0OWEErEHwu9zIvR9iFz8=,15,10.37
+149,2020-01-02 06:20:48,vishnupriya@goodrichindia.com,ranjith@ebms.co.in,RE: E3066 - RE: UNABLE TO EDIT THE CUSTOMER DETAILS - CLASQUIN INDIA PVT LTD,"Dear Mr.Ranjith,
+
+Pls advise on below mail, due to GST number is not reflecting in invoice we unable to post the subject invoice.
+
+Kindly do the needful on priority basis.
+
+Thanks & Regards
+S.Vishnupriya
+
+No.3, 1st floor, Srinidhi ENVOY, 4th “C” ",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAPK0OWEErEHwu9zIvR9iFz8=,15,10.37
+150,2020-01-02 06:40:22,narayanan@goodrichindia.com,vishnupriya@goodrichindia.com,RE: E3066 - RE: UNABLE TO EDIT THE CUSTOMER DETAILS - CLASQUIN INDIA PVT LTD,"Dear Vishnupriya / Karthiga,
+
+It is surprise that the Invoice is raised without GSTN of customer & not posted to FAS and it is not addressed to ERP team as well as to GST Team regarding its FAS posting pending.
+First attach the invoice as generated fro",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAPK0OWEErEHwu9zIvR9iFz8=,15,10.37
+151,2020-01-02 07:25:38,acctsche@goodrichindia.com,narayanan@goodrichindia.com,RE: E3066 - RE: UNABLE TO EDIT THE CUSTOMER DETAILS - CLASQUIN INDIA PVT LTD,"Dear Sir,
+
+On 10th dec we try to post the below invoice to FAS I try to check the GST number in GST website , the customer is a registered one but invoice raised as unregistered so that day itself I discussed with Ms. Priya abt this, she told me by mist",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAPK0OWEErEHwu9zIvR9iFz8=,15,10.37
+152,2020-01-02 07:33:00,vishnupriya@goodrichindia.com,narayanan@goodrichindia.com,RE: E3066 - RE: UNABLE TO EDIT THE CUSTOMER DETAILS - CLASQUIN INDIA PVT LTD,"Dear Sir,
+
+As discussed, pls find attached invoice copy fyr.
+
+Thanks & Regards
+S.Vishnupriya
+
+No.3, 1st floor, Srinidhi ENVOY, 4th “C” cross,
+Kasturinagar, Banaswadi,  Bengaluru -560043
+Tel No: 080  41510075/76
+Mobile : + 91 9148054444
+Email: v",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAPK0OWEErEHwu9zIvR9iFz8=,15,10.37
+153,2020-01-02 09:06:36,vishnupriya@goodrichindia.com,subhranshu@goodrichindia.com,RE: E3066 - RE: UNABLE TO EDIT THE CUSTOMER DETAILS - CLASQUIN INDIA PVT LTD,"Dear Sir,
+
+Pls ref telecom, kindly do the needful for below request on priority basis.
+
+Thanks & Regards
+S.Vishnupriya
+
+No.3, 1st floor, Srinidhi ENVOY, 4th “C” cross,
+Kasturinagar, Banaswadi,  Bengaluru -560043
+Tel No: 080  41510075/76
+Mobile :",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAPK0OWEErEHwu9zIvR9iFz8=,15,10.37
+154,2020-01-02 11:13:33,vishnupriya@goodrichindia.com,subhranshu@goodrichindia.com,RE: E3066 - RE: UNABLE TO EDIT THE CUSTOMER DETAILS - CLASQUIN INDIA PVT LTD,"Dear Sir,
+
+Kindly advise on below mail.
+
+Thanks & Regards
+S.Vishnupriya
+
+No.3, 1st floor, Srinidhi ENVOY, 4th “C” cross,
+Kasturinagar, Banaswadi,  Bengaluru -560043
+Tel No: 080  41510075/76
+Mobile : + 91 9148054444
+Email: vishnupriya@goodrichin",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAPK0OWEErEHwu9zIvR9iFz8=,15,10.37
+155,2020-01-02 13:38:19,Sharath@goodrichindia.com,vishnupriya@goodrichindia.com,RE: E3066 - RE: UNABLE TO EDIT THE CUSTOMER DETAILS - CLASQUIN INDIA PVT LTD,"Dear Vishnupriya,
+
+Kindly call us back to discuss the case.
+
+Thanks & Regards,
+Sharath Moolya | Executive – ERP Global
+
+
+Suite # 214 – 218, 2nd Floor, Sai Commercial Center, Station Rd. Govandi Mumbai - 400088.
+Tel: 91-22-66469200 | Direct: 91-22",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAPK0OWEErEHwu9zIvR9iFz8=,15,10.37
+156,2020-01-02 13:50:00,narayanan@goodrichindia.com,Sharath@goodrichindia.com,RE: E3066 - RE: UNABLE TO EDIT THE CUSTOMER DETAILS - CLASQUIN INDIA PVT LTD,"Dear Subhranshu,
+
+Since we need to submit GSTR 1 to the consultant, kindly do the needful for posting of the Invoice with FAS in Dec 19.
+
+Thanks & Regards,
+R. Narayanan| Deputy Manager – Accounts
+
+No.103,  A – Block, 6th Floor, Navin’s Presidium,",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAPK0OWEErEHwu9zIvR9iFz8=,15,10.37
+157,2020-01-02 17:58:01,subhranshu@goodrichindia.com,narayanan@goodrichindia.com,Re: E3066 - RE: UNABLE TO EDIT THE CUSTOMER DETAILS - CLASQUIN INDIA PVT LTD,"Dear Narayanan,
+
+As asked by Sharath, ask Vishnupriya to call him & give the details to check.
+
+Thanks & Regards...
+Subhranshu
+Sr. Dy. Manager - ERP Global
+
+Get Outlook for Android
+
+________________________________
+From: R narayanan <narayanan@",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAPK0OWEErEHwu9zIvR9iFz8=,15,10.37
+158,2020-01-03 06:14:18,Sharath@goodrichindia.com,vishnupriya@goodrichindia.com,RE: E3066 - RE: UNABLE TO EDIT THE CUSTOMER DETAILS - CLASQUIN INDIA PVT LTD,"Dear Vishnupriya,
+
+Thanks for calling us back.
+
+As discussed below is the case,
+
+Step 1 – User created invoice (Non GST Invoice)
+Step 2 – GST details not updated in party so party master updated with GST
+Step 3 – Invoice posting done & Receipt cre",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAPK0OWEErEHwu9zIvR9iFz8=,15,10.37
+159,2020-01-03 06:19:42,acctsche@goodrichindia.com,Sharath@goodrichindia.com,RE: E3066 - RE: UNABLE TO EDIT THE CUSTOMER DETAILS - CLASQUIN INDIA PVT LTD,"Dear Sharath,
+
+
+Step 3 – Invoice posting done & Receipt created
+For your kind information In the below case the invoice not yet posted to FAS due to GST no not reflect for ledger approval.
+
+
+
+
+
+Thanks & Regards,
+KARTHIGA. B | Accounts Executive",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAPK0OWEErEHwu9zIvR9iFz8=,15,10.37
+160,2020-01-03 06:28:32,vishnupriya@goodrichindia.com,Sharath@goodrichindia.com,RE: E3066 - RE: UNABLE TO EDIT THE CUSTOMER DETAILS - CLASQUIN INDIA PVT LTD,"Dear Mr.Sharath,
+
+Pls find attached export receipt entry deletion approval mail for subject invoice fyr.
+
+Kindly do the needful for original invoice modification.
+
+Thanks & Regards
+S.Vishnupriya
+
+No.3, 1st floor, Srinidhi ENVOY, 4th “C” cross,
+K",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAPK0OWEErEHwu9zIvR9iFz8=,15,10.37
+161,2020-01-03 06:38:54,Sharath@goodrichindia.com,vishnupriya@goodrichindia.com,RE: E3066 - RE: UNABLE TO EDIT THE CUSTOMER DETAILS - CLASQUIN INDIA PVT LTD,"Dear Vishnupriya,
+
+Receipt deleted based on the approval, kindly verify.
+
+Thanks & Regards,
+Sharath Moolya | Executive – ERP Global
+
+
+Suite # 214 – 218, 2nd Floor, Sai Commercial Center, Station Rd. Govandi Mumbai - 400088.
+Tel: 91-22-66469200 | ",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAPK0OWEErEHwu9zIvR9iFz8=,15,10.37
+162,2020-01-03 07:03:46,vishnupriya@goodrichindia.com,amitj@goodrichindia.com,RE: E3066 - RE: UNABLE TO EDIT THE CUSTOMER DETAILS - CLASQUIN INDIA PVT LTD,"Dear Mr.Amit,
+
+Inv.No : INEXPBLR19120006
+BL No : VASBLRBAH000348
+
+Pls note subject invoice receipt entry has been deleted, kindly modify the subject invoice with GST number.
+
+Kindly do the needful.
+
+Thanks & Regards
+S.Vishnupriya
+
+No.3, 1st fl",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAPK0OWEErEHwu9zIvR9iFz8=,15,10.37
+163,2020-01-02 05:12:49,vikas@goodrichindia.com,Sharath@goodrichindia.com,E323 - RE: PARTY NAME NOT REFLECTING IN COLLECTION ACCOUNT,"Dear Ranjith,
+
+29.11.2019 - Issue was reported.
+
+Please update.
+
+Thanks & Regards,
+Vikas Choure | Sr. Deputy Manager
+
+“GOODRICH HOUSE” Plot No.174, Sector No.1-A, Rabindranath Tagore Road, GANDHIDHAM,
+Dist–Kutch, GUJARAT, 370201 HP: +91 90999960",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAEC-pfR6F0cJlRE3Q-Kpizg=,5,1343.27
+164,2020-01-02 08:44:41,rajeev@goodrichindia.com,vikas@goodrichindia.com,RE: E323 - RE: PARTY NAME NOT REFLECTING IN COLLECTION ACCOUNT,"Ranjith/Santhosh
+To many mails circulated in this matter …but no sight of resolution
+Get this fixed today and confirm per return
+
+
+
+From: Vikas Choure <vikas@goodrichindia.com>
+Sent: 02 January 2020 10:42
+To: Sharath Moolya <sharath@goodrichindia.",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAEC-pfR6F0cJlRE3Q-Kpizg=,5,1343.27
+165,2020-01-03 07:07:57,vikas@goodrichindia.com,rajeev@goodrichindia.com,E323 - RE: PARTY NAME NOT REFLECTING IN COLLECTION ACCOUNT,"Dear EBMS Team,
+
+Not receiving timely solution on various issues.  We are not able to complete day to day work and not able to prepare correct reports for principals / management.
+
+Thanks & Regards,
+Vikas Choure | Sr. Deputy Manager
+
+“GOODRICH HOUS",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAEC-pfR6F0cJlRE3Q-Kpizg=,5,1343.27
+166,2020-01-03 11:27:26,Sharath@goodrichindia.com,vikas@goodrichindia.com,RE: E323 - RE: PARTY NAME NOT REFLECTING IN COLLECTION ACCOUNT,"Dear Ranjith,
+
+Have you checked the below issue, kindly go through my mail again, and provide your feedback today itself.
+
+Your last response on the mail was “Dear Rajeev Sir, Checking on the same, will get back before 18th.” But no response received ",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAEC-pfR6F0cJlRE3Q-Kpizg=,5,1343.27
+167,2020-01-03 12:41:09,subhranshu@goodrichindia.com,Sharath@goodrichindia.com,RE: E323 - RE: PARTY NAME NOT REFLECTING IN COLLECTION ACCOUNT,"Dear Ranjith,
+
+You should handle this as it’s a long pending issue.
+
+Thanks & Regards…
+Subhranshu | Sr.Deputy Manager - ERP Global
+Suite # 214 – 218, 2nd floor Sai commercial Center, Station Rd. Govandi Mumbai-400088
+HP: +91 9167334849 | Direct: 91",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAEC-pfR6F0cJlRE3Q-Kpizg=,5,1343.27
+168,2020-01-02 05:13:09,ranjith@ebms.co.in,ranjith@ebms.co.in,Re: D2086 // 10258726 // Wrong detention calculation,"we need to check and close this issue urgently
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+Ph: 91-44-25210667, 91-44-42060662
+Mail : r",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAOSWrYsDTchCv7vGtn1haAY=,2,0.02
+169,2020-01-02 05:13:10,ranjith@ebms.co.in,ranjith@ebms.co.in,Re: D2086 // 10258726 // Wrong detention calculation,"we need to check and close this issue urgently
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+Ph: 91-44-25210667, 91-44-42060662
+Mail : r",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAOSWrYsDTchCv7vGtn1haAY=,2,0.02
+170,2020-01-02 05:18:03,ranjith@ebms.co.in,sachind@unitedliners.com,Re: ULSS Customisation Request -TAN Number in Receipt field,"Dear Sachin Sir,
+
+Waiting for your approval to move forward.
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+Ph: 91-44-25210667, 91-44-42",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAFDUKOTyBMdIvTT7WD-xnOI=,4,7.8
+171,2020-01-02 05:19:41,mujib@ebms.co.in,ranjith@ebms.co.in,Re: ULSS Customisation Request -TAN Number in Receipt field,"Ranjith,
+
+Please address all your emails to Anand Poriwade. He will then discuss it internally and get back to you.
+
+Rgds,
+Mujib
+________________________________
+From: Ranjith Kumar <ranjith@ebms.co.in>
+Sent: 02 January 2020 10:48
+To: Sachin Dalv",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAFDUKOTyBMdIvTT7WD-xnOI=,4,7.8
+172,2020-01-02 05:27:29,ranjith@ebms.co.in,mujib@ebms.co.in,Re: ULSS Customisation Request -TAN Number in Receipt field,"Dear Mujib Sir,
+
+Well noted on below. Hence will mark to Anand sir.
+
+RIC Anand Sir, Please look into this Approval to Move forward.
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach R",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAFDUKOTyBMdIvTT7WD-xnOI=,4,7.8
+173,2020-01-02 09:43:39,anandp@boxcoworld.com,mujib@ebms.co.in,Re: ULSS Customisation Request -TAN Number in Receipt field,"Dear Team,
+
+This is just to inform you that Sachin Sir is not keeping well. We will keep you posted on the same.
+
+
+Best Regards,
+
+For IT related support please log a ticket with JMBITAssist https://jmbitassist.jmbaxi.com
+
+Anand Poriwade
+Sr.Manag",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAFDUKOTyBMdIvTT7WD-xnOI=,4,7.8
+174,2020-01-02 05:30:52,ranjith@ebms.co.in,subhranshu@goodrichindia.com,Re: E2528 : Bank Manifest (OPEC) Related,"Dear Subranshu,
+
+Please check and confirm the AOD.
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+Ph: 91-44-25210667, 91-44-42060662
+Ma",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAAg5Ew7BlkUjhLEmAKAFAr8=,2,7.2
+175,2020-01-02 05:38:04,subhranshu@goodrichindia.com,ranjith@ebms.co.in,RE: E2528 : Bank Manifest (OPEC) Related,"Dear Ranjith,
+
+Ok, we will check.
+
+RIC Sandeep : Test this OFAC changes.
+
+Thanks & Regards…
+Subhranshu | Sr.Deputy Manager - ERP Global
+Suite # 214 – 218, 2nd floor Sai commercial Center, Station Rd. Govandi Mumbai-400088
+HP: +91 9167334849 | Dir",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAAg5Ew7BlkUjhLEmAKAFAr8=,2,7.2
+176,2020-01-02 05:38:50,ranjith@ebms.co.in,meeran@ebms.co.in,Fw: INVOICE NOTE POSTED IN FAS -Issue id E153,"Dear Mr.Meeran,
+
+Please allot this ticket.
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+Ph: 91-44-25210667, 91-44-42060662
+Mail : ran",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAOERnFpqRSFMt71L5PvjcaA=,3,269.4
+177,2020-01-03 07:19:22,ranjith@ebms.co.in,meeran@ebms.co.in,Re: INVOICE NOTE POSTED IN FAS -Issue id E153,"Dear Mr.Meeran,
+
+Please allot below
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+Ph: 91-44-25210667, 91-44-42060662
+Mail : ranjith@eb",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAOERnFpqRSFMt71L5PvjcaA=,3,269.4
+178,2020-01-03 11:48:46,meeran@ebms.co.in,ranjith@ebms.co.in,Re: INVOICE NOTE POSTED IN FAS -Issue id E153,"Dear Ranjith,
+
+Already allotted
+
+can you check with sathish
+
+Regards
+Meeran
+________________________________
+From: Ranjith Kumar <ranjith@ebms.co.in>
+Sent: 03 January 2020 12:49
+To: Meeran Shahip <meeran@ebms.co.in>
+Cc: Santosh Hinduja <santos",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAOERnFpqRSFMt71L5PvjcaA=,3,269.4
+179,2020-01-02 05:44:19,ranjith@ebms.co.in,nasir@ebms.co.in,Re: E3090: EBMS DCHF MOVES UPDATION-X-PRESS BRAHMAPUTRA V.19099,"check today itself
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+Ph: 91-44-25210667, 91-44-42060662
+Mail : ranjith@ebms.co.in
+Web: www.",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQADxuWEVSRkOVjBDbafQMIC0=,9,138.53
+180,2020-01-02 05:50:13,skarthikeyan@goodrichindia.com,ranjith@ebms.co.in,RE: E3090: EBMS DCHF MOVES UPDATION-X-PRESS BRAHMAPUTRA V.19099,"Dear Mr.Ranjith,
+
+Ref to below message, awaiting for your reply please.
+
+Kindly do the needful…
+
+Thanks & Regards,
+S.Karthikeyan | Operation Executive
+HP: +91-98439-60868 | Tel: 91-461-2375031 | Direct: 91-461-2375071
+Email : skarthikeyan@goodric",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQADxuWEVSRkOVjBDbafQMIC0=,9,138.53
+181,2020-01-02 07:20:26,sjayasawal@goodrichindia.com,ranjith@ebms.co.in,RE: E3090: EBMS DCHF MOVES UPDATION-X-PRESS BRAHMAPUTRA V.19099,"Dear Ranjith,
+
+Kindly revert on below.
+
+Thanks & Regards,
+Sandeep K. Jayasawal | Sr. Software Executive - ERP Global
+
+Suite # 214 – 218, 2nd Floor, Sai Commercial Center, Station Rd. Govandi Mumbai - 400088.
+Tel: +91-22-66469200 | Direct: +91-22-6",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQADxuWEVSRkOVjBDbafQMIC0=,9,138.53
+182,2020-01-03 04:57:32,skarthikeyan@goodrichindia.com,sjayasawal@goodrichindia.com,RE: E3090: EBMS DCHF MOVES UPDATION-X-PRESS BRAHMAPUTRA V.19099,"Dear Mr.Sandeep,
+
+Ref to below message, kindly inform to EBMS Team and sort out the issue..
+
+We have arrange the Estimation for the below mention units..
+
+Kindly advise..
+
+Thanks & Regards,
+S.Karthikeyan | Operation Executive
+HP: +91-98439-60868",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQADxuWEVSRkOVjBDbafQMIC0=,9,138.53
+183,2020-01-03 05:08:26,ranjith@ebms.co.in,sjayasawal@goodrichindia.com,Re: E3090: EBMS DCHF MOVES UPDATION-X-PRESS BRAHMAPUTRA V.19099,"Dear Sandeep,
+
+As discussed will revert you 1st half itself.
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+Ph: 91-44-25210667, 91-44-42",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQADxuWEVSRkOVjBDbafQMIC0=,9,138.53
+184,2020-01-03 05:12:24,ranjith@ebms.co.in,nasir@ebms.co.in,Fw: E3090: EBMS DCHF MOVES UPDATION-X-PRESS BRAHMAPUTRA V.19099,"do this
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+Ph: 91-44-25210667, 91-44-42060662
+Mail : ranjith@ebms.co.in
+Web: www.ebms.co.in",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQADxuWEVSRkOVjBDbafQMIC0=,9,138.53
+185,2020-01-03 05:16:22,sjayasawal@goodrichindia.com,ranjith@ebms.co.in,RE: E3090: EBMS DCHF MOVES UPDATION-X-PRESS BRAHMAPUTRA V.19099,"Dear Ranjith,
+
+Urgent !!
+
+As discussed, kindly check and resolve the same.
+
+Thanks & Regards,
+Sandeep K. Jayasawal | Sr. Software Executive - ERP Global
+
+Suite # 214 – 218, 2nd Floor, Sai Commercial Center, Station Rd. Govandi Mumbai - 400088.
+T",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQADxuWEVSRkOVjBDbafQMIC0=,9,138.53
+186,2020-01-03 07:31:12,ranjith@ebms.co.in,sjayasawal@goodrichindia.com,Re: E3090: EBMS DCHF MOVES UPDATION-X-PRESS BRAHMAPUTRA V.19099,"Dear Sandeep,
+
+Please note in Last move uploaded showing wrong port id in next move field below screen shot for your ref.
+
+Kindly check DPA upload which has To Location as LKCMB instead of  actual POD port.
+
+If any more details required on this let ",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQADxuWEVSRkOVjBDbafQMIC0=,9,138.53
+187,2020-01-03 07:34:54,ranjith@ebms.co.in,sjayasawal@goodrichindia.com,Re: E3090: EBMS DCHF MOVES UPDATION-X-PRESS BRAHMAPUTRA V.19099,"Dear Sandeep,
+
+Check attached another issue for same case.
+
+Please cross check with DPA file or user who edit the DPA and confirm..
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQADxuWEVSRkOVjBDbafQMIC0=,9,138.53
+188,2020-01-02 06:20:56,mhatre@ebms.co.in,sjayasawal@goodrichindia.com,RE: GSTR- 1 DEC 2019.,"Dear Ranjith,
+
+Please attend this on priority.
+
+Regards
+Anil Mhatre
+eBMS Solutions Pvt Ltd
+Third Floor, New No 42 / Old No-4,
+Second Line Beach, Parrys,
+Chennai - 600 001.(India)
+Email: mhatre@ebms.co.in
+
+
+
+
+From: Sandeep Jayasawal [mailto:",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAO703gl3Umj3j6BLm9UKoo4=,3,1348.8
+189,2020-01-02 06:21:41,ranjith@ebms.co.in,mhatre@ebms.co.in,Re: GSTR- 1 DEC 2019.,"Dear Sir,
+
+Already checking the same.
+
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+Ph: 91-44-25210667, 91-44-42060662
+Mail : ranjit",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAO703gl3Umj3j6BLm9UKoo4=,3,1348.8
+190,2020-01-03 04:49:44,sjayasawal@goodrichindia.com,mhatre@ebms.co.in,RE: GSTR- 1 DEC 2019.,"Dear Mr. Anil / Ranjith,
+
+Kindly fix this issue on priority.
+
+Thanks & Regards,
+Sandeep K. Jayasawal | Sr. Software Executive - ERP Global
+
+Suite # 214 – 218, 2nd Floor, Sai Commercial Center, Station Rd. Govandi Mumbai - 400088.
+Tel: +91-22-66469",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAO703gl3Umj3j6BLm9UKoo4=,3,1348.8
+191,2020-01-02 06:50:08,subhranshu@goodrichindia.com,nithin@ebms.co.in,RE: E2508  RE: eBMS version 2 not working,"Dear Ebms Team,
+
+Good day.
+
+Today slowness reported by users from all location.
+
+Trappable error & other errors reported.
+
+Attached screen shots are for reference.
+
+Can you please find the root cause for this & clear the slowness.
+
+
+Thanks & ",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAFFSUzCewUiaqJdoxae4fvc=,6,11.52
+192,2020-01-02 11:39:03,jayshrees@vascoglobal.com,subhranshu@goodrichindia.com,RE: E2508  RE: eBMS version 2 not working,"Dear All,
+
+Any update on the below?
+
+Situation is getting worser.
+
+Kindly look into it asap and revert.
+
+
+
+
+============================================================================
+
+Best Regards
+Jayshree Sridharan
+Senior Software Execut",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAFFSUzCewUiaqJdoxae4fvc=,6,11.52
+193,2020-01-02 11:43:24,santoshhinduja@ebms.co.in,jayshrees@vascoglobal.com,Re: E2508  RE: eBMS version 2 not working,"Dear Jayshree,
+
+Well Noted.Is there any particular screen or is it slow overall?.Will check and get back on our side in the meantime.
+
+
+
+Santosh Hinduja​
+Mob:8838176106
+
+​
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAFFSUzCewUiaqJdoxae4fvc=,6,11.52
+194,2020-01-02 11:48:58,jayshrees@vascoglobal.com,santoshhinduja@ebms.co.in,RE: E2508  RE: eBMS version 2 not working,"Dear Mr. Santosh,
+
+Overall slowness is faced and getting calls from all department users (from FAS as well).
+
+Even the global search is very slow and there is an error which is popping up every time and a refresh is required very often.
+
+
+
+
+=====",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAFFSUzCewUiaqJdoxae4fvc=,6,11.52
+195,2020-01-02 12:00:29,santoshhinduja@ebms.co.in,jayshrees@vascoglobal.com,Re: E2508  RE: eBMS version 2 not working,"Jayshree,
+
+Can you please share the screen shot of the error pop up
+
+
+Santosh Hinduja​
+Mob:8838176106
+
+​
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+
+________________________________
+From: ",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAFFSUzCewUiaqJdoxae4fvc=,6,11.52
+196,2020-01-03 07:38:05,prathamesh@goodrichindia.com,subhranshu@goodrichindia.com,RE: E2508  RE: eBMS version 2 not working,"Dear Support ,
+
+
+Lot of Trappable errors on App server ..
+
+
+
+Thanks & Regards,
+Prathamesh Sonalkar | Executive – IT
+
+Suite # 214 – 218, 2nd floor Sai commercial Center, Station Rd. Govandi Mumbai-400088
+HP: +91 9167488296 | Direct: 91-22-6646 9",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAFFSUzCewUiaqJdoxae4fvc=,6,11.52
+197,2020-01-02 07:18:19,anuragy@ict.in,ranjith@ebms.co.in,Fwd: BATCH ENQUIRY UPDATE - E-002662/19-20,"---------- Forwarded message ---------
+From: Mr. Vishwanath B. Karawade - Stolt . <vishwanathk@jmbaxi.com>
+Date: Tue, Dec 31, 2019 at 4:34 PM
+Subject: BATCH ENQUIRY UPDATE - E-002662/19-20
+To: Sushant More <sushantm@unitedliners.com>
+Cc: Anurag Y",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAOLk5Be6SxNMmLTC3MXEGMM=,14,48.72
+198,2020-01-02 07:35:31,anuragy@ict.in,ranjith@ebms.co.in,Fwd: BATCH ENQUIRY UPDATE - E-002662/19-20,"Dear Ranjith,
+                      As we discussed  Below batch no. facing problem regarding OnCarriage is reflecting after enquiry update this is very critical issue which can't afford more time so please take it on priority solve before 3 PM.
+
+Batch",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAOLk5Be6SxNMmLTC3MXEGMM=,14,48.72
+199,2020-01-02 10:35:18,ranjith@ebms.co.in,anuragy@ict.in,Re: BATCH ENQUIRY UPDATE - E-002662/19-20,"Dear Anurag,
+
+As per discussion we need some more time to fix this issue.
+
+Please wait will update on EOD.
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAOLk5Be6SxNMmLTC3MXEGMM=,14,48.72
+200,2020-01-02 11:42:08,udhay@ebms.co.in,ranjith@ebms.co.in,Re: BATCH ENQUIRY UPDATE - E-002662/19-20,"Dear Ranjith,
+
+As per our discussion along with Mujib Sir its done in Live and Test Server. Please check and confirm.
+
+And above  mentioned 4 batches mismatched record is corrected.
+
+
+
+
+
+
+________________________________
+From: Ranjith Kumar <r",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAOLk5Be6SxNMmLTC3MXEGMM=,14,48.72
+201,2020-01-02 12:15:32,anuragy@ict.in,ranjith@ebms.co.in,Re: BATCH ENQUIRY UPDATE - E-002662/19-20,"Dear Ranjith,
+                      Any update on this?
+
+On Thu, Jan 2, 2020 at 4:05 PM Ranjith Kumar <ranjith@ebms.co.in> wrote:
+Dear Anurag,
+
+As per discussion we need some more time to fix this issue.
+
+Please wait will update on EOD.
+
+​Thanks",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAOLk5Be6SxNMmLTC3MXEGMM=,14,48.72
+202,2020-01-02 12:16:52,ranjith@ebms.co.in,anuragy@ict.in,Re: BATCH ENQUIRY UPDATE - E-002662/19-20,"Dear Anurag,
+
+Same has been fixed permanently.
+
+and All 4 Batch corrected as per Enquiry.
+
+Please check and confirm.
+
+
+
+
+
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Roa",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAOLk5Be6SxNMmLTC3MXEGMM=,14,48.72
+203,2020-01-03 05:39:31,jagdishc@jmbaxi.com,anuragy@ict.in,Re: BATCH ENQUIRY UPDATE - E-002662/19-20,"Dear Anurag
+
+Good Day.
+
+We have one more batch E-002320/19-20 in which
+Pre carriage :- Mundra
+Load Place :- ICD Kashipura
+Port of Loading : Nhava Sheva
+
+Pls urgently assist to check and resolve issue on priority basis.
+
+
+
+Jagdish Chipkar
+
+A",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAOLk5Be6SxNMmLTC3MXEGMM=,14,48.72
+204,2020-01-03 08:31:53,anuragy@ict.in,ranjith@ebms.co.in,Re: BATCH ENQUIRY UPDATE - E-002662/19-20,"Dear Ranjith,
+                      One more case found the same issue.Kindly check and confirm.
+
+On Fri, Jan 3, 2020 at 11:09 AM Mr. Jagdish Chipkar - Stolt . <jagdishc@jmbaxi.com> wrote:
+Dear Anurag
+
+Good Day.
+
+We have one more batch E-002320/19",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAOLk5Be6SxNMmLTC3MXEGMM=,14,48.72
+205,2020-01-03 08:33:39,mujib@ebms.co.in,anuragy@ict.in,Re: BATCH ENQUIRY UPDATE - E-002662/19-20,"Anurag,
+
+Have discussed with Udhay and Ranjith on the below recurring issues and suggested them to put some additional validations in the Enquiry Change Screen.
+
+Also, we will check all the existing batches for the below error and get back to you.",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAOLk5Be6SxNMmLTC3MXEGMM=,14,48.72
+206,2020-01-03 08:36:33,anuragy@ict.in,mujib@ebms.co.in,Re: BATCH ENQUIRY UPDATE - E-002662/19-20,"Thanks you sir to take immediate action.
+
+On Fri, Jan 3, 2020 at 2:03 PM Mujib Syed <mujib@ebms.co.in> wrote:
+Anurag,
+
+Have discussed with Udhay and Ranjith on the below recurring issues and suggested them to put some additional validations in the En",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAOLk5Be6SxNMmLTC3MXEGMM=,14,48.72
+207,2020-01-03 10:30:36,jagdishc@jmbaxi.com,mujib@ebms.co.in,Re: BATCH ENQUIRY UPDATE - E-002662/19-20,"Dear Mujib
+
+Good Day
+
+Ref to our today telecon.
+
+Pls advise if issue is resolved, enabling us to forward invoice to shipper and release STOLT B/L accordingly.
+
+Awaiting for your early response.
+
+
+Jagdish Chipkar
+
+ASSISTANT GENERAL MANAGER- OP",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAOLk5Be6SxNMmLTC3MXEGMM=,14,48.72
+208,2020-01-03 11:55:44,ranjith@ebms.co.in,jagdishc@jmbaxi.com,Re: BATCH ENQUIRY UPDATE - E-002662/19-20,"Dear Jagdish Sir,
+
+Please confirm the correct enquiry id for this batch E-002320/19-20.
+
+Presently linked enquiry id shows Mndra POL but in Batch we have Nhava Sheva is POL.
+
+So please confirm the correct POL and enquiry id to correct the same.
+
+a",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAOLk5Be6SxNMmLTC3MXEGMM=,14,48.72
+209,2020-01-03 11:59:50,vishwanathk@jmbaxi.com,ranjith@ebms.co.in,Re: BATCH ENQUIRY UPDATE - E-002662/19-20,"Dear Ranjith,
+
+PLs note below details...
+
+Batch no.E-002320/19-20
+Enquiry # 2520
+POL : Mundra
+POD : Barcelona
+
+
+Vishwanath B. Karawade
+
+MANAGER - STOLT TANK CONTAINER DIV.
+
+M: +91 9664800040|D: +91 22 61110734|T: +91 22 61110700 |F: +91 22",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAOLk5Be6SxNMmLTC3MXEGMM=,14,48.72
+210,2020-01-03 12:44:27,jagdishc@jmbaxi.com,ranjith@ebms.co.in,Re: BATCH ENQUIRY UPDATE - E-002662/19-20,"Dear Ranjith
+
+Good Day
+
+Noted with thank for your below msg.
+
+Pls note the following  :-
+
+1) Old Enquiry no. 2327
+
+2) New Enquiry no. 2520
+
+3) Enquiry is generated from Delhi location.
+
+4) As per Enquiry 2520  POL : Mundra & POD : Barcelona.",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAOLk5Be6SxNMmLTC3MXEGMM=,14,48.72
+211,2020-01-02 07:20:54,priya@vascomaritime.com,amitj@goodrichindia.com,RE: E2780: EBMS QUERY --GLOBAL SEARCH CLICK OPTION NOT WORKING FOR INVOICE--this is for GMLLC,"2 January 2020
+
+Dear Amit,
+
+We are facing similar issue in EBMS. This time with invoice no as “BS” GMLLC
+
+Refer the highlighted case we are not able to click and open this invoice…kindly guide..
+
+
+
+
+Second BL
+
+
+
+
+
+Thanks & Regards,
+Priya",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAOFMXGCF5UYkvu7LIdcnwGw=,2,140.2
+212,2020-01-02 09:41:06,amitj@goodrichindia.com,priya@vascomaritime.com,RE: E2780: EBMS QUERY --GLOBAL SEARCH CLICK OPTION NOT WORKING FOR INVOICE--this is for GMLLC,"Dear Ranjith,
+
+Please look into the below matter now when we are searching the EXP - BL number GMAEMUNUQR003438 the Invoice BSEXPKDL19080006 is listing out but is not providing the hyperlink
+
+
+Thanks & Regards,
+Amit Jamghare | Sr. Executive – ERP Gl",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAOFMXGCF5UYkvu7LIdcnwGw=,2,140.2
+213,2020-01-02 08:56:39,ranjith@ebms.co.in,ganeshas@unitedliners.com,Invoice and voucher deleted DNABMAA200300001 - MAASB-1920-03-00040,"Sir,
+
+As per your confirmation deleted below invoice and voucher.
+
+
+
+
+
+
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+Ph: 91-44-2",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAGR9qSrwqYJNgKJ740WnaKY=,2,1.12
+214,2020-01-02 08:57:46,ganeshas@unitedliners.com,ranjith@ebms.co.in,Re: Invoice and voucher deleted DNABMAA200300001 - MAASB-1920-03-00040,"Dear Sir,
+
+Thanks a lot for your support.
+
+Thanks & Regards
+R.GANESH
+
+ACCOUNTS
+
+M: 9840867552
+
+D: +91 44 30252615|T: +91 44 30252626|F: +91 44 2836 3813
+
+A: No: 6, Chennai House/ Essar House,
+
+    3rd Floor,
+
+    Esplanade,
+
+    Chennai",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAGR9qSrwqYJNgKJ740WnaKY=,2,1.12
+215,2020-01-02 09:02:16,rajeev@goodrichindia.com,ranjith@ebms.co.in,FW: OLD FFD MODULE INVOICE POSTING ERROR,"Ranjith
+I have mapped the charge in old GFF , but still it is not allowing to post
+Please have this fixed in next hour as Chennai team has to generate GST report
+
+
+
+
+From: karthiga <acctsche@goodrichindia.com>
+Sent: 02 January 2020 10:50
+To: Raje",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQADbFgvomO0PvoUQjan3UbBQ=,4,5.43
+216,2020-01-03 04:44:54,ranjith@ebms.co.in,rajeev@goodrichindia.com,Re: OLD FFD MODULE INVOICE POSTING ERROR,"Dear ERP Team,
+
+Please advice ticket id for below issue.
+
+RIC Rajeev Sir, As per Telecom checking below.
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Ta",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQADbFgvomO0PvoUQjan3UbBQ=,4,5.43
+217,2020-01-03 04:46:19,ranjith@ebms.co.in,meeran@ebms.co.in,Fw: OLD FFD MODULE INVOICE POSTING ERROR,"Coimbatore this invoice  FFDCB191200001 showing below charge not mapped but same is mapped. below screen shot for your ref.
+
+please check then why still its showing unmapped.
+
+
+
+
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New N",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQADbFgvomO0PvoUQjan3UbBQ=,4,5.43
+218,2020-01-03 04:50:20,rajeev@goodrichindia.com,ranjith@ebms.co.in,RE: OLD FFD MODULE INVOICE POSTING ERROR,"Amit/Sharath
+Please issue ticket asap
+
+Ranjith : Please expedite resolve asap , ticket will follow
+
+
+
+From: Ranjith Kumar <ranjith@ebms.co.in>
+Sent: 03 January 2020 10:15
+To: Rajeev R <rajeev@goodrichindia.com>; Amit Jamghare <amitj@goodrichindia",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQADbFgvomO0PvoUQjan3UbBQ=,4,5.43
+219,2020-01-02 09:07:37,Sharath@goodrichindia.com,lijo@goodrichindia.com,E3100 - RE: CONTAINER MISSING IN RO,"Dear Ranjith,
+
+Kindly look into the below case where the container is not getting displayed in the Release Order, we tried deleting the ELL but still the container is not reflecting.
+
+Booking No – BALBOM1902252
+Container No – GESU9470400 & TRIU843724",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJTKxK9moE7EvEbg1pmAhhM=,13,5.02
+220,2020-01-02 10:38:11,lijo@goodrichindia.com,Sharath@goodrichindia.com,RE: E3100 - RE: CONTAINER MISSING IN RO,"Dear Ranjith,
+
+Please expedite.
+
+
+Thanks & Regards
+Lijo Joy | Executive CS  - Reefer
+
+Tel: 91-22-6646 9200 | Direct: 91-22-6646 9345 |+91 9167965218
+Suite # 214 – 218, 2nd floor Sai commercial center, Station Rd Govandi, Mumbai-400088
+
+
+
+From",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJTKxK9moE7EvEbg1pmAhhM=,13,5.02
+221,2020-01-02 11:48:49,Sharath@goodrichindia.com,lijo@goodrichindia.com,RE: E3100 - RE: CONTAINER MISSING IN RO,"Dear Ranjith,
+
+Kindly prioritize this issue, I am sending the ticket on our wassap group as well.
+
+Thanks & Regards,
+Sharath Moolya | Executive – ERP Global
+
+
+Suite # 214 – 218, 2nd Floor, Sai Commercial Center, Station Rd. Govandi Mumbai - 400088",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJTKxK9moE7EvEbg1pmAhhM=,13,5.02
+222,2020-01-02 12:45:28,ranjith@ebms.co.in,nasir@ebms.co.in,Fwd: E3100 - RE: CONTAINER MISSING IN RO,"nasir
+
+Get Outlook for Android
+________________________________
+From: Sharath Moolya <Sharath@goodrichindia.com>
+Sent: Thursday, January 2, 2020 5:18:37 PM
+To: 'Lijo Joy' <lijo@goodrichindia.com>; Ranjith Kumar <ranjith@ebms.co.in>; Santosh Hinduja ",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJTKxK9moE7EvEbg1pmAhhM=,13,5.02
+223,2020-01-02 12:54:16,nasir@ebms.co.in,ranjith@ebms.co.in,Re: E3100 - RE: CONTAINER MISSING IN RO,"Dear Ranjith,
+
+Tell him to delete and recreate the release order.
+
+Regards,
+Nasir.I
+________________________________
+From: Ranjith Kumar <ranjith@ebms.co.in>
+Sent: Thursday, January 2, 2020 6:15 PM
+To: Nasir I <nasir@ebms.co.in>
+Subject: Fwd: E3",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJTKxK9moE7EvEbg1pmAhhM=,13,5.02
+224,2020-01-02 13:52:34,Sharath@goodrichindia.com,lijo@goodrichindia.com,RE: E3100 - RE: CONTAINER MISSING IN RO,"Dear Lijo,
+
+eBMS team has instructed to delete the release note and create again to verify if the containers are getting listed.
+
+Thanks & Regards,
+Sharath Moolya | Executive – ERP Global
+
+
+Suite # 214 – 218, 2nd Floor, Sai Commercial Center, Stat",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJTKxK9moE7EvEbg1pmAhhM=,13,5.02
+225,2020-01-03 04:28:17,lijo@goodrichindia.com,Sharath@goodrichindia.com,RE: E3100 - RE: CONTAINER MISSING IN RO,"Dear Sharath,
+
+What about SNTS.
+
+
+Thanks & Regards
+Lijo Joy | Executive CS  - Reefer
+
+Tel: 91-22-6646 9200 | Direct: 91-22-6646 9345 |+91 9167965218
+Suite # 214 – 218, 2nd floor Sai commercial center, Station Rd Govandi, Mumbai-400088
+
+
+
+From",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJTKxK9moE7EvEbg1pmAhhM=,13,5.02
+226,2020-01-03 06:45:18,lijo@goodrichindia.com,Sharath@goodrichindia.com,RE: E3100 - RE: CONTAINER MISSING IN RO,"++ Geet,
+
+Kindly delete SNTS of container no.  as there is some system error due to which it is not reflecting in RO.
+
+GESU9470400
+TRIU8437242
+
+
+
+Thanks & Regards
+Lijo Joy | Executive CS  - Reefer
+
+Tel: 91-22-6646 9200 | Direct: 91-22-6646 934",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJTKxK9moE7EvEbg1pmAhhM=,13,5.02
+227,2020-01-03 07:09:58,Sharath@goodrichindia.com,lijo@goodrichindia.com,RE: E3100 - RE: CONTAINER MISSING IN RO,"Dear Lijo,
+
+Kindly get in touch with inventory team to delete the movement and verify.
+
+
+Thanks & Regards,
+Sharath Moolya | Executive – ERP Global
+
+
+Suite # 214 – 218, 2nd Floor, Sai Commercial Center, Station Rd. Govandi Mumbai - 400088.
+Tel: 9",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJTKxK9moE7EvEbg1pmAhhM=,13,5.02
+228,2020-01-03 07:25:32,geet@goodrichindia.com,lijo@goodrichindia.com,RE: E3100 - RE: CONTAINER MISSING IN RO,"Dear Lijo,
+Refer below request we have deleted the SNTS & RCVS.
+
+Once needful done get the SNTS & RCVS updated in system.
+
+Regards
+Ms. Geetshree
+Inventory Department, Mumbai
+===========================
+
+214-218, 2nd floor Sai commercial center, ",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJTKxK9moE7EvEbg1pmAhhM=,13,5.02
+229,2020-01-03 07:30:33,lijo@goodrichindia.com,geet@goodrichindia.com,RE: E3100 - RE: CONTAINER MISSING IN RO,"Dear Geet,
+
+Noted,
+
+RIC Sangita: Kindly update the moves, as necessary changes is done in system.
+
+
+Thanks & Regards
+Lijo Joy | Executive CS  - Reefer
+
+Tel: 91-22-6646 9200 | Direct: 91-22-6646 9345 |+91 9167965218
+Suite # 214 – 218, 2nd floor ",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJTKxK9moE7EvEbg1pmAhhM=,13,5.02
+230,2020-01-03 08:49:09,spandey@goodrichindia.com,lijo@goodrichindia.com,RE: E3100 - RE: CONTAINER MISSING IN RO,"Adding santhosh into loop.
+
+Dear Santhosh,
+
+Kindly update below units RCVS move in system at the earliest
+GESU9470400
+TRIU8437242
+
+
+
+
+Thanks & Regards,
+Sangeeta Pandey | Executive CS- Reefers
+
+
+Tel: 91-22-6646 9200 | Direct: 91-22-6646 9347",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJTKxK9moE7EvEbg1pmAhhM=,13,5.02
+231,2020-01-03 08:58:21,vivek.patil@goodrichindia.com,spandey@goodrichindia.com,RE: E3100 - RE: CONTAINER MISSING IN RO,"Done
+
+Thanks & Regards
+Vivek Patil
+_____________________________________________
+Suite # 108 – 109, 1st floor, Freight Forwarders Bldg, Uran Panvel Road, Navi Mumbai-400707.
+Tel: +91-22-27473650
+
+From: Sangeeta Pandey [mailto:spandey@goodrichindia",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJTKxK9moE7EvEbg1pmAhhM=,13,5.02
+232,2020-01-02 09:12:45,vani@goodrichindia.com,lawrence@vascomaritime.com,RE: E2892: Incorrect data in BUDGET VS ACTUAL PERFORMANCE REPORT,"Dear Sachin,
+
+In report “ Budget Vs Actual Performance Report Beta” , yet to load data values are still incorrect. Pls look into the same
+
+
+Thanks & Regards,
+_______________________________________________________________
+VANI JOSHI | SR. DY. MANAG",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAP0LmJNCnEXLpzqA33AgfD4=,2,1314.33
+233,2020-01-03 07:07:05,lawrence@vascomaritime.com,vani@goodrichindia.com,RE: E2892: Incorrect data in BUDGET VS ACTUAL PERFORMANCE REPORT,"Dear Jenni / Sachin,
+
+Can you please assist on the below.
+
+Regards
+Lawrence Mascarenhas
+
+From: Vani [mailto:vani@goodrichindia.com]
+Sent: 02 January 2020 14:43
+To: Lawrence Mascarenhas; Beatrice Fernandes; Praveen Kumar Sachin; 'Ranjith Kumar'
+C",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAP0LmJNCnEXLpzqA33AgfD4=,2,1314.33
+234,2020-01-02 10:11:16,expt.cal@unitedliners.com,bhiwar@unitedliners.com,HINDALCO INDUSTRIES LIMITED,"Dear Sir,
+
+Already created
+
+
+Thanks & Regards
+
+Sangita
+
+On Thu, Jan 2, 2020 at 3:31 PM Raju Rawool <bhiwar@unitedliners.com> wrote:
+Dear Prasun,,
+
+Pls add below address in Customer GST details menu.
+
+
+Regards
+
+
+Raju Rawool
+
+ASST. MANAG",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQALqD3n1dtKhOta6rFqR17Qs=,3,9.42
+235,2020-01-02 10:14:04,expt.cal@unitedliners.com,bhiwar@unitedliners.com,Re: HINDALCO INDUSTRIES LIMITED,"Dear Sir,
+
+already have created
+
+On Thu, Jan 2, 2020 at 3:40 PM Expt Cal <expt.cal@unitedliners.com> wrote:
+Dear Sir,
+
+Already created
+
+
+Thanks & Regards
+
+Sangita
+
+On Thu, Jan 2, 2020 at 3:31 PM Raju Rawool <bhiwar@unitedliners.com> wrote:",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQALqD3n1dtKhOta6rFqR17Qs=,3,9.42
+236,2020-01-02 10:23:29,bhiwar@unitedliners.com,expt.cal@unitedliners.com,Re: HINDALCO INDUSTRIES LIMITED,"Dear Sangita,
+
+No need to create below customer in lead master & lead conversion, now added in CUSTOMER GST DETAILS menu.
+
+Pls check & cfm.
+
+
+Regards
+
+
+Raju Rawool
+
+ASST. MANAGER
+
+D: +91 22 6151 0143|T: +91 22 6151 0000|F: +91 22 6151 0150.",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQALqD3n1dtKhOta6rFqR17Qs=,3,9.42
+237,2020-01-02 10:52:22,Sharath@goodrichindia.com,komal@goodrichindia.com,E323 - RE: UNABLE TO POST RECEIPT ENTRY,"Dear Ranjith,
+
+Can you look into the below case and provide your feedback, user needs to proceed with the payment.
+
+Screen Shot -
+
+
+Thanks & Regards,
+Sharath Moolya | Executive – ERP Global
+
+
+Suite # 214 – 218, 2nd Floor, Sai Commercial Center,",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAECEnUPTtk1zpK4AYStuqnk=,8,163.78
+238,2020-01-03 04:37:40,komal@goodrichindia.com,Sharath@goodrichindia.com,RE: E323 - RE: UNABLE TO POST RECEIPT ENTRY,"Dear Sharath,
+
+Kindly advise for below query urgently as we need to generate report today and we are unable to post receipts.
+
+
+Thanks &Regards,
+Komal Singh | Executive - Accounts
+ Tel: 91-02836-222882 Email: komal@goodrichindia.com | Web: www.good",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAECEnUPTtk1zpK4AYStuqnk=,8,163.78
+239,2020-01-03 07:03:32,vikas@goodrichindia.com,komal@goodrichindia.com,E323 - RE: UNABLE TO POST RECEIPT ENTRY,"Dear Sharath,
+
+This issue is not solved yet. So many receipts are pending. We are not able to provide correct outstanding report to management.
+
+Please get it solved urgently.
+
+Thanks & Regards,
+Vikas Choure | Sr. Deputy Manager
+
+“GOODRICH HOUSE”",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAECEnUPTtk1zpK4AYStuqnk=,8,163.78
+240,2020-01-03 07:21:27,Sharath@goodrichindia.com,komal@goodrichindia.com,RE: E323 - RE: UNABLE TO POST RECEIPT ENTRY,"Dear Ranjith,
+
+This was a priority issue so we had sent you the ticket no on wassap, kindly confirm your comments on email as well.
+
+Thanks & Regards,
+Sharath Moolya | Executive – ERP Global
+
+
+Suite # 214 – 218, 2nd Floor, Sai Commercial Center, S",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAECEnUPTtk1zpK4AYStuqnk=,8,163.78
+241,2020-01-03 11:04:41,subhranshu@goodrichindia.com,Sharath@goodrichindia.com,RE: E323 - RE: UNABLE TO POST RECEIPT ENTRY,"Ranjith, What is the solution on this ?
+
+Revert on this mail ASAP.
+
+Thanks & Regards…
+Subhranshu | Sr.Deputy Manager - ERP Global
+Suite # 214 – 218, 2nd floor Sai commercial Center, Station Rd. Govandi Mumbai-400088
+HP: +91 9167334849 | Direct: 91-",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAECEnUPTtk1zpK4AYStuqnk=,8,163.78
+242,2020-01-03 11:09:36,ranjith@ebms.co.in,subhranshu@goodrichindia.com,Re: E323 - RE: UNABLE TO POST RECEIPT ENTRY,"Dear All,
+
+Checking the same will get revert you within hour.
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+Ph: 91-44-25210667, 91-44-4",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAECEnUPTtk1zpK4AYStuqnk=,8,163.78
+243,2020-01-03 11:09:49,ranjith@ebms.co.in,nasir@ebms.co.in,Fw: E323 - RE: UNABLE TO POST RECEIPT ENTRY,"​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+Ph: 91-44-25210667, 91-44-42060662
+Mail : ranjith@ebms.co.in
+Web: www.ebms.co.in
+
+
+__",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAECEnUPTtk1zpK4AYStuqnk=,8,163.78
+244,2020-01-03 11:12:02,ranjith@ebms.co.in,subhranshu@goodrichindia.com,Re: E323 - RE: UNABLE TO POST RECEIPT ENTRY,"Dear Team,
+
+Can you please advice the link for subject ticket and below issue.
+
+We are checking this issue, meanwhile please confirm the correct ticket id.
+
+Thanks for your understanding..
+
+
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pv",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAECEnUPTtk1zpK4AYStuqnk=,8,163.78
+245,2020-01-03 05:26:20,sushantm@unitedliners.com,mujib@ebms.co.in,Fwd: Duplicate Record - HO/SC/1920/A6430,"Hi Mujib & Vandana
+
+One more blunder identified in STOLT eBMS  instance.
+Two Agency invoices generated with same number . Below screenshot for your information.
+
+Please let me know When & How do we trust the application?
+
+
+
+
+
+
+
+
+
+Thanks & R",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAGDUwwqD69FKuCay6RRaWMw=,5,27.22
+246,2020-01-03 05:53:33,mujib@ebms.co.in,sushantm@unitedliners.com,Re: Duplicate Record - HO/SC/1920/A6430,"Dear Sushant,
+
+I have checked the entire data of export/import invoices and found only this particular invoice number has been duplicated. This is due to both the invoices got generated at the same time/ same sec.
+
+
+
+Since the export and import runn",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAGDUwwqD69FKuCay6RRaWMw=,5,27.22
+247,2020-01-03 06:06:47,rohitp@jmbaxi.com,mujib@ebms.co.in,Re: Duplicate Record - HO/SC/1920/A6430,"Dear Mujib,
+
+We need zero error billing system. After my mail on 27th December, again one more error come up.
+
+Fortunately we found mistake before sending SOA to Stolt or else we would have been placed in an embarrassing position.
+
+
+Best Regards,",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAGDUwwqD69FKuCay6RRaWMw=,5,27.22
+248,2020-01-03 08:37:40,mujib@ebms.co.in,kumar@ebms.co.in,Fw: Duplicate Record - HO/SC/1920/A6430,"Kumar Sir,
+
+Ref. telecon a few minutes before I want a trigger to be applied in Export and Import Invoice HDR tables to avoid this duplication.
+
+RIC - Santosh, please approve and update in Kumar log sheet.
+
+Rgds,
+Mujib
+
+
+
+______________________",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAGDUwwqD69FKuCay6RRaWMw=,5,27.22
+249,2020-01-03 11:43:58,santoshhinduja@ebms.co.in,mujib@ebms.co.in,Re: Duplicate Record - HO/SC/1920/A6430,"Ranjith pls create a ticket for the below to approve.
+
+
+Santosh Hinduja​
+Mob:8838176106
+
+​
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+
+________________________________
+From: Mujib Syed <muji",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAGDUwwqD69FKuCay6RRaWMw=,5,27.22
+250,2020-01-03 05:31:47,bhiwar@unitedliners.com,ranjith@ebms.co.in,Re: ENABLE TO DELETE SHIPPING BILL & DRAFT : TLIXYPKG0050 (Issue id E54 Successfully Inserted),"Dear Ranjith,
+
+Awaiting yr reply on below.
+
+
+Regards
+
+
+Raju Rawool
+
+ASST. MANAGER
+
+D: +91 22 6151 0143|T: +91 22 6151 0000|F: +91 22 6151 0150.
+
+A: 701-A, Godrej Coliseum, Off Somaiya Hospital Road, Sion (E), Mumbai - 400 022, INDIA
+
+
+
+O",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAAlTJvCVPO9BpwVLf5KJOmE=,4,453.23
+251,2020-01-03 12:06:21,ranjith@ebms.co.in,meeran@ebms.co.in,Fw: ENABLE TO DELETE SHIPPING BILL & DRAFT : TLIXYPKG0050 (Issue id E54 Successfully Inserted),"Dear Mr.Meeran,
+
+Below case user issued credit note for generated invoice but now system not allow to delete the draft BL.
+
+Please check and allow the same.
+
+ULA Tkt id; E54
+
+
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAAlTJvCVPO9BpwVLf5KJOmE=,4,453.23
+252,2020-01-03 12:20:24,mujib@ebms.co.in,ranjith@ebms.co.in,Re: ENABLE TO DELETE SHIPPING BILL & DRAFT : TLIXYPKG0050 (Issue id E54 Successfully Inserted),"Yes, it will not allow to delete the B/L if the invoice or Credit note is already generated.
+
+Rgds,
+Mujib
+________________________________
+From: Ranjith Kumar <ranjith@ebms.co.in>
+Sent: 03 January 2020 17:36
+To: Meeran Shahip <meeran@ebms.co.in>
+C",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAAlTJvCVPO9BpwVLf5KJOmE=,4,453.23
+253,2020-01-03 13:05:01,ranjith@ebms.co.in,bhiwar@unitedliners.com,Re: ENABLE TO DELETE SHIPPING BILL & DRAFT : TLIXYPKG0050 (Issue id E54 Successfully Inserted),"Dear Raju Sir,
+
+As per Telecom Once invoice generated we have no option to delete the draft Bl for credit note done case also.
+
+Please contact us if any modification required on system for existing Bl.
+
+For below BL added one more container now proc",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAAlTJvCVPO9BpwVLf5KJOmE=,4,453.23
+254,2020-01-03 07:04:08,ranjith@ebms.co.in,mujib@ebms.co.in,Re: Requisition for 3 more modules in eBMS System,"Dear Team,
+
+Kindly revert on below to move forward.
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+Ph: 91-44-25210667, 91-44-42060662
+M",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAH5crUZ7sf5GgEaIaIZLtfs=,5,87.87
+255,2020-01-03 08:32:00,mujib@ebms.co.in,ranjith@ebms.co.in,Re: Requisition for 3 more modules in eBMS System,"Dear Dhuri Sir,
+
+Good afternoon.
+
+Need your intervention on the below email, Ranjith has been following up for the inputs for quite a long time... but we did not receive yet.
+
+Thanks.
+
+Regards,
+Mujib
+________________________________
+From: Ranji",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAH5crUZ7sf5GgEaIaIZLtfs=,5,87.87
+256,2020-01-03 08:37:35,vijayd@ksteamship.com,mujib@ebms.co.in,RE: Requisition for 3 more modules in eBMS System,"Dear Mr. Mujib,
+
+Yours message duly noted.
+
+Shall check with them & revert.
+
+Rgds/Vijay Dhuri
+
+From: Mujib Syed <mujib@ebms.co.in>
+Sent: 03-01-2020 2:02 PM
+To: Ranjith Kumar <ranjith@ebms.co.in>; Sunil Suryawanshi <sunils@unitedliners.com>; Anan",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAH5crUZ7sf5GgEaIaIZLtfs=,5,87.87
+257,2020-01-03 09:12:20,ranjith@ebms.co.in,vijayd@ksteamship.com,Re: Requisition for 3 more modules in eBMS System,"Get Outlook for Android
+
+________________________________
+From: Vijay Dhuri-KSA <vijayd@ksteamship.com>
+Sent: Friday, January 3, 2020 2:06:38 PM
+To: Mujib Syed <mujib@ebms.co.in>; Ranjith Kumar <ranjith@ebms.co.in>; 'Sunil Suryawanshi' <sunils@un",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAH5crUZ7sf5GgEaIaIZLtfs=,5,87.87
+258,2020-01-03 10:03:49,sunils@unitedliners.com,ranjith@ebms.co.in,Re: Requisition for 3 more modules in eBMS System,"Dear Ranjith
+
+Self was on leave herewith find our below reply on following points.
+
+
+1)   BL stock option is required?– (Though BL serial number is present in EDI) – This validation mechanism / sl.no cross verification is required or not.
+
+  >>> as",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAH5crUZ7sf5GgEaIaIZLtfs=,5,87.87
+259,2020-01-03 07:26:55,ranjith@ebms.co.in,anuragy@ict.in,Re: Export Batch Creation-Stolt- New Ticket Id E681,"Dear Anurag,
+
+Please call on coming monday to discuss and close this issue.
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+Ph: 91-44-252",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAGdUkBqJlUTvhtNeGdI_Mqk=,2,24.23
+260,2020-01-03 07:51:09,anuragy@ict.in,ranjith@ebms.co.in,Re: Export Batch Creation-Stolt- New Ticket Id E681,"Ok
+
+On Fri, Jan 3, 2020 at 12:56 PM Ranjith Kumar <ranjith@ebms.co.in> wrote:
+
+Dear Anurag,
+
+Please call on coming monday to discuss and close this issue.
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floo",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAGdUkBqJlUTvhtNeGdI_Mqk=,2,24.23
+261,2020-01-03 07:28:48,anuragy@ict.in,ranjith@ebms.co.in,Repeated Issue in STOLT EBMS,"Dear Ranjith,
+                       Again previous problem is occurred in Import delivery order screen (POD Sequence missing) this was done and confirmed by you resolved permanently in coding but again why is happen i need only permanent solution if you",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAMeD3JsrjgpIqmQO-p8HV-4=,5,12.32
+262,2020-01-03 10:16:21,udhay@ebms.co.in,ranjith@ebms.co.in,Re: Repeated Issue in STOLT EBMS,"Dear Ranjith,
+
+CFS Location and After 48 Hrs CFS Location both is not updated. that is the problem. below SS FYR.
+
+Already we guide the User(Vipul) and Anurag.
+
+
+________________________________
+From: Anurag Yadav <anuragy@ict.in>
+Sent: 03 Januar",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAMeD3JsrjgpIqmQO-p8HV-4=,5,12.32
+263,2020-01-03 10:37:03,ranjith@ebms.co.in,anuragy@ict.in,Re: Repeated Issue in STOLT EBMS,"Dear Anurag,
+
+Below Said BL now showing on import DO.
+
+Also this issue not fixed yet, will analyse the same on UAT Server to fix.
+
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach R",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAMeD3JsrjgpIqmQO-p8HV-4=,5,12.32
+264,2020-01-03 10:44:54,anuragy@ict.in,ranjith@ebms.co.in,Re: Repeated Issue in STOLT EBMS,"Noted Ranjith.
+
+On Fri, Jan 3, 2020 at 4:07 PM Ranjith Kumar <ranjith@ebms.co.in> wrote:
+Dear Anurag,
+
+Below Said BL now showing on import DO.
+
+Also this issue not fixed yet, will analyse the same on UAT Server to fix.
+
+
+​Thanks & Regards,
+Ranj",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAMeD3JsrjgpIqmQO-p8HV-4=,5,12.32
+265,2020-01-03 10:57:13,ranjith@ebms.co.in,anuragy@ict.in,Re: Repeated Issue in STOLT EBMS,"Dear Anurag,
+
+One more BL POD sequence changed from 13 to 2 for urgent basis.
+
+Will fix the same and get back to you.
+
+
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chen",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAMeD3JsrjgpIqmQO-p8HV-4=,5,12.32
+266,2020-01-03 08:55:40,vishnupriya@goodrichindia.com,amit@goodrichindia.com,RE: E3066 - REQUEST TO MODIFY THE INVOICE - Inv.No : INEXPBLR19120006 - RE: UNABLE TO EDIT THE CUSTOMER DETAILS - CLASQUIN INDIA PVT LTD,"Dear Sir,
+
+Inv.No : INEXPBLR19120006
+BL No : VASBLRBAH000348
+
+With ref to below mail, kindly note for subject original invoice, the customer GST details is not reflecting now the receipt entry has been deleted,
+kindly modify the subject invoice with",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQANVoF5u0zE6vsWHTtEFcG-8=,3,22.47
+267,2020-01-03 09:06:11,amit@goodrichindia.com,vishnupriya@goodrichindia.com,RE: E3066 - REQUEST TO MODIFY THE INVOICE - Inv.No : INEXPBLR19120006 - RE: UNABLE TO EDIT THE CUSTOMER DETAILS - CLASQUIN INDIA PVT LTD,"Dear Vishnupriya,
+
+Kindly provide GST number which need to incorporate in Invoice.
+
+Thanks & Regards,
+Amit Rane | Sr. Deputy Manager – Export Documentation
+
+GOODRICH MARITIME PRIVATE LIMITED
+Suite # 09 – 12, Ground Floor, Sai commercial Centre, St",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQANVoF5u0zE6vsWHTtEFcG-8=,3,22.47
+268,2020-01-03 09:28:39,vishnupriya@goodrichindia.com,amit@goodrichindia.com,RE: E3066 - REQUEST TO MODIFY THE INVOICE - Inv.No : INEXPBLR19120006 - RE: UNABLE TO EDIT THE CUSTOMER DETAILS - CLASQUIN INDIA PVT LTD,"Dear Sir,
+
+Kindly note subject customer GST No : 29AAECC4306L1ZK.
+
+CLASQUIN INDIA PVT LTD
+Address : NO.421, 3RD FLOOR, 5TH MAIN ROAD, 2ND BLOCK,
+HRBR LAYOUT, KALYAN NAGAR BANGALORE 560 043
+State Code : 29 State Name : KARNATAKA.
+
+Thanks & Regards",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQANVoF5u0zE6vsWHTtEFcG-8=,3,22.47
+269,2020-01-03 08:56:18,anandp@boxcoworld.com,ranjith@ebms.co.in,Re: EBMS ERROR,"Dear Team,
+
+Please look into the below issue and resolve the same on top priority.
+
+
+Best Regards,
+
+For IT related support please log a ticket with JMBITAssist https://jmbitassist.jmbaxi.com
+
+Anand Poriwade
+Sr.Manager – IT
+M: + 91  9987560732 |",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJGsYrHf40RAsmY65-c7-ZU=,9,38.18
+270,2020-01-03 08:58:23,impt.cal@unitedliners.com,sushantm@unitedliners.com,Re: EBMS ERROR,"D/All
+
+Further to our below mail attached pls find edi file (downldd fm wan hai systems) along with error screen shot
+for yr doing the needful..
+
+Pls note that the error is coming when we are going to approve the import manifest ....
+
+Matter most u",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJGsYrHf40RAsmY65-c7-ZU=,9,38.18
+271,2020-01-03 08:59:54,anandp@boxcoworld.com,ranjith@ebms.co.in,Re: EBMS ERROR,"Dear Team,
+
+With reference to below email, please resolve the issue on top priority.
+
+
+Best Regards,
+
+For IT related support please log a ticket with JMBITAssist https://jmbitassist.jmbaxi.com
+
+Anand Poriwade
+Sr.Manager – IT
+M: + 91  9987560732",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJGsYrHf40RAsmY65-c7-ZU=,9,38.18
+272,2020-01-03 09:26:32,impt.cal@unitedliners.com,ranjith@ebms.co.in,Fwd: EBMS ERROR,"---------- Forwarded message ---------
+From: Impt Cal <impt.cal@unitedliners.com>
+Date: Fri, Jan 3, 2020 at 2:55 PM
+Subject: Re: EBMS ERROR
+To: Sushant More <sushantm@unitedliners.com>, RAJU RAWOOL <rrawool@ulaindia.com>, Anand Poriwade <anandp@bo",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJGsYrHf40RAsmY65-c7-ZU=,9,38.18
+273,2020-01-03 09:55:37,anandp@boxcoworld.com,ranjith@ebms.co.in,Re: EBMS ERROR,"Dear Team,
+
+Ticket for the below issue has been created. Please resolve the issue on top priority.
+
+Issue id E202 Successfully Inserted
+
+
+Best Regards,
+
+For IT related support please log a ticket with JMBITAssist https://jmbitassist.jmbaxi.com",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJGsYrHf40RAsmY65-c7-ZU=,9,38.18
+274,2020-01-03 10:08:01,anandp@boxcoworld.com,impt.cal@unitedliners.com,Re: EBMS ERROR,"Dear Sir,
+
+Ticket has been already issued and I spoke to Ranjith also to expedite the issue resolution.
+
+
+Best Regards,
+
+For IT related support please log a ticket with JMBITAssist https://jmbitassist.jmbaxi.com
+
+Anand Poriwade
+Sr.Manager – IT",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJGsYrHf40RAsmY65-c7-ZU=,9,38.18
+275,2020-01-03 10:14:47,impt.cal@unitedliners.com,anandp@boxcoworld.com,Re: EBMS ERROR,"Dea Sushant Ji / Anand Ji
+
+Pls issue tkt id to Ranjith directly as he needs the same..
+
+Awaiting yr kind assistance..
+
+Matter most urgent..
+
+Rgds
+
+As Agent for:
+
+WAN HAI LINES LTD.
+
+WE CARRY, WE CARE.
+
+
+Angshuman
+
+
+T: +91 33 2242 4214 ",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJGsYrHf40RAsmY65-c7-ZU=,9,38.18
+276,2020-01-03 11:06:13,ranjith@ebms.co.in,impt.cal@unitedliners.com,Re: EBMS ERROR,"Dear All,
+
+Please proceed the Approve manifest now seal no. fields extended up to 500 characters.
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu,",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJGsYrHf40RAsmY65-c7-ZU=,9,38.18
+277,2020-01-03 11:44:24,impt.cal@unitedliners.com,ranjith@ebms.co.in,Re: EBMS ERROR,"Dea Rajit
+
+Ref telecon with our Parimal reattached herewith edi file for yr doing the needful..
+
+Pls note matter is very urgent and we hv to prepare manifest with today..
+
+We seek yr kind help as usual..
+
+Rgds
+
+As Agent for:
+
+WAN HAI LINES LTD",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJGsYrHf40RAsmY65-c7-ZU=,9,38.18
+278,2020-01-03 09:00:48,amitj@goodrichindia.com,reshma@goodrichindia.com,E6: GST DETAILS - ERROR OCCURED,"Dear Reshma,
+
+W.r.t below email, we observe that symbol character (+) has been updated in the Customer Name which might be causing this issue.
+
+RIC: Dear Ranjith,
+
+Please look into the matter and confirm why application is generating runtime error w",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJbgSpU2OEmKtrW63hps6pE=,4,101.93
+279,2020-01-03 10:42:44,reshma@goodrichindia.com,amitj@goodrichindia.com,RE: E6: GST DETAILS - ERROR OCCURED,"Dear Ranjith,
+
+Please resolve the error.
+
+
+
+
+Thanks & Regards,
+Reshma Mhaskar
++9122 62862900 Ext.:912
+
+From: Amit Jamghare [mailto:amitj@goodrichindia.com]
+Sent: Friday, January 03, 2020 2:31 PM
+To: Reshma Raut; Ranjith / eBMS
+Cc: glplcs@goo",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJbgSpU2OEmKtrW63hps6pE=,4,101.93
+280,2020-01-03 12:01:20,ranjith@ebms.co.in,santoshhinduja@ebms.co.in,Fw: E6: GST DETAILS - ERROR OCCURED,"Dear Santosh Sir,
+
+Its urgent please allot below issue.
+
+​Thanks & Regards,
+Ranjith kumar C
+eBMS Solution Pvt Ltd.,
+New No-42 / Old No-04, 3rd Floor,
+Second Line Beach Road,
+Chennai - 600001.
+Tamil Nadu, India.
+Ph: 91-44-25210667, 91-44-4206066",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJbgSpU2OEmKtrW63hps6pE=,4,101.93
+281,2020-01-03 12:04:02,sjayasawal@goodrichindia.com,ranjith@ebms.co.in,RE: E6: GST DETAILS - ERROR OCCURED,"Dear Ranjith,
+
+Refer to our discussion, upon View, Edit or Delete below script error is occurring.
+
+So kindly check get this fixed on priority.
+
+
+
+
+Thanks & Regards,
+Sandeep K. Jayasawal | Sr. Software Executive - ERP Global
+
+Suite # 214 – 218",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAJbgSpU2OEmKtrW63hps6pE=,4,101.93
+282,2020-01-03 10:13:53,sushantm@unitedliners.com,mujib@ebms.co.in,Re: Ops outstanding Report,"Hi Mujib,
+
+Sorry to inform you but previously the report was displaying as per Invoice only and not as per BL / Batch. Hence please do the needful.
+
+Thanks & Regards,
+
+Sushant More
+
+SR. MANAGER, I T
+
+M: +91 98702 47507|D: +91 22 6151 0118|T: +91",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAGbQcebXNXlApos1djUffjA=,2,18.3
+283,2020-01-03 10:32:11,mujib@ebms.co.in,sushantm@unitedliners.com,Re: Ops outstanding Report,"Dear Sushant,
+
+If you have any previous reports generated from the system where the tank numbers are showing from the Invoice, please share.
+
+Because the option of selecting the Tank numbers in the Invoice and Credit notes was given recently only and ",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQAGbQcebXNXlApos1djUffjA=,2,18.3
+284,2020-01-03 12:08:17,nithin@ebms.co.in,mujib@ebms.co.in,I2335 -Agency Feeder Bill Booking,"Dear Mujib Sir,
+
+As discussed please find the internal ticket for feeder bill booking creation under each agent.
+Kindly check and provide the commercial effort hrs to make this CR.
+
+Regards,
+Nithin Prabhu. P
+eBMS Solution Pvt Ltd.,
+New No-42 / Old",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQABdDX-iW5UThqodAJJKuybQ=,2,2.27
+285,2020-01-03 12:10:33,mujib@ebms.co.in,nithin@ebms.co.in,Re: I2335 -Agency Feeder Bill Booking,"Charles,
+
+Can you please advise the D.E effort for providing the Feeder Bill access to Agency location users.
+
+We can SaveAs the existing file and tables and separate links can be given to the users. So that existing menu is not disturbed.
+
+Rgds,
+M",AAQkADI4ODRjNDFlLTJhMDEtNGRmZS05YjUxLTA1NWUxNDgzMWFlOAAQABdDX-iW5UThqodAJJKuybQ=,2,2.27
