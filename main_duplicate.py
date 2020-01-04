@@ -17,16 +17,7 @@ from datetime import date
 import datetime
 import pandas as pd
 import webbrowser
-<<<<<<< HEAD
-import shutil
-import re
-from dateutil import parser as date_parser
-from apiclient.http import BatchHttpRequest
-
-
-=======
 import os
->>>>>>> c6d382fd523d649327c4b4a060edcccebeead96f
 '''
 Importing components from the other folder to implement the main login file.
 
@@ -45,13 +36,6 @@ app.config["DEBUG"] = True
 
 global mails_Under_given_days
 
-<<<<<<< HEAD
-# Function implements to filter the replied emails and adding response time for the individual thread_id
-def dataFiltering_AddingResponseTime(all_data_FromGmail):
-        
-    # Filter the replied emails
-    count_list = list(all_data_FromGmail["Thread_Id"])
-=======
 mails_Under_given_days = 60 # 1 month
 
 # Function implements to filter the replied emails and adding response time for the individual thread_id
@@ -59,18 +43,12 @@ def dataFiltering_AddingResponseTime(all_data_FromMail):
         
     # Filter the replied emails
     count_list = list(all_data_FromMail["Thread_Id"])
->>>>>>> c6d382fd523d649327c4b4a060edcccebeead96f
     count_by_filter = []
 
     for count_value in range(len(count_list)):
         count_by_filter.append(count_list.count(count_list[count_value]))
-<<<<<<< HEAD
-    all_data_FromGmail['Count_THREAD_ID'] = count_by_filter
-    data_frame_excel_emails = (all_data_FromGmail.loc[all_data_FromGmail['Count_THREAD_ID'] >= 2]).reset_index(drop = True)
-=======
     all_data_FromMail['Count_THREAD_ID'] = count_by_filter
     data_frame_excel_emails = (all_data_FromMail.loc[all_data_FromMail['Count_THREAD_ID'] >= 2]).reset_index(drop = True)
->>>>>>> c6d382fd523d649327c4b4a060edcccebeead96f
 
     # Calling function for individual thread_id response time
 
@@ -93,11 +71,7 @@ def dataFiltering_AddingResponseTime(all_data_FromMail):
         for keys,values in response_time_for_individual_thread_id.items():
             if data_frame_excel_replied['Thread_Id'][add_column] == keys:
                 data_frame_excel_replied['ResponseTime'][add_column] = str(values)
-<<<<<<< HEAD
-    return (data_frame_excel_replied,all_data_FromGmail,response_time_for_individual_thread_id)
-=======
     return (data_frame_excel_replied,all_data_FromMail,response_time_for_individual_thread_id)
->>>>>>> c6d382fd523d649327c4b4a060edcccebeead96f
 
 
 
@@ -139,11 +113,7 @@ def callAPIKmeans(full_data_frame_for_replied_emails,percentage_of_predictingElb
     count_trying = 0
     retryConnection = 10
     period = 10 #seconds
-<<<<<<< HEAD
-    all_data_conv_dict_from = {'full_data_frame_for_replied_emails':(full_data_frame_for_replied_emails).to_json(),'percentage_of_predictingElbowMethod':percentage_of_predictingElbowMethod,'all_replied_emails':(all_replied_gmailData).to_json()}
-=======
     all_data_conv_dict_from = {'full_data_frame_for_replied_emails':(full_data_frame_for_replied_emails).to_json(),'percentage_of_predictingElbowMethod':percentage_of_predictingElbowMethod,'all_replied_emails':(all_replied_mailData).to_json()}
->>>>>>> c6d382fd523d649327c4b4a060edcccebeead96f
     while successFlag:
         try:
             #sending the data to the server
@@ -160,13 +130,8 @@ def callAPIKmeans(full_data_frame_for_replied_emails,percentage_of_predictingElb
     # Response from the server
     message_value = ast.literal_eval(resp.json())
     no_of_cluster = message_value['no_of_cluster']
-<<<<<<< HEAD
-    all_replied_gmailData = pd.DataFrame.from_dict(json.loads(message_value['all_replied_gmailData']), orient='columns')
-    return all_replied_gmailData,no_of_cluster
-=======
     all_replied_mailData = pd.DataFrame.from_dict(json.loads(message_value['all_replied_gmailData']), orient='columns')
     return all_replied_mailData,no_of_cluster
->>>>>>> c6d382fd523d649327c4b4a060edcccebeead96f
 
 
 # Finding keywords in the subject and body
@@ -309,21 +274,6 @@ def charts_selected_cluster(label_data):
 
 # Displaying graph for all clusters and return to the angular for displaying graphs
 
-<<<<<<< HEAD
-def all_clusterInformation(all_replied_gmailData):
-    global all_clusterWeek
-    global all_clusterDay
-
-     # Converting String format of DateTime format
-    all_replied_gmailData['TimeDate'] = pd.to_datetime(all_replied_gmailData['TimeDate'])
-
-    # Initializing lists to store the data's for the graph representation and Information about the emails
-
-    clustered_dayWise = []
-    no_of_mails_in_week=[]
-    for i in range(len(all_replied_gmailData)):
-        clustered_dayWise.append(weekDays[all_replied_gmailData['TimeDate'][i].weekday()])
-=======
 def all_clusterInformation(all_replied_mailData):
     global all_clusterWeek
     global all_clusterDay
@@ -337,7 +287,6 @@ def all_clusterInformation(all_replied_mailData):
     no_of_mails_in_week=[]
     for i in range(len(all_replied_mailData)):
         clustered_dayWise.append(weekDays[all_replied_mailData['TimeDate'][i].weekday()])
->>>>>>> c6d382fd523d649327c4b4a060edcccebeead96f
     for i in weekDays:
         no_of_mails_in_week.append(clustered_dayWise.count(i))
     all_clusterWeek = dict()
@@ -367,24 +316,6 @@ def all_clusterInformation(all_replied_mailData):
 
     hour_bins = ["0:00 AM - 3:00 AM","3:00 AM - 6:00 AM","6:00 AM - 9:00 AM ","9:00 AM - 12:00 PM ","12:00 PM - 15:00 PM ","15:00 PM - 18:00 PM ","18:00 PM - 21:00 PM ","21:00 PM - 0:00 AM"]
     hour_WiseCounts=[0,0,0,0,0,0,0,0]
-<<<<<<< HEAD
-    for i in range(len(all_replied_gmailData)):
-        if(all_replied_gmailData['TimeDate'][i].hour>=0 and all_replied_gmailData['TimeDate'][i].hour<3):
-            hour_WiseCounts[0]=hour_WiseCounts[0]+1
-        if(all_replied_gmailData['TimeDate'][i].hour>=3 and all_replied_gmailData['TimeDate'][i].hour<6):
-            hour_WiseCounts[1]=hour_WiseCounts[1]+1
-        if(all_replied_gmailData['TimeDate'][i].hour>=6 and all_replied_gmailData['TimeDate'][i].hour<9):
-            hour_WiseCounts[2]=hour_WiseCounts[2]+1
-        if(all_replied_gmailData['TimeDate'][i].hour>=9 and all_replied_gmailData['TimeDate'][i].hour<12):
-            hour_WiseCounts[3]=hour_WiseCounts[3]+1
-        if(all_replied_gmailData['TimeDate'][i].hour>=12 and all_replied_gmailData['TimeDate'][i].hour<15):
-            hour_WiseCounts[4]=hour_WiseCounts[4]+1
-        if(all_replied_gmailData['TimeDate'][i].hour>=15 and all_replied_gmailData['TimeDate'][i].hour<18):
-            hour_WiseCounts[5]=hour_WiseCounts[5]+1
-        if(all_replied_gmailData['TimeDate'][i].hour>=18 and all_replied_gmailData['TimeDate'][i].hour<21):
-            hour_WiseCounts[6]=hour_WiseCounts[6]+1
-        if(all_replied_gmailData['TimeDate'][i].hour>=21 and all_replied_gmailData['TimeDate'][i].hour<=24):
-=======
     for i in range(len(all_replied_mailData)):
         if(all_replied_mailData['TimeDate'][i].hour>=0 and all_replied_mailData['TimeDate'][i].hour<3):
             hour_WiseCounts[0]=hour_WiseCounts[0]+1
@@ -401,7 +332,6 @@ def all_clusterInformation(all_replied_mailData):
         if(all_replied_mailData['TimeDate'][i].hour>=18 and all_replied_mailData['TimeDate'][i].hour<21):
             hour_WiseCounts[6]=hour_WiseCounts[6]+1
         if(all_replied_mailData['TimeDate'][i].hour>=21 and all_replied_mailData['TimeDate'][i].hour<=24):
->>>>>>> c6d382fd523d649327c4b4a060edcccebeead96f
             hour_WiseCounts[7]=hour_WiseCounts[7]+1
 
     for i in range(8):
@@ -411,118 +341,6 @@ def all_clusterInformation(all_replied_mailData):
 
 
 # Calling function for all subProcessFunction such as data filtering and api calls for Doc2Vec,Kmeans
-<<<<<<< HEAD
-def main():
-    global stored_forUserInterface
-    global all_replied_gmailData
-    global all_data_FromGmail
-
-    print("called")
-    # collecting gmail data
-    mails_Under_given_days = 2 # 1 month
-
-    # request for service from gmail
-    service = build('gmail', 'v1', credentials=main2())
-      
-    #list to extend(store) messages in corresponding pages
-    messages = []
-
-    # Call the Gmail API to fetch INBOX
-    # get initialy upto 500 messages
-
-    results = service.users().messages().list(userId='me',maxResults=500).execute()
-    
-    #extract messages to messages varialbe from result becaue we use "result" varialbe for n times
-    messages.extend(results['messages'])
-    page_token = results['nextPageToken']
-    results = service.users().messages().list(userId='me',pageToken=page_token,maxResults=500).execute()
-    messages.extend(results['messages'])
-    #collect all messages based on pagetoken wise
-    # while('nextPageToken' in results):
-    #     page_token = results['nextPageToken']
-    #     results = service.users().messages().list(userId='me',pageToken=page_token,maxResults=500).execute()
-    #     messages.extend(results['messages'])
-
-    #its the variale used to fetch all detail about threads (for future use)
-    threads = service.users().threads().list(userId='me').execute().get('threads', [])
-
-    # these are all the list to store each colomn data 
-    From = []
-    To = []
-    Sub = []
-    Body = []
-    Thread_id = []
-    Date = []
-    batch = BatchHttpRequest()
-    count = 0
-    message_batch=[]
-    #thes varialbe is used as a flag to integate whether we reach the given number of input days
-    terminator = 0
-    
-    # function for batch request  
-    def callback(request_id, response, exception):
-        
-        if exception is not None:
-            print(response)
-        else:
-            message_batch.append(response)
-            
-    for mes in messages:
-        # print("batching")
-        batch.add(service.users().messages().get(userId='me', id=mes['id']),callback = callback)
-    batch.execute()
-    
-    for message in message_batch:
-        
-        if(terminator>0):
-            break
-       
-        #these are variables are used as flags which helps us in time of missing or unprovide null values
-        To_flag=0
-        Sub_flag=0
-         #iterate through the message content to get the each colomn value
-        for part in message['payload']['headers']:
-            #to fetch date
-            if(part['name']=='Date'):
-                #to check the limited days
-                if(((datetime.datetime.now() - (date_parser.parse(part['value'],fuzzy=True).replace(tzinfo=None)) ).days ) > mails_Under_given_days):
-                    print('finished')
-                    #change the flag state if the limits exceeded
-                    terminator = 1
-                Date.append(date_parser.parse(part['value'],fuzzy=True).replace(tzinfo=None))
-            if part['name']=='From':
-                From.append(','.join(re.findall("([a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+)",part['value'])))
-            if part['name']=='To':
-                To.append(','.join(re.findall("([a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+)",part['value'])))
-                To_flag=1
-
-            if(part['name']=='Subject'):
-                Sub.append(part['value'])
-                Sub_flag=1
-        #if there is no any part value is as 'To' then the flag doesnt change so we encode 'None' value as Anonymous 
-        if(To_flag==0):
-            To.append('<unknown@gmail.com>')
-        if(Sub_flag==0):
-            Sub.append("No Content")
-        Thread_id.append(message['threadId'])
-        Body.append(message['snippet'])
-
-    # dump all the list value in the dataframe
-    data_frame_from_gmail = pd.DataFrame({'TimeDate':Date,'From':From,'To':To,'Subject':Sub,'Body':Body,'Thread_Id':Thread_id})
-
-    # sorting the time to fetch first stimuli and first response and converting timedate formate str to datetime
-
-    all_data_FromGmail = (data_frame_from_gmail.sort_values(by='TimeDate',ascending=True)).reset_index(drop=True)
-
-    # calling function for the filtering replied emails and adding response time for the replied emails
-
-    all_replied_gmailData,all_data_FromGmail,response_time_for_individual_thread_id = dataFiltering_AddingResponseTime(all_data_FromGmail)
-
-    # converting datetime column to string to avoid overlapping in the data
-
-    all_replied_gmailData['TimeDate'] = all_replied_gmailData['TimeDate'].dt.strftime('%Y-%m-%d %H:%M:%S')
-    
-=======
 def main(inputData):
     global stored_forUserInterface
     global all_replied_mailData
@@ -544,7 +362,6 @@ def main(inputData):
     all_replied_mailData['TimeDate'] = all_replied_mailData['TimeDate'].dt.strftime('%Y-%m-%d %H:%M:%S')
     
     print("Begining of text classification")
->>>>>>> c6d382fd523d649327c4b4a060edcccebeead96f
     # calling API function for doc2vec
 
     model_path = 'enwiki_dbow/doc2vec.bin'
@@ -558,11 +375,6 @@ def main(inputData):
     full_data_frame_for_replied_emails = pd.concat([from_value,to_value,subject_value,body_value],axis=1)
     full_data_frame_for_replied_emails.columns = range(full_data_frame_for_replied_emails.shape[1])
 
-<<<<<<< HEAD
-    # function call for the API Kmeans
-    percentage_of_predictingElbowMethod = 0.05
-    all_replied_gmailData,no_of_cluster = callAPIKmeans(full_data_frame_for_replied_emails,percentage_of_predictingElbowMethod,all_replied_gmailData)
-=======
     full_data_frame_for_replied_emails.to_csv("doc2vec.csv")
     all_replied_mailData.to_csv("all_gmailData.csv")
     
@@ -570,7 +382,6 @@ def main(inputData):
     # function call for the API Kmeans
     percentage_of_predictingElbowMethod = 0.05
     all_replied_mailData,no_of_cluster = callAPIKmeans(full_data_frame_for_replied_emails,percentage_of_predictingElbowMethod,all_replied_mailData)
->>>>>>> c6d382fd523d649327c4b4a060edcccebeead96f
 
     # # then detecting similar emails in all gmail data with some input data
 
@@ -583,19 +394,11 @@ def main(inputData):
     #     return input_from_UI
 
     # calling function to find similar emails to the input data
-<<<<<<< HEAD
-    # detecting_similar_emails = detectingSimilarEmails(all_data_FromGmail,get_index_from_UserSelection(),model_path)
-
-    # UI interface functions are done here
-
-    clusterwise_avg_responsetime = avgResponseTime(all_replied_gmailData,response_time_for_individual_thread_id,no_of_cluster)
-=======
     # detecting_similar_emails = detectingSimilarEmails(all_data_FromMail,get_index_from_UserSelection(),model_path)
 
     # UI interface functions are done here
 
     clusterwise_avg_responsetime = avgResponseTime(all_replied_mailData,response_time_for_individual_thread_id,no_of_cluster)
->>>>>>> c6d382fd523d649327c4b4a060edcccebeead96f
 
     print("Begining of Keywords fetching")
     # calling function to convert all objects to dict
@@ -604,17 +407,10 @@ def main(inputData):
 
     # calling function to convert all objects to dict
 
-<<<<<<< HEAD
-    clusterwise_subject,no_emails_per_cluster = converted_ToUserFormat(all_replied_gmailData,no_of_cluster)
-
-    # storing the information to easily to view in the UI and to understand user
-    stored_forUserInterface = converted_ToUserInterface(all_replied_gmailData,dict_individual_keyword_cluster,clusterwise_subject,clusterwise_avg_responsetime,no_emails_per_cluster,no_of_cluster)
-=======
     clusterwise_subject,no_emails_per_cluster = converted_ToUserFormat(all_replied_mailData,no_of_cluster)
 
     # storing the information to easily to view in the UI and to understand user
     stored_forUserInterface = converted_ToUserInterface(all_replied_mailData,dict_individual_keyword_cluster,clusterwise_subject,clusterwise_avg_responsetime,no_emails_per_cluster,no_of_cluster)
->>>>>>> c6d382fd523d649327c4b4a060edcccebeead96f
     stored_forUserInterface = sorted(stored_forUserInterface, key = lambda i: i['No_Of_Emails'])
     
     # function calling for all cluster graph
@@ -658,13 +454,8 @@ def api_CallSelectedClusterInformation():
     except NameError:
         print("...........................Takes Sometimes for Loading............................")
         return (".........................Takes Sometimes for Loading.....................")
-<<<<<<< HEAD
 
 
-=======
-
-
->>>>>>> c6d382fd523d649327c4b4a060edcccebeead96f
 # For hosting initialize the cors and address to server and getting data from the angular to route the selected cluster details page
 cors = CORS(app, resources={r"/angtoflask": {"origins": "*"}})
 @app.route('/angtoflask', methods=['POST'])
@@ -677,21 +468,12 @@ def detdata():
     except NameError:
         print("...........................Takes Sometimes for Loading............................")
         return (".........................Takes Sometimes for Loading.....................")
-<<<<<<< HEAD
 
-=======
->>>>>>> c6d382fd523d649327c4b4a060edcccebeead96f
 
 
 # Function calling for ClusterWise Graph
 # For hosting initialize the CORS and PORT number
 
-<<<<<<< HEAD
-=======
-# Function calling for ClusterWise Graph
-# For hosting initialize the CORS and PORT number
-
->>>>>>> c6d382fd523d649327c4b4a060edcccebeead96f
 # Below function for visualizing all clusters week wise the number of mails
 cors = CORS(app, resources={r"/week": {"origins": "*"}})
 @app.route('/week', methods=['GET','POST'])
@@ -723,20 +505,6 @@ def api_CallClustersInformation():
     except NameError:
         print("...........................Takes Sometimes for Loading............................")
         return (".........................Takes Sometimes for Loading.....................")
-<<<<<<< HEAD
-
-
-
-# This below function gets the input from the angular to begin the gmailIntegration all other process
-cors = CORS(app, resources={r"/gmail": {"origins": "*"}})
-@app.route('/gmail', methods=['GET','POST'])
-def api_InputFromAngular():
-    if(request):
-        print("************** Request Getted To Begin The Gmail Integration And All Other Process***************")
-        if(main() == "Success"):
-            print("*******************   Function Returned By Finishing The Analysis Process    ***********************")
-            return jsonify({"Process":"Analysing Of Gmail Data had been Completed"})
-=======
 
 
 
@@ -771,7 +539,6 @@ def api_InputFromAngular_Outlook():
                 return jsonify({"Process":"Analysing Of Gmail Data had been Completed"})
             except AssertionError:
                 print("assertion error throw")
->>>>>>> c6d382fd523d649327c4b4a060edcccebeead96f
 
 
 # Running the flask server in the default address

@@ -34,9 +34,9 @@ export class AppComponent {
         
         }
     );
+
+    
   }
-<<<<<<< HEAD
-=======
 
   onClick2() {
     this.showLoadingIndicator = true;
@@ -63,5 +63,4 @@ export class AppComponent {
 
 
 
->>>>>>> c6d382fd523d649327c4b4a060edcccebeead96f
 }
