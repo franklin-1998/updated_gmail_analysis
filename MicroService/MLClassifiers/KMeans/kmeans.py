@@ -113,7 +113,7 @@ def kmeansClustering():
     # K-Means Parameters
     # kmeans
 
-    clf = KMeans(n_clusters=no_of_clusters, n_jobs=-1, random_state=1)
+    clf = KMeans(n_clusters=no_of_clusters, n_jobs=-1,max_iter=50000, random_state=1)
     kmeans = clf.fit(full_data_frame_for_replied_emails)
     ymeans = kmeans.cluster_centers_
 

@@ -22,7 +22,7 @@ import webbrowser
 import shutil
 import re
 from dateutil import parser as date_parser
-from apiclient.http import BatchHttpRequest
+from googleapiclient.http import BatchHttpRequest
 
 
 #its automatically finds the download file path in any windows program
@@ -98,8 +98,8 @@ def gmailIntegration(mails_Under_given_days):
 
     # Call the Gmail API to fetch INBOX
     # get initialy upto 500 messages
-    results = service.users().messages().list(userId='me',maxResults=500).execute()
-    print("first res       :          ",len(results))
+    results = service.users().messages().list(userId='me',maxResults=1000).execute()
+    print("first res-----------------       :          ",len(results))
     #extract messages to messages varialbe from result becaue we use "result" varialbe for n times
     messages.extend(results['messages'])
 
@@ -120,13 +120,13 @@ def gmailIntegration(mails_Under_given_days):
     batch_count = 1
     while('nextPageToken' in results):
         batch_count =batch_count + 1
-        print(batch_count)
+        print("Batch_Count------------------------:",batch_count)
         messages = []
         page_token = results['nextPageToken']
-        results = service.users().messages().list(userId='me',pageToken=page_token,maxResults=500).execute()
+        results = service.users().messages().list(userId='me',pageToken=page_token,maxResults=1000).execute()
         messages.extend(results['messages'])
-        print("messages length : ",len(messages))
-        print("result length : ",len(results))
+        print("messages length -----------------------------: ",len(messages))
+        print("result length ------------------------------------------: ",len(results))
         for mes in messages:
             batch.add(service.users().messages().get(userId='me', id=mes['id']),callback = callback)
         batch.execute()

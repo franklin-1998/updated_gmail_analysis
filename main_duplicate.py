@@ -530,9 +530,9 @@ def api_InputFromAngular_Outlook():
         message_value = ast.literal_eval(resp.json())
        
         data_frame = pd.DataFrame.from_dict(json.loads(message_value['data_frame']), orient='columns')
+        print(data_frame)
         data_frame['TimeDate'] = [datetime.datetime.strptime(x,"%Y-%m-%d %H:%M:%S") for x in data_frame['TimeDate']]
 
-        print(data_frame)
         if(main(data_frame) == "Success"):
             print("*******************   Function Returned By Finishing The Analysis Process    ***********************")
             try:
