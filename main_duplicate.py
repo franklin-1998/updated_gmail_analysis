@@ -23,7 +23,6 @@ Importing components from the other folder to implement the main login file.
 
 '''
 from Component.GmailIntegration.gmail_integration import gmailIntegration
-# from Component.OutlookIntegration.outlook import outlook
 from Component.ResponseTime.response_time import responseTimeCalculating,avgResponseTime
 from Component.DetectSameEmails.detect_similar_emails import detectingSimilarEmails
 
