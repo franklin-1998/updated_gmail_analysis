@@ -530,15 +530,18 @@ def api_InputFromAngular_Outlook():
         message_value = ast.literal_eval(resp.json())
        
         data_frame = pd.DataFrame.from_dict(json.loads(message_value['data_frame']), orient='columns')
-        print(data_frame)
-        data_frame['TimeDate'] = [datetime.datetime.strptime(x,"%Y-%m-%d %H:%M:%S") for x in data_frame['TimeDate']]
 
+        try:
+            data_frame['TimeDate'] = [datetime.datetime.strptime(x,"%Y-%m-%d %H:%M:%S") for x in data_frame['TimeDate']]
+        except TypeError:
+            data_frame['TimeDate'] = [datetime.datetime.fromtimestamp(data_frame['TimeDate'][i]/1000) for i in range(len(data_frame))]
+           
         if(main(data_frame) == "Success"):
             print("*******************   Function Returned By Finishing The Analysis Process    ***********************")
             try:
                 return jsonify({"Process":"Analysing Of Gmail Data had been Completed"})
             except AssertionError:
-                print("assertion error throw")
+                print("Assertion error throw")
 
 
 # Running the flask server in the default address

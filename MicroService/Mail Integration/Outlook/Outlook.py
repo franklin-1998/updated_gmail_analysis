@@ -34,6 +34,9 @@ authority = 'https://login.microsoftonline.com'
 # The authorize URL that initiates the OAuth2 client credential flow for admin consent
 authorize_url = '{0}{1}'.format(authority, '/common/oauth2/v2.0/authorize?{0}')
 
+
+log_out_url = '{0}{1}'.format(authority, '/common//oauth/v2/auth/logout{0}')
+
 # The token issuing endpoint
 token_url = '{0}{1}'.format(authority, '/common/oauth2/v2.0/token')
 
@@ -61,6 +64,18 @@ def get_signin_url(redirect_uri):
     signin_url = authorize_url.format(urlencode(params))
     return signin_url
 
+
+
+def get_signout_url():
+    # Build the query parameters for the signin url
+    params = { 'client_id': client_id,
+                'redirect_uri': redirect_uri,
+                'response_type': 'code',
+                'scope': ' '.join(str(i) for i in scopes)
+                }
+
+    signin_url = log_out_url.format(urlencode(params))
+    return "Log Out Successfully"
 
 
 
@@ -154,9 +169,10 @@ def get_my_messages(access_token):
     #  - Only first 10 results returned
     #  - Only return the ReceivedDateTime, Subject, and From fields
     #  - Sort the results by the ReceivedDateTime field in descending order
-    query_parameters = {'$top': '500',
-                        '$select': 'receivedDateTime,subject,from,ToRecipients,BodyPreview,ReplyTo,ConversationId',
-                        '$orderby': 'receivedDateTime DESC'}
+    query_parameters = {'$top': '1000',
+                        '$select': 'sentDateTime,subject,from,ToRecipients,BodyPreview,ReplyTo,ConversationId,ccRecipients,isDraft',
+                        '$orderby': 'sentDateTime DESC',
+                        '$skip': '9000'}
 
     r = make_api_call('GET', get_messages_url, access_token, parameters = query_parameters)
 
@@ -177,24 +193,49 @@ def splitting(messages):
     Body = []
     Thread_id = []
     Date = []
+    count = 0
     for each_mes in messages['value']:
-        # print("\n values     :     {0}   \n".format(each_mes['toRecipients'][0]['emailAddress']['address']))
-        To.append(each_mes['toRecipients'][0]['emailAddress']['address'])
-        From.append(each_mes['from']['emailAddress']['address'])
-        Sub.append(each_mes['subject'])
-        Body.append(each_mes['bodyPreview'])
-        Thread_id.append(each_mes['conversationId'])
-        Date.append(date_parser.parse(each_mes['receivedDateTime'],fuzzy=True).replace(tzinfo=None))
-    # print(len(From),"   ",len(To),"   ",len(Sub),"    ",len(Body),"   ",len(Thread_id),"   ",len(Date))
+        count = count+1
+        print(count)
+        if each_mes['isDraft'] == False:
+            try:
+                To.append(each_mes['toRecipients'][0]['emailAddress']['address'])
+            except KeyError:
+                To.append("UnkownEmailId")
+            try:
+                From.append(each_mes['from']['emailAddress']['address'])
+            except KeyError:
+                From.append("UnkownEmailId")
+            try:
+                Sub.append(each_mes['subject'])
+            except KeyError:
+                Sub.append("No Subject")
+            try:
+                Body.append(each_mes['bodyPreview'])
+            except KeyError:
+                Body.append("No Body Content")
+            try:
+                Thread_id.append(each_mes['conversationId'])
+            except KeyError:
+                Thread_id.append("No Thread_Id")
+            try:
+                Date.append(date_parser.parse(each_mes['sentDateTime'],fuzzy=True).replace(tzinfo=None))
+            except KeyError:
+                Date.append("No DateTime")
+
     # dump all the list value in the dataframe
     data_frame_excel = pd.DataFrame({'TimeDate':Date,'From':From,'To':To,'Subject':Sub,'Body':Body,'Thread_Id':Thread_id})
 
     # sorting the time to fetch first stimuli and first response and converting timedate formate str to datetime
     data_frame_excel = (data_frame_excel.sort_values(by='TimeDate',ascending=True)).reset_index(drop=True)
 
-    data_frame_excel['TimeDate'] = data_frame_excel['TimeDate'].dt.strftime('%Y-%m-%d %H:%M:%S')
+    try:
+        data_frame_excel['TimeDate'] = data_frame_excel['TimeDate'].dt.strftime('%Y-%m-%d %H:%M:%S')
+    except AttributeError:
+        data_frame_excel['TimeDate'] = data_frame_excel['TimeDate'].astype(str)
     # print(pd.to_datetime(data_frame_excel['TimeDate'],format='%Y-%m-%d %H:%M:%S',origin="unix"))
     # print(data_frame_excel['TimeDate'])
+    data_frame_excel.to_csv("all_gmailData_copy.csv")
     return data_frame_excel
 
 
@@ -208,12 +249,13 @@ def api_all12():
     access_token =  gettoken(request)
     print("\n access token 2 :{0} \n".format(access_token))
     messages = get_my_messages(access_token)
+
     splitting(messages)
     # api_all13()
     # output_dict = {'data_frame':(data_frame_excel).to_json()}
         
     # return json.dumps(str(output_dict)) 
-    return "This authentication process is get overed you can move on to your tab"
+    return "The authentication flow has completed. You may close this window."
 
 
 
@@ -243,7 +285,8 @@ def outlook_main():
     # sleep(30)
     while data_frame_excel.empty:
         continue
-        
+
+    print("*********************Data Had Been Stored********************************")  
     output_dict = {'data_frame':(data_frame_excel).to_json()}
     return json.dumps(str(output_dict))
 
