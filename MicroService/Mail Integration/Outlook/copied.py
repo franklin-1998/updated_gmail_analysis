@@ -15,15 +15,23 @@ from flask_cors import CORS
 import webbrowser
 import time
 
+#initialize the global variables
+skipINCREMENT = 1000
+skipValue = 0
 data_frame_excel = pd.DataFrame()
+huge_messages = []
+stopValue = 5000
 
 
+# Redirect_uri is used to get the token and it is created by admin of this app and he will create azure app and register the details of permissions for getting all user's data
 redirect_uri = 'http://localhost:8000/tutorial/gettoken/'
+
 # Client ID and secret
 graph_endpoint = 'https://graph.microsoft.com/v1.0{0}'
 app = flask.Flask(__name__)
 app.config["DEBUG"] = True
 
+# this id and secret is admin which will create an app in azure
 client_id = '19757c90-9580-4c95-b5da-6101553756cd'
 client_secret = 'JpA]?O=.NWOAzKKGYgPhM4ogoU7aK2s3'
 
@@ -43,12 +51,7 @@ scopes = [ 'openid',
            'Mail.Read' ]
 access_token=''
 
-
-
-
-
-
-
+# sign in form from the microsoft and after user sign_in with his credentials and allow permissions to access his data
 
 def get_signin_url(redirect_uri):
     # Build the query parameters for the signin url
@@ -62,8 +65,7 @@ def get_signin_url(redirect_uri):
     return signin_url
 
 
-
-
+# getting token using auth_code and redirect_uri
 def get_token_from_code(auth_code, redirect_uri):
     # Build the post form for the token request
     post_data = { 'grant_type': 'authorization_code',
@@ -85,6 +87,8 @@ def get_token_from_code(auth_code, redirect_uri):
         
         return r
 
+# getting auth code and redirect uri to combine to get the token
+# getting token from the respect user id with his permissions
 
 def gettoken(request):
     auth_code = request.args.get('code')
@@ -95,8 +99,6 @@ def gettoken(request):
     return access_token
     
   
-
-
 # Generic API Sending
 def make_api_call(method, url, token, payload = None, parameters = None):
     # Send these headers with all API calls
@@ -129,6 +131,7 @@ def make_api_call(method, url, token, payload = None, parameters = None):
     return response
 
 
+# getting user name of the respect credentials user id
 def get_me(access_token):
     get_me_url = graph_endpoint.format('/me')
 
@@ -145,19 +148,22 @@ def get_me(access_token):
 
 
 
+# getting messages using the accessing tokens for the respect email id based on url
 
-
-def get_my_messages(access_token):
+def get_my_messages(access_token,skipValue):
     get_messages_url = graph_endpoint.format('/me/messages')
+
+    # For Checking 
+    print(skipValue)
 
     # Use OData query parameters to control the results
     #  - Only first 10 results returned
     #  - Only return the ReceivedDateTime, Subject, and From fields
     #  - Sort the results by the ReceivedDateTime field in descending order
-    query_parameters = {'$top': '1500',
-                        '$select': 'receivedDateTime,subject,from,ToRecipients,BodyPreview,ReplyTo,ConversationId',
-                        '$orderby': 'receivedDateTime DESC'}
-                        # '$skip': '1000'}
+    query_parameters = {'$top': '1000',
+                        '$select': 'sentDateTime,subject,from,ToRecipients,BodyPreview,ReplyTo,ConversationId,ccRecipients,isDraft',
+                        '$orderby': 'sentDateTime DESC',
+                        '$skip': str(skipValue)}
 
     r = make_api_call('GET', get_messages_url, access_token, parameters = query_parameters)
 
@@ -168,9 +174,9 @@ def get_my_messages(access_token):
 
 
 
+# Function which extract messages into "From,To,Subject,Body,Thread_Id"
 
-
-def splitting(messages):  
+def extractingMessages(messages):  
     global data_frame_excel
     From = []
     To = []
@@ -179,34 +185,47 @@ def splitting(messages):
     Thread_id = []
     Date = []
     count = 0
-    for each_mes in messages['value']:
-        count = count+1
-        print(count)
-        # print("\n values     :     {0}   \n".format(each_mes['toRecipients'][0]['emailAddress']['address']))
-        try:
-            To.append(each_mes['toRecipients'][0]['emailAddress']['address'])
-        except KeyError:
-            To.append("UnkownEmailId")
-        try:
-            From.append(each_mes['from']['emailAddress']['address'])
-        except KeyError:
-            From.append("UnkownEmailId")
-        try:
-            Sub.append(each_mes['subject'])
-        except KeyError:
-            Sub.append("No Subject")
-        try:
-            Body.append(each_mes['bodyPreview'])
-        except KeyError:
-            Body.append("No Body Content")
-        try:
-            Thread_id.append(each_mes['conversationId'])
-        except KeyError:
-            Thread_id.append("No Thread_Id")
-        try:
-            Date.append(date_parser.parse(each_mes['receivedDateTime'],fuzzy=True).replace(tzinfo=None))
-        except KeyError:
-            Date.append("No DateTime")
+    for huge_msg in huge_messages:
+        for each_mes in huge_msg['value']:
+            count = count+1
+            print(count)
+            if each_mes['isDraft'] == False:
+                try:
+                    To.append(each_mes['toRecipients'][0]['emailAddress']['address'])
+                except KeyError:
+                    To.append("UnkownEmailId")
+                except IndexError:
+                    To.append("UnkownEmailId")
+                try:
+                    From.append(each_mes['from']['emailAddress']['address'])
+                except KeyError:
+                    From.append("UnkownEmailId")
+                except IndexError:
+                    From.append("UnkownEmailId")
+                try:
+                    Sub.append(each_mes['subject'])
+                except KeyError:
+                    Sub.append("No Subject")
+                except IndexError:
+                    Sub.append("No Subject")
+                try:
+                    Body.append(each_mes['bodyPreview'])
+                except KeyError:
+                    Body.append("No Body Content")
+                except IndexError:
+                    Body.append("No Body Content")
+                try:
+                    Thread_id.append(each_mes['conversationId'])
+                except KeyError:
+                    Thread_id.append("No Thread_Id")
+                except IndexError:
+                    Thread_id.append("No Thread_Id")
+                try:
+                    Date.append(date_parser.parse(each_mes['sentDateTime'],fuzzy=True).replace(tzinfo=None))
+                except KeyError:
+                    Date.append("No DateTime")
+                except IndexError:
+                    Date.append("No DateTime")
 
     # dump all the list value in the dataframe
     data_frame_excel = pd.DataFrame({'TimeDate':Date,'From':From,'To':To,'Subject':Sub,'Body':Body,'Thread_Id':Thread_id})
@@ -214,59 +233,49 @@ def splitting(messages):
     # sorting the time to fetch first stimuli and first response and converting timedate formate str to datetime
     data_frame_excel = (data_frame_excel.sort_values(by='TimeDate',ascending=True)).reset_index(drop=True)
 
-    data_frame_excel['TimeDate'] = data_frame_excel['TimeDate'].dt.strftime('%Y-%m-%d %H:%M:%S')
-    # print(pd.to_datetime(data_frame_excel['TimeDate'],format='%Y-%m-%d %H:%M:%S',origin="unix"))
-    # print(data_frame_excel['TimeDate'])
-    data_frame_excel.to_csv("all_gmailData_copy.csv")
+    try:
+        data_frame_excel['TimeDate'] = data_frame_excel['TimeDate'].dt.strftime('%Y-%m-%d %H:%M:%S')
+    except AttributeError:
+        data_frame_excel['TimeDate'] = data_frame_excel['TimeDate'].astype(str)
+
+    # for reference to save as csv file 
+    data_frame_excel.to_csv("huge.csv")
     return data_frame_excel
 
 
 
-
+# Function is getting token from the microsoft authority and getting huge number of messages and extracting to form the dataframe for columns like "From,To,Subject,Body,Thread_Id"
 
 cors = CORS(app, resources={r"/tutorial/gettoken/": {"origins": "*"}})
 @app.route('/tutorial/gettoken/', methods=['GET','POST'])
 def api_all12():
     print(request)
+    global skipValue
+    global skipINCREMENT
+    global huge_messages
+    global stopValue
+    
+
     access_token =  gettoken(request)
     print("\n access token 2 :{0} \n".format(access_token))
-    
-    # for more_mails 
-    messages = get_my_messages(access_token)
-    
-    splitting(messages)
-    # api_all13()
-    # output_dict = {'data_frame':(data_frame_excel).to_json()}
-        
-    # return json.dumps(str(output_dict)) 
+
+    while(True):
+        messages = get_my_messages(access_token,skipValue)
+        huge_messages.append(messages)
+        skipValue = skipValue + skipINCREMENT
+        if skipValue == stopValue:
+            break
+
+    extractingMessages(huge_messages)
     return "The authentication flow has completed. You may close this window."
-
-
-
-
-# cors = CORS(app, resources={r"/tutorial/gettoken/out": {"origins": "*"}})
-# @app.route('/tutorial/gettoken/out', methods=['GET','POST'])
-# def api_all13():
-    
-#     print("returned")
-#     print(data_frame_excel)
-#     # print(data_frame_excel)
-#     return (data_frame_excel).to_json()
-#     # except:
-#     #     print("something error")
-#     #     return "something error"
-
-
 
 #flask process to host
 cors = CORS(app, resources={r"/outlook_run": {"origins": "*"}})
 
 @app.route('/outlook_run', methods=['GET','POST'])
 def outlook_main():
-    # data_frame_excel = pd.DataFrame()
     print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=")
     webbrowser.open(get_signin_url('http://localhost:8000/tutorial/gettoken/'))
-    # sleep(30)
     while data_frame_excel.empty:
         continue
 
@@ -278,17 +287,3 @@ def outlook_main():
 
 
 app.run(port='8000',use_reloader=False)
-
-
-
-
-# try:
-#     r = requests.get('https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=19757c90-9580-4c95-b5da-6101553756cd&redirect_uri=http%3A%2F%2Flocalhost%3A8000%2Ftutorial%2Fgettoken%2F&response_type=code&scope=openid+User.Read+Mail.Read')
-#     print(HttpResponse('https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=19757c90-9580-4c95-b5da-6101553756cd&redirect_uri=http%3A%2F%2Flocalhost%3A8000%2Ftutorial%2Fgettoken%2F&response_type=code&scope=openid+User.Read+Mail.Read'))
-#     print()
-#     # prints the int of the status code. Find more at httpstatusrappers.com :)
-# except requests.ConnectionError:
-#     print("failed to connect")
-
-
-
