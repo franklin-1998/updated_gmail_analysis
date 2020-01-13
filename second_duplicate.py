@@ -15,7 +15,6 @@ from flask_cors import CORS
 import base64
 from datetime import date
 import datetime
-import pandas as pd
 import webbrowser
 import os
 '''

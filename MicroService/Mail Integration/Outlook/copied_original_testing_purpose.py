@@ -9,9 +9,11 @@ import uuid
 from time import sleep
 import dateutil.parser
 from dateutil import parser as date_parser
+import re
 from flask import request, jsonify
 from pandas.io.json import json_normalize
 from flask_cors import CORS
+from bs4 import BeautifulSoup
 import webbrowser
 import time
 
@@ -20,11 +22,12 @@ skipINCREMENT = 1000
 skipValue = 0
 data_frame_excel = pd.DataFrame()
 huge_messages = []
-stopValue = 5000
+stopValue = 1000
 
 
 # Redirect_uri is used to get the token and it is created by admin of this app and he will create azure app and register the details of permissions for getting all user's data
 redirect_uri = 'http://localhost:8000/tutorial/gettoken/'
+redirect_uri_2 = 'http://localhost:8000/logout' # logout url to unknown address
 
 # Client ID and secret
 graph_endpoint = 'https://graph.microsoft.com/v1.0{0}'
@@ -50,6 +53,9 @@ scopes = [ 'openid',
            'User.Read',
            'Mail.Read' ]
 access_token=''
+
+#logout url
+logout_url = "https://login.windows.net/common/oauth2/logout?post_logout_redirect_uri="
 
 # sign in form from the microsoft and after user sign_in with his credentials and allow permissions to access his data
 
@@ -95,6 +101,7 @@ def gettoken(request):
     print("#########@!$@#$@!#@!###########V           ",auth_code)
     token = get_token_from_code(auth_code,redirect_uri)
     access_token = token['access_token']
+    # print("User has been LogOut the session")
     print("\n access token : {0}\n".format(access_token))
     return access_token
     
@@ -104,7 +111,7 @@ def make_api_call(method, url, token, payload = None, parameters = None):
     # Send these headers with all API calls
     headers = { 'User-Agent' : 'python_tutorial/1.0',
                 'Authorization' : 'Bearer {0}'.format(token),
-                'Accept' : 'application/json' }
+                'Accept' : 'application/json'}
 
     # Use these headers to instrument calls. Makes it easier
     # to correlate requests and responses in case of problems
@@ -129,6 +136,11 @@ def make_api_call(method, url, token, payload = None, parameters = None):
         response = requests.post(url, headers = headers, data = json.dumps(payload), params = parameters)
 
     return response
+
+#logout method
+def log_out():    
+    url = logout_url+redirect_uri_2
+    return webbrowser.open(url)
 
 
 # getting user name of the respect credentials user id
@@ -161,7 +173,7 @@ def get_my_messages(access_token,skipValue):
     #  - Only return the ReceivedDateTime, Subject, and From fields
     #  - Sort the results by the ReceivedDateTime field in descending order
     query_parameters = {'$top': '1000',
-                        '$select': 'sentDateTime,subject,from,ToRecipients,BodyPreview,ReplyTo,ConversationId,ccRecipients,isDraft',
+                        '$select': 'sentDateTime,subject,from,ToRecipients,ReplyTo,ConversationId,ccRecipients,isDraft,uniqueBody',
                         '$orderby': 'sentDateTime DESC',
                         '$skip': str(skipValue)}
 
@@ -176,7 +188,7 @@ def get_my_messages(access_token,skipValue):
 
 # Function which extract messages into "From,To,Subject,Body,Thread_Id"
 
-def extractingMessages(messages):  
+def extractingMessages(huge_messages):  
     global data_frame_excel
     From = []
     To = []
@@ -209,7 +221,13 @@ def extractingMessages(messages):
                 except IndexError:
                     Sub.append("No Subject")
                 try:
-                    Body.append(each_mes['bodyPreview'])
+                    body_reading = BeautifulSoup(each_mes['uniqueBody']['content'], 'html.parser')
+                    elements = body_reading.find_all("div", id="Signature")
+                    for element in elements:
+                        element.decompose()
+                    body_content = body_reading.get_text().encode("ascii", "ignore").decode("utf-8")
+                    body_content = re.sub(r'(\n\s*)+\n+', '\n\n', body_content) 
+                    Body.append(body_content)
                 except KeyError:
                     Body.append("No Body Content")
                 except IndexError:
@@ -265,7 +283,8 @@ def api_all12():
         skipValue = skipValue + skipINCREMENT
         if skipValue == stopValue:
             break
-
+    print(huge_messages)
+    
     extractingMessages(huge_messages)
     return "The authentication flow has completed. You may close this window."
 
@@ -278,10 +297,20 @@ def outlook_main():
     webbrowser.open(get_signin_url('http://localhost:8000/tutorial/gettoken/'))
     while data_frame_excel.empty:
         continue
-
+    # function call for logout
+    log_out()
+    
     print("*********************Data Had Been Stored********************************")  
     output_dict = {'data_frame':(data_frame_excel).to_json()}
     return json.dumps(str(output_dict))
+
+#flask process to host
+cors = CORS(app, resources={r"/logout": {"origins": "*"}})
+@app.route('/logout',methods=['GET','POST'])
+def logout_session():
+    sleep(3)
+    return "Logged Out Successfully. You may close this window."
+
 
 
 
