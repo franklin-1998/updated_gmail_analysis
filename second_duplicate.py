@@ -22,7 +22,6 @@ Importing components from the other folder to implement the main login file.
 
 '''
 from Component.GmailIntegration.gmail_integration import gmailIntegration
-# from Component.OutlookIntegration.outlook import outlook
 from Component.ResponseTime.response_time import responseTimeCalculating,avgResponseTime
 from Component.DetectSameEmails.detect_similar_emails import detectingSimilarEmails
 
@@ -444,7 +443,7 @@ def call_ConversationFirstSender(all_mailData):
 
     #list of keywords that marked as issue
 
-    related_keywordsIssue = ['updation pending','error','issue','issues','problem','check','pending','not update','not','not done','not posting','mismatch','reminder','wrongly','wrong','missing','discrepancy','discrepancies','unable']
+    related_keywordsIssue = ['updation pending','error','issue','issues','problem','check','pending','not update','not done','not posting','mismatch','reminder','wrongly','wrong','missing','discrepancy','discrepancies','unable']
     
     # print(data_frame_FirstSender['Subject'].str.lower())
     # print(type(related_keywordsIssue[0]))
