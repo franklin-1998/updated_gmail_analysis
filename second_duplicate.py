@@ -594,10 +594,8 @@ def api_InputFromAngular_Outlook():
 
         try:
             data_frame['TimeDate'] = [datetime.datetime.strptime(x,"%Y-%m-%d %H:%M:%S") for x in data_frame['TimeDate']]
-        except TypeError:
+        except TypeError: # check time once
             data_frame['TimeDate'] = [datetime.datetime.fromtimestamp(data_frame['TimeDate'][i]/1000) for i in range(len(data_frame))]
-        # data_frame = pd.read_csv("all_gmailData_copy.csv")
-        # data_frame['TimeDate'] = [datetime.datetime.strptime(x,"%Y-%m-%d %H:%M:%S") for x in data_frame['TimeDate']]
 
 
         call_ConversationFirstSender(data_frame)     
