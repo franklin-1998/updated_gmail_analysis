@@ -10,7 +10,7 @@ from dateutil import parser as date_parser
 # talon.init()
 
 
-os.chdir("C:/Users/Dev/Documents/GitHub/updated_gmail_analysis/Trade Email 2") # directory object to be passed to the function for accessing emails, this is where you will store all .msg files
+os.chdir("C:/Users/Dev/Documents/GitHub/updated_gmail_analysis/Trade_Email") # directory object to be passed to the function for accessing emails, this is where you will store all .msg files
 
 direct = os.getcwd()# directory object to be passed to the function for accessing emails, this is where you will store all .msg files
 
@@ -32,7 +32,8 @@ def DataImporter(directory, extension):
                 # text, signatures = signature.extract(msg.body,sender=each_mes['from']['emailAddress']['address'])
                 # text1, signatures1 = signature.extract(text,sender=each_mes['from']['emailAddress']['address'])
                 # text2, signatures2 = signature.extract(signatures,sender=each_mes['from']['emailAddress']['address'])
-                sendBody = msg.body
+                sendBody = (msg.body).encode("ascii", "ignore").decode("utf-8")
+                print(sendBody)
                 my_list.append([sendDate,sendFrom,sendTo, msg.subject,sendBody]) #These are in-built features of '**extract_msg.Message**' class
                 df = pd.DataFrame(my_list, columns = ['TimeDate','From','To','Subject','Body'])
         except (UnicodeEncodeError,AttributeError,TypeError):

@@ -20,10 +20,13 @@ from flask_cors import CORS
 import webbrowser
 import time
 import talon
-from talon import signature
 
 #initializing talon method
 talon.init()
+
+from talon import signature
+
+
 
 #initialize the global variables
 skipINCREMENT = 0
@@ -32,7 +35,6 @@ data_frame_excel = pd.DataFrame()
 stepCount = 0
 huge_messages = []
 flag = 0
-sendCount = 0
 data_frame_FirstSender = pd.DataFrame({})
 current_DateTime = 0
 testing_dataFrame = pd.DataFrame({})
@@ -188,7 +190,7 @@ def get_my_messages(access_token):
     #  - Only return the ReceivedDateTime, Subject, and From fields
     #  - Sort the results by the ReceivedDateTime field in descending order
     query_parameters = {'$top': '25',
-                        '$select': 'sentDateTime,subject,from,ToRecipients,uniqueBody,ReplyTo,ConversationId,ccRecipients,isDraft',
+                        '$select': 'sentDateTime,subject,from,ToRecipients,uniqueBody,ReplyTo,ConversationId,ccRecipients,isDraft,body',
                         '$orderby': 'sentDateTime DESC'}
 
     r = make_api_call('GET', get_messages_url, access_token, parameters = query_parameters)
@@ -237,7 +239,7 @@ def extractingMessages(messages):
             except IndexError:
                 Sub.append("No Subject")
             try:
-                body_reading = BeautifulSoup(each_mes['uniqueBody']['content'], 'html.parser')
+                body_reading = BeautifulSoup(each_mes['body']['content'], 'html.parser')
                 elements = body_reading.find_all("div", id="Signature")
                 for element in elements:
                     element.decompose()
@@ -282,7 +284,6 @@ def requestingDataFromOutlook():
     print(request)
     global skipValue
     global skipINCREMENT
-    global sendCount
     global huge_messages
     global stopValue
     global receivedMessages_Store
