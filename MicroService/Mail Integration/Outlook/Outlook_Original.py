@@ -179,7 +179,7 @@ def get_my_messages(access_token,skipValue):
     #  - Only return the ReceivedDateTime, Subject, and From fields
     #  - Sort the results by the ReceivedDateTime field in descending order
     query_parameters = {'$top': '1000',
-                        '$select': 'sentDateTime,subject,from,ToRecipients,ReplyTo,ConversationId,ccRecipients,isDraft,uniqueBody',
+                        '$select': 'sentDateTime,subject,from,ToRecipients,ReplyTo,ConversationId,ccRecipients,isDraft,body',
                         '$orderby': 'sentDateTime DESC',
                         '$skip': str(skipValue)}
 
@@ -233,7 +233,7 @@ def extractingMessages(huge_messages):
                 except IndexError:
                     Sub.append("No Subject")
                 try:
-                    body_reading = BeautifulSoup(each_mes['uniqueBody']['content'], 'html.parser')
+                    body_reading = BeautifulSoup(each_mes['body']['content'], 'html.parser')
                     elements = body_reading.find_all("div", id="Signature")
                     for element in elements:
                         element.decompose()
