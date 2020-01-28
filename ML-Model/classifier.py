@@ -33,7 +33,7 @@ app.config["DEBUG"] = True
 
 
 #load the data to train initially from data set
-excel_data_df = pd.read_csv('new_created.csv',header=0,encoding = 'unicode_escape')
+excel_data_df = pd.read_csv('old_trade_email.csv',header=0,encoding = 'unicode_escape')
 
 #remove NA values which are not use for the learning
 excel_data_df.dropna()

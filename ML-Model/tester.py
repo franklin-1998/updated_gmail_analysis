@@ -27,7 +27,7 @@ from sklearn import  metrics
 import requests
 
 #load the data to train initially from data set
-excel_data_df = pd.read_csv('tradeEmail_testing_old.csv',header=0,encoding = 'unicode_escape')
+excel_data_df = pd.read_csv('new_created.csv',header=0,encoding = 'unicode_escape')
 
 #remove NA values which are not use for the learning
 excel_data_df.dropna()

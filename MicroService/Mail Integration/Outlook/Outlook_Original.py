@@ -18,17 +18,22 @@ from bs4 import BeautifulSoup
 import webbrowser
 import time
 import talon
+
+
+# don't forget to init the library first
+# it loads machine learning classifiers
+talon.init()
+
 from talon import signature
 
-#initialize talon methods
-talon.init()
+
 
 #initialize the global variables
 skipINCREMENT = 1000
 skipValue = 0
 data_frame_excel = pd.DataFrame()
 huge_messages = []
-stopValue = 50000
+stopValue = 1000
 
 
 # Redirect_uri is used to get the token and it is created by admin of this app and he will create azure app and register the details of permissions for getting all user's data
@@ -207,14 +212,27 @@ def extractingMessages(huge_messages):
     Sub = []
     Body = []
     Thread_id = []
+    signature_of_mail = []
+    sig_from_sig = []
+    text_from_text = []
+    resp = []
+    Recipients = []
+    full_body = []
     Date = []
     count = 0
     for huge_msg in huge_messages:
         for each_mes in huge_msg['value']:
+            signatures = ''
+            signatures1 = ''
+            signatures2 = ''
+            text = ''
+            text1 = ''
+            text2 = ''
             count = count+1
             print(count)
             if each_mes['isDraft'] == False:
                 try:
+                    print(each_mes['toRecipients'][0]['emailAddress']['address'])
                     To.append(each_mes['toRecipients'][0]['emailAddress']['address'])
                 except KeyError:
                     To.append("UnkownEmailId")
@@ -233,16 +251,34 @@ def extractingMessages(huge_messages):
                 except IndexError:
                     Sub.append("No Subject")
                 try:
-                    body_reading = BeautifulSoup(each_mes['body']['content'], 'html.parser')
-                    elements = body_reading.find_all("div", id="Signature")
+                    resp = [each_mes['from']['emailAddress']['address']]
+                    for i in each_mes['ccRecipients']:
+                        resp.append(i['emailAddress']['name'])
+                    Recipients.append(resp)
+                except:
+                    Recipients.append("Unknown")
+                try:
+                    soup = BeautifulSoup(each_mes['body']['content'], 'html.parser')
+                    elements = soup.find_all("div", id="Signature")
                     for element in elements:
                         element.decompose()
-                    body_content = body_reading.get_text().encode("ascii", "ignore").decode("utf-8")
-                    body_content = re.sub(r'(\n\s*)+\n+', '\n\n', body_content)
-                    text, signatures = signature.extract(body_content,sender=each_mes['from']['emailAddress']['address'])
-                    text1, signatures1 = signature.extract(text,sender=each_mes['from']['emailAddress']['address'])
-                    text2, signatures2 = signature.extract(signatures,sender=each_mes['from']['emailAddress']['address'])
-                    Body.append(re.sub("None","",(str(text1)+str(text2))))
+                    body_str = soup.get_text().encode("ascii", "ignore").decode("utf-8")
+                    body_str = re.sub(r'(\n\s*)+\n+', '\n\n', body_str) 
+                    
+                    body_str = re.sub('<!--(.*?|\n)*?-->',"",body_str)
+                    full_body.append(body_str)
+                    if('From:' in body_str):
+                        body_str = body_str.split('From:')[0]
+                    individual_body_splitted_recepients = []
+                    for i in resp:
+                        text, signatures = signature.extract(body_str,sender=i)
+                        text1, signatures1 = signature.extract(str(text)+"None",sender=i)
+                        text2, signatures2 = signature.extract(str(signatures)+"None",sender=i)
+                        individual_body_splitted_recepients.append(re.sub("None","",(str(text1)+str(text2))))
+                    if(individual_body_splitted_recepients == []):
+                        Body.append('No Body Content')
+                    else:
+                        Body.append(min(individual_body_splitted_recepients))   # taking minimum because parsed body will have less length
                 except KeyError:
                     Body.append("No Body Content")
                 except IndexError:

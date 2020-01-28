@@ -54,9 +54,9 @@ def gmailIntegration(mails_Under_given_days):
         src = get_download_path()
         #varialble to store the credentials path
         cred_path=''
-
         
         cred_path = src+'\credentials.json'
+
         #URL to open google page to enable GOOGLE API
         url='https://developers.google.com/gmail/api/quickstart/dotnet'
 
@@ -69,7 +69,7 @@ def gmailIntegration(mails_Under_given_days):
         shutil.move(cred_path , os.getcwd())
         
     creds = None
-    
+
     #these are all the steps to download token.pickle file (up to line 87)
     if os.path.exists('token.pickle'):
         with open('token.pickle', 'rb') as token:

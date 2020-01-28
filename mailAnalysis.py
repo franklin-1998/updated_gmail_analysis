@@ -346,11 +346,9 @@ def main(inputData):
     global all_data_FromMail
     
     print("called")
+    # storing input data in all_data_FromMail
     
     all_data_FromMail = inputData
-    # # collecting gmail data
-    # mails_Under_given_days = 30 # 1 month
-    # all_data_FromMail = gmailIntegration(mails_Under_given_days)
 
     # calling function for the filtering replied emails and adding response time for the replied emails
 
@@ -363,7 +361,7 @@ def main(inputData):
     print("Begining of text classification")
     # calling API function for doc2vec
 
-    model_path = 'enwiki_dbow/doc2vec.bin'
+    model_path = r'E:\Dell_Laptop\enwiki_dbow\doc2vec.bin'
 
     from_value = pd.DataFrame(callAPIDoc2Vec(model_path,list(all_replied_mailData['From'])))
     to_value = pd.DataFrame(callAPIDoc2Vec(model_path,list(all_replied_mailData['To'])))
