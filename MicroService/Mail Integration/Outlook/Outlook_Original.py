@@ -3,12 +3,14 @@ import base64
 import json
 import time
 import pandas as pd
+import numpy as np
 import datetime
 import flask
 import requests
 import uuid
 from time import sleep
 import dateutil.parser
+from dateutil.parser import parse
 from dateutil import parser as date_parser
 import re
 from flask import request, jsonify
@@ -18,14 +20,14 @@ from bs4 import BeautifulSoup
 import webbrowser
 import time
 import talon
+from spacy.lang.en import English
+import spacy
+import nltk
+from nltk.corpus import stopwords
+from email_reply_parser import EmailReplyParser
 
-
-# don't forget to init the library first
-# it loads machine learning classifiers
-talon.init()
-
-from talon import signature
-
+# verb count values to make diiference and if threshold value is "1" means there is no use or no meaning
+threshold=0.99
 
 
 #initialize the global variables
@@ -183,8 +185,8 @@ def get_my_messages(access_token,skipValue):
     #  - Only first 10 results returned
     #  - Only return the ReceivedDateTime, Subject, and From fields
     #  - Sort the results by the ReceivedDateTime field in descending order
-    query_parameters = {'$top': '1000',
-                        '$select': 'sentDateTime,subject,from,ToRecipients,ReplyTo,ConversationId,ccRecipients,isDraft,body',
+    query_parameters = {'$top': '100',
+                        '$select': 'sentDateTime,subject,from,ToRecipients,ReplyTo,ConversationId,ccRecipients,isDraft,body,internetMessageHeaders,id,importance,inferenceClassification,internetMessageId,uniqueBody',
                         '$orderby': 'sentDateTime DESC',
                         '$skip': str(skipValue)}
 
@@ -212,27 +214,35 @@ def extractingMessages(huge_messages):
     Sub = []
     Body = []
     Thread_id = []
-    signature_of_mail = []
-    sig_from_sig = []
-    text_from_text = []
+    first_instance_body = []
     resp = []
     Recipients = []
-    full_body = []
+    whole_body = []
     Date = []
     count = 0
+    internetMessageHeaders = []
+    mes_id= []
+    importance = []
+    inferenceClassification =[]
+    internetMessageId =[]
     for huge_msg in huge_messages:
         for each_mes in huge_msg['value']:
-            signatures = ''
-            signatures1 = ''
-            signatures2 = ''
-            text = ''
-            text1 = ''
-            text2 = ''
             count = count+1
             print(count)
             if each_mes['isDraft'] == False:
+                try:   
+                    internetMessageHeaders.append(each_mes['internetMessageHeaders'])
+                    mes_id.append(each_mes['id'])
+                    importance.append(each_mes['importance'])
+                    inferenceClassification.append(each_mes['inferenceClassification'])
+                    internetMessageId.append(each_mes['internetMessageId'])
+                except KeyError:
+                    internetMessageHeaders.append(None)
+                    mes_id.append(None)
+                    importance.append(None)
+                    inferenceClassification.append(None)
+                    internetMessageId.append(None)
                 try:
-                    print(each_mes['toRecipients'][0]['emailAddress']['address'])
                     To.append(each_mes['toRecipients'][0]['emailAddress']['address'])
                 except KeyError:
                     To.append("UnkownEmailId")
@@ -266,19 +276,26 @@ def extractingMessages(huge_messages):
                     body_str = re.sub(r'(\n\s*)+\n+', '\n\n', body_str) 
                     
                     body_str = re.sub('<!--(.*?|\n)*?-->',"",body_str)
-                    full_body.append(body_str)
-                    if('From:' in body_str):
-                        body_str = body_str.split('From:')[0]
-                    individual_body_splitted_recepients = []
-                    for i in resp:
-                        text, signatures = signature.extract(body_str,sender=i)
-                        text1, signatures1 = signature.extract(str(text)+"None",sender=i)
-                        text2, signatures2 = signature.extract(str(signatures)+"None",sender=i)
-                        individual_body_splitted_recepients.append(re.sub("None","",(str(text1)+str(text2))))
-                    if(individual_body_splitted_recepients == []):
-                        Body.append('No Body Content')
-                    else:
-                        Body.append(min(individual_body_splitted_recepients))   # taking minimum because parsed body will have less length
+                    whole_body.append(body_str)
+
+                    body_str = EmailReplyParser.parse_reply(body_str)
+                    first_instance_body.append(body_str)
+                    # pos_tagger = English()  # part-of-speech tagger
+                    # body_str = body_str.strip().split('\n')
+                    # tagger = spacy.load('en_core_web_sm')
+                    # final=[]
+                    # for sentence in body_str:
+                    #     doc = tagger(sentence+' ')
+                    #     verb_count = np.sum([token.pos_ != 'VERB' for token in doc])
+                    #     if ((float(verb_count)) / len(doc)) < threshold :
+                    #         final.append(sentence)
+                    soup = BeautifulSoup(each_mes['uniqueBody']['content'], 'html.parser')
+                    elements = soup.find_all("div", id="Signature")
+                    for element in elements:
+                        element.decompose()
+                    body_str = soup.get_text().encode("ascii", "ignore").decode("utf-8")
+                    Body.append(body_str)
+
                 except KeyError:
                     Body.append("No Body Content")
                 except IndexError:
@@ -290,14 +307,14 @@ def extractingMessages(huge_messages):
                 except IndexError:
                     Thread_id.append("No Thread_Id")
                 try:
-                    Date.append(date_parser.parse(each_mes['sentDateTime'],fuzzy=True).replace(tzinfo=None))
+                    Date.append(datetime.datetime.fromtimestamp(parse(each_mes['sentDateTime']).timestamp()))
                 except KeyError:
                     Date.append("No DateTime")
                 except IndexError:
                     Date.append("No DateTime")
 
     # dump all the list value in the dataframe
-    data_frame_excel = pd.DataFrame({'TimeDate':Date,'From':From,'To':To,'Subject':Sub,'Body':Body,'Thread_Id':Thread_id})
+    data_frame_excel = pd.DataFrame({'TimeDate':Date,'From':From,'To':To,'Subject':Sub,'Body':Body,'Thread_Id':Thread_id,'first_instance_body':first_instance_body,'whole_body':whole_body,'internetMessageHeaders':internetMessageHeaders,'mes_id':mes_id,'inferenceClassification':inferenceClassification,'internetMessageId':internetMessageId})
 
     # sorting the time to fetch first stimuli and first response and converting timedate formate str to datetime
     data_frame_excel = (data_frame_excel.sort_values(by='TimeDate',ascending=True)).reset_index(drop=True)

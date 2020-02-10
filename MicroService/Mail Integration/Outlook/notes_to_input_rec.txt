@@ -1,0 +1,140 @@
+CC coordinating conjunction
+CD cardinal digit
+DT determiner
+EX existential there (like: “there is” … think of it like “there exists”)
+FW foreign word
+IN preposition/subordinating conjunction
+JJ adjective ‘big’
+JJR adjective, comparative ‘bigger’
+JJS adjective, superlative ‘biggest’
+LS list marker 1)
+MD modal could, will
+NN noun, singular ‘desk’
+NNS noun plural ‘desks’
+NNP proper noun, singular ‘Harrison’
+NNPS proper noun, plural ‘Americans’
+PDT predeterminer ‘all the kids’
+POS possessive ending parent‘s
+PRP personal pronoun I, he, she
+PRP$ possessive pronoun my, his, hers
+RB adverb very, silently,
+RBR adverb, comparative better
+RBS adverb, superlative best
+RP particle give up
+TO to go ‘to‘ the store.
+UH interjection errrrrrrrm
+VB verb, base form take
+VBD verb, past tense took
+VBG verb, gerund/present participle taking
+VBN verb, past participle taken
+VBP verb, sing. present, non-3d take
+VBZ verb, 3rd person sing. present takes
+WDT wh-determiner which
+WP wh-pronoun who, what
+WP$ possessive wh-pronoun whose
+WRB wh-abverb where, when
+
+
+
+
+
+
+
+TYPE	DESCRIPTION
+PERSON	People, including fictional.
+NORP	Nationalities or religious or political groups.
+FAC	Buildings, airports, highways, bridges, etc.
+ORG	Companies, agencies, institutions, etc.
+GPE	Countries, cities, states.
+LOC	Non-GPE locations, mountain ranges, bodies of water.
+PRODUCT	Objects, vehicles, foods, etc. (Not services.)
+EVENT	Named hurricanes, battles, wars, sports events, etc.
+WORK_OF_ART	Titles of books, songs, etc.
+LAW	Named documents made into laws.
+LANGUAGE	Any named language.
+DATE	Absolute or relative dates or periods.
+TIME	Times smaller than a day.
+PERCENT	Percentage, including ”%“.
+MONEY	Monetary values, including unit.
+QUANTITY	Measurements, as of weight or distance.
+ORDINAL	“first”, “second”, etc.
+CARDINAL	Numerals that do not fall under another type.
+
+
+
+Wikipedia scheme
+Models trained on Wikipedia corpus (Nothman et al., 2013) use a less fine-grained NER annotation scheme and recognise the following entities:
+
+TYPE	DESCRIPTION
+PER	Named person or family.
+LOC	Name of politically or geographically defined location (cities, provinces, countries, international regions, bodies of water, mountains).
+ORG	Named corporate, governmental, or other organizational entity.
+MISC	Miscellaneous entities, e.g. events, nationalities, products or works of art.
+
+
+
+IOB Scheme
+TAG	ID	DESCRIPTION
+"I"	1	Token is inside an entity.
+"O"	2	Token is outside an entity.
+"B"	3	Token begins an entity.
+""	0	No entity tag is set (missing value).
+
+
+
+BILUO Scheme
+TAG	DESCRIPTION
+BEGIN	The first token of a multi-token entity.
+IN	An inner token of a multi-token entity.
+LAST	The final token of a multi-token entity.
+UNIT	A single-token entity.
+OUT	A non-entity token.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+location,date,numbers,product_name,product_description,currency,person,company,event,language,quantity,weight,organisations,cargo_name,cargo_type,weight_of_cargo,name_of_lead
+
+
+
+location
+date
+numbers
+product_name
+product_description
+currency
+cargo_name
+cargo_type
+weight_of_cargo
+name_of_lead
+person
+company
+event
+language
+quantity
+organisations
+
+
+
+
+
+
+
+
+
+How does spacy ner work?
+
+SpaCy provides an exceptionally efficient statistical system for NER in python,
+which can assign labels to groups of tokens which are contiguous.
+It provides a default model which can recognize a wide range of named or numerical entities, 
+which include person, organization, language, event etc

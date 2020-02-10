@@ -1,0 +1,16 @@
+Statement 1:
+	    How can we parse the signature alone in the email body message to omit it?
+	    We should get only the original email message to find the purpose of email sended.
+
+Explanation :
+
+
+
+
+
+Statement 2: 
+		
+	    We had to find naming entity recognition in the email body text?
+	    For above question what is better method do with machine learning and it should be online semi-supervised learning?
+	    I want to easily extract the inputs like location,dates,numbers,currency,product names etc.For this which packages will be useful?
+Explanation :
